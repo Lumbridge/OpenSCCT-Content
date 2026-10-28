@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Downloads SCCT-Maps maps into a folder laid out like an install, with OpenSCCT's own code
+       (src/OpenScct.Maps: the launcher's Maps download), so svmbuild's add-on build sees exactly what a player's
+       launcher would. Pass -p:OpenScctRepo=<OpenSCCT checkout>. See docs/PUBLISHING.md. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>14</LangVersion>
+    <OpenScctRepo Condition="'$(OpenScctRepo)' == ''">$(MSBuildThisFileDirectory)..\..\..\SVM-Rewrite</OpenScctRepo>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(OpenScctRepo)\src\OpenScct.Maps\MapIndex.cs" Link="OpenScct.Maps\MapIndex.cs" />
+    <Compile Include="$(OpenScctRepo)\src\OpenScct.Maps\MapLibrary.cs" Link="OpenScct.Maps\MapLibrary.cs" />
+    <Compile Include="$(OpenScctRepo)\src\OpenScct.Maps\MapPaths.cs" Link="OpenScct.Maps\MapPaths.cs" />
+    <Compile Include="$(OpenScctRepo)\src\OpenScct.Maps\MapRepository.cs" Link="OpenScct.Maps\MapRepository.cs" />
+    <Compile Include="$(OpenScctRepo)\src\OpenScct.Maps\PackageImports.cs" Link="OpenScct.Maps\PackageImports.cs" />
+  </ItemGroup>
+</Project>

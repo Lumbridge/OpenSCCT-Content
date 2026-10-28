@@ -1,0 +1,7 @@
+# Build inputs, svmbuild output and archives: never committed (the archives are release assets).
+/staging/
+# .NET build output of tools/fetch-scct-maps
+bin/
+obj/
+__pycache__/
+*.pyc
