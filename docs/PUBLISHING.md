@@ -47,7 +47,17 @@ staging\fetch-bin\fetch-scct-maps.exe staging\inputs\cat-rec.json $commit --root
   --ids "recovered/Eden,recovered/Heliport 1.1,recovered/Sublabs"
 ```
 
-The catalogue's code clashes are printed by `occ.py pack` as skips if you forget.
+The second build must still see every other file of the first: the shared audio pack is made from every sound
+package in the install and the add-ons, so a build from a smaller add-on folder names a different `audio` hash and
+`pack` refuses it. Overlay the second set on a copy of the first (only the clashing `.sdc` files differ):
+
+```powershell
+robocopy staging\inputs\main\game staging\inputs\rec-combined\game /E
+robocopy staging\inputs\recovered\game staging\inputs\rec-combined\game /E
+```
+
+Build from `rec-combined\game`, but give `pack` the `recovered` root: its `installed.json` says which SCCT-Maps map
+each `.sdc` came from.
 
 ## 3. Build
 
@@ -60,7 +70,7 @@ python -u -m svmbuild classes chars audio ui maps-catalog renderpack fx maps aud
   --game $game --addons ..\..\inputs\main\game --out ..\..\build\main --jobs 12 --report ..\..\build\main-report.json
 $env:SVM_CONTENT = "..\..\build\recovered"
 python -u -m svmbuild classes chars audio ui maps-catalog renderpack fx maps audio-map --maps EDE64,HELI02,sub18 `
-  --game $game --addons ..\..\inputs\recovered\game --out ..\..\build\recovered --jobs 12
+  --game $game --addons ..\..\inputs\rec-combined\game --out ..\..\build\recovered --jobs 12
 ```
 
 Maps that fail to convert are simply absent from `svmap/`; the report (`--report`) says why.
@@ -70,7 +80,7 @@ Maps that fail to convert are simply absent from `svmap/`; the report (`--report
 ```powershell
 python tools\occ.py pack --install $game --catalog staging\inputs\scct-maps-catalog.json `
   --build staging\build\main=staging\inputs\main --build staging\build\recovered=staging\inputs\recovered `
-  --openscct 0.8.25 --generator "svmbuild 0.8.25 (058d034)"
+  --openscct 0.8.25 --generator "svmbuild 0.8.25 (058d034)" --menu-maps
 ```
 
 `pack` writes `staging/out/*.zip` and `staging/out/plan.json`:
@@ -83,7 +93,8 @@ python tools\occ.py pack --install $game --catalog staging\inputs\scct-maps-cata
   `<new OpenSCCT version>.1`)
 - each map's category and source come from where its `.sdc` came from: the install (category `stock`), or the
   SCCT-Maps map that brought it (`<maps root>/installed.json`)
-- Entry and Lobby (the menu maps) are left out unless `--menu-maps`
+- Entry and Lobby (the menu maps: the front end and the lobby load them) are packed only with `--menu-maps`, which
+  the published index uses; they list no modes
 
 `--maps AquaE,ShipD` packs only those; `--force` packs even unchanged content.
 
