@@ -507,7 +507,7 @@ def cmd_pack(args) -> None:
             fmt = str(manifest.get("formatVersion", ""))
             plan["maps"].append({
                 "id": mid, "code": code, "title": title, "category": origin["category"], "version": version,
-                "modes": mode_list(map_dir), "contentHash": sim_hash[:16], "manifestSha256": manifest_sha,
+                "modes": [] if code.lower() in MENU_MAPS else mode_list(map_dir), "contentHash": sim_hash[:16], "manifestSha256": manifest_sha,
                 "treeSha256": pack_sha, "svmapFormatVersion": fmt, "requires": manifest.get("requires", []),
                 "source": origin["source"], "generator": args.generator,
                 "unlisted": sorted(rel for rel, _ in files if rel != "manifest.json" and rel not in listed),
