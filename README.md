@@ -35,8 +35,8 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | Shared pack | Version | Size | Contents |
 | --- | --- | ---: | --- |
 | `core` | 0.8.33.1 | 77.2 MB | classes.json, render, fx, ui, maps |
-| `chars` | 0.8.25.1 | 339.0 MB | chars |
-| `audio` | 0.8.25.1 | 74.5 MB | audio |
+| `chars` | 0.8.49.1 | 801.0 MB | chars |
+| `audio` | 0.8.49.1 | 74.7 MB | audio |
 
 <details><summary>Every map</summary>
 
@@ -210,7 +210,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-10-29T03:09:42Z.
+Index updated 2026-10-31T10:50:08Z.
 <!-- tables:end -->
 
 ## How the game uses it

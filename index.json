@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-10-29T03:09:42Z",
+  "updated": "2026-10-31T10:50:08Z",
   "svmapFormat": "1.1",
   "shared": [
     {
@@ -29,35 +29,35 @@
     {
       "id": "chars",
       "title": "Characters",
-      "version": "0.8.25.1",
+      "version": "0.8.49.1",
       "contents": [
         "chars"
       ],
       "hashes": {},
-      "treeSha256": "640c38ff51d54b4897dd8d560442b51990c53bcc5ad9526ae9fc17dd8e17a21f",
-      "generator": "svmbuild 0.8.25 (058d034)",
+      "treeSha256": "6467a22b8c3a154cacfcd36f713b5b75a9374d4f8c2698f71a9a1cc770210825",
+      "generator": "svmbuild 0.8.49 (95b8c32), sidearm assets",
       "download": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/shared-chars-0.8.25.1.zip",
-        "size": 339007448,
-        "sha256": "1a11c11cb2a774ca35ca509ccceaf64614478d2b88d4feb64cc2730b608e6f6d"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.31/shared-chars-0.8.49.1.zip",
+        "size": 800975957,
+        "sha256": "5129152cffb85787229257256d1e8512ab00f3742450b130b789adb60da417ba"
       }
     },
     {
       "id": "audio",
       "title": "Shared sound banks",
-      "version": "0.8.25.1",
+      "version": "0.8.49.1",
       "contents": [
         "audio"
       ],
       "hashes": {
         "audio": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
       },
-      "treeSha256": "6802c0f27c79969d1c9852e08a1105c36fef0fb527c93ed563e3b72cef6ffc14",
-      "generator": "svmbuild 0.8.25 (058d034)",
+      "treeSha256": "71ec2a782772636491e13b2c65578e0d2eb2bda9770ca499324d10df0db3e212",
+      "generator": "svmbuild 0.8.49 (95b8c32), sidearm assets",
       "download": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/shared-audio-0.8.25.1.zip",
-        "size": 74481178,
-        "sha256": "957a0ed04cf1529b9ced6ccd805077a3aa399259af19c86b5dfafa9512b9c9d9"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.31/shared-audio-0.8.49.1.zip",
+        "size": 74704780,
+        "sha256": "cc7d5b11a00e95d8650aefc175d5734d6be145b54fd450de46cf2812cc6f299a"
       }
     }
   ],
