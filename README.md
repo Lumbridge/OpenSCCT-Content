@@ -28,7 +28,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | `original` | 2 | 188.8 MB | New maps made for SCCT Versus (SCCT-Maps `release/`) |
 | `community` | 56 | 756.6 MB | The community map pack |
 | `enhanced` | 1 | 22.8 MB | Edited versions of existing maps |
-| `recovered` | 5 | 125.7 MB | Existing maps rebuilt as editable maps |
+| `recovered` | 5 | 125.8 MB | Existing maps rebuilt as editable maps |
 | `ports` | 9 | 183.8 MB | Maps ported from other games |
 | **All** | **165** | **2.8 GB** | |
 
@@ -58,8 +58,8 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Shadow House](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ClubS-1.0.2.zip) | `ClubS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 17.1 MB |
 | [Enhanced Club House 3v3](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ClubT-1.0.2.zip) | `ClubT` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.6 MB |
 | [Snake Cpusa](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-CpusS-1.0.2.zip) | `CpusS` | stock | 1.0.2 | Story, Deathmatch, MercDeathmatch | 30.0 MB |
-| [Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftD-1.0.1.zip) | `DeftD` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
-| [Snake Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftS-1.0.1.zip) | `DeftS` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.9 MB |
+| [Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftD-1.0.2.zip) | `DeftD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
+| [Snake Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftS-1.0.2.zip) | `DeftS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
 | [Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DTK09-1.0.1.zip) | `DTK09` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.6 MB |
 | [Entry](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Entry-1.0.0.zip) | `Entry` | stock | 1.0.0 | - | 10.8 MB |
 | [Factory](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-FAC05-1.0.2.zip) | `FAC05` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.7 MB |
@@ -89,8 +89,8 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Enhanced Orphanage](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-OrphE-1.0.2.zip) | `OrphE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 15.7 MB |
 | [Ps2 Orphanage](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-OrphS-1.0.1.zip) | `OrphS` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 14.8 MB |
 | [Enhanced Orphanage 3v3](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-OrphT-1.0.2.zip) | `OrphT` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 15.7 MB |
-| [Panama Bank](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaD-1.0.1.zip) | `PanaD` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 21.1 MB |
-| [Snake Panama Bank](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaS-1.0.1.zip) | `PanaS` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 21.9 MB |
+| [Panama Bank](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaD-1.0.2.zip) | `PanaD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 21.2 MB |
+| [Snake Panama Bank](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaS-1.0.2.zip) | `PanaS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 21.9 MB |
 | [Polar Base](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-PolaD-1.0.2.zip) | `PolaD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 14.4 MB |
 | [Enhanced Polar Base](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-PolaE-1.0.2.zip) | `PolaE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 14.4 MB |
 | [Phoenix's Polar Base](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-PolaP-1.0.2.zip) | `PolaP` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 14.4 MB |
@@ -104,18 +104,18 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Enhanced Sanctuary](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SancE-1.0.2.zip) | `SancE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.6 MB |
 | [Enhanced Schermerhorn](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ScheE-1.0.2.zip) | `ScheE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 17.0 MB |
 | [Ump Schermerhorn](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ScheU-1.0.2.zip) | `ScheU` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 17.3 MB |
-| [Shadow Moses](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadD-1.0.2.zip) | `ShadD` | stock | 1.0.2 | Story, Deathmatch, MercDeathmatch | 21.1 MB |
-| [Phoenix's Shadow Moses](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadP-1.0.2.zip) | `ShadP` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 23.9 MB |
+| [Shadow Moses](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadD-1.0.3.zip) | `ShadD` | stock | 1.0.3 | Story, Deathmatch, MercDeathmatch | 21.1 MB |
+| [Phoenix's Shadow Moses](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadP-1.0.3.zip) | `ShadP` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 23.9 MB |
 | [Skyscraper](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SkysD-1.0.2.zip) | `SkysD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 31.8 MB |
 | [Phoenix's Skyscraper](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SkysP-1.0.2.zip) | `SkysP` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 32.2 MB |
 | [Snake Slaughterhouse](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-SlauS-1.0.1.zip) | `SlauS` | stock | 1.0.1 | Story, Deathmatch, MercDeathmatch | 15.9 MB |
-| [Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatD-1.0.2.zip) | `StatD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.6 MB |
-| [Enhanced Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatE-1.0.2.zip) | `StatE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.6 MB |
-| [Ps2 Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatS-1.0.2.zip) | `StatS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.7 MB |
-| [Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeD-1.0.2.zip) | `SteeD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
-| [Enhanced Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeE-1.0.2.zip) | `SteeE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
-| [Phoenix's Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeP-1.0.2.zip) | `SteeP` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
-| [Enhanced Steel Squat 3v3](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeT-1.0.2.zip) | `SteeT` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.5 MB |
+| [Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatD-1.0.3.zip) | `StatD` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.6 MB |
+| [Enhanced Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatE-1.0.3.zip) | `StatE` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.6 MB |
+| [Ps2 Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatS-1.0.3.zip) | `StatS` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 18.7 MB |
+| [Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeD-1.0.3.zip) | `SteeD` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
+| [Enhanced Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeE-1.0.3.zip) | `SteeE` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
+| [Phoenix's Steel Squat](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeP-1.0.3.zip) | `SteeP` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.4 MB |
+| [Enhanced Steel Squat 3v3](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeT-1.0.3.zip) | `SteeT` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 19.5 MB |
 | [Stronghold](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StroD-1.0.2.zip) | `StroD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 31.4 MB |
 | [Terminus](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-TermD-1.0.2.zip) | `TermD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 41.9 MB |
 | [TME30](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-TME30-1.0.2.zip) | `TME30` | stock | 1.0.2 | MercDeathmatch | 14.6 MB |
@@ -193,7 +193,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Zioplex](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/community-ZCT03-1.0.1.zip) | `ZCT03` | community | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.3 MB |
 | [Ump Polar Base](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/community-ZPB17-1.0.2.zip) | `ZPB17` | community | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 9.8 MB |
 | [Oilrig2](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/enhanced-OffsE-1.0.2.zip) | `OffsE` | enhanced | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 22.8 MB |
-| [Clarity Soft](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-ClarD-1.0.2.zip) | `ClarD` | recovered | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 32.0 MB |
+| [Clarity Soft](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/recovered-ClarD-1.0.3.zip) | `ClarD` | recovered | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 32.0 MB |
 | [Eden](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-EDE64-1.0.2.zip) | `EDE64` | recovered | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 24.1 MB |
 | [Heliport_1.1](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-HELI02-1.0.2.zip) | `HELI02` | recovered | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 31.7 MB |
 | [Offshore Oilrig](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-OffsD-1.0.2.zip) | `OffsD` | recovered | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 23.2 MB |
@@ -210,7 +210,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-01T17:37:10Z.
+Index updated 2026-11-01T21:09:50Z.
 <!-- tables:end -->
 
 ## How the game uses it

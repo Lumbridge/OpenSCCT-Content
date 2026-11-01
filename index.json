@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-01T17:37:10Z",
+  "updated": "2026-11-01T21:09:50Z",
   "svmapFormat": "1.1",
   "shared": [
     {
@@ -777,7 +777,7 @@
       "code": "DeftD",
       "title": "Deftech Belew",
       "category": "stock",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "modes": [
         "Story",
         "DiskHunt",
@@ -785,8 +785,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "378f2dc0e36a8c35",
-      "manifestSha256": "dfe03db3a5ea25fab1008e6917e0cbcb0d88c418062d228ae35573583430b673",
-      "treeSha256": "be001712f92474751f9da37fd6245739415920a88a34f26346830835a65cd182",
+      "manifestSha256": "0c5349f9eebbecd4924be1147d7337dd9d7f214a68b3675fdc84a0eb1cb2207e",
+      "treeSha256": "7a0f2b2e26f28b46df4c40d820ce677ea683f576b31bb65776ea6f8b0ad60287",
       "requires": [
         {
           "pack": "audio",
@@ -805,16 +805,16 @@
         "sha256": "95bb387a9abe6599f49837a967949411d0e17a49f1cf666653ab00ae6cdc61b0",
         "mapId": "stock/DeftD"
       },
-      "generator": "svmbuild 0.8.33 (7cc3597)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftD-1.0.1.zip",
-        "size": 12003457,
-        "sha256": "5a432e2a21c3f6ee33d58fad78d8dce1c5b63c273f4bc281da9e27ba3e4a8cc0"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftD-1.0.2.zip",
+        "size": 12026002,
+        "sha256": "052385edd321f772d23743d4edbb7c16b63f2bc8b39f64a29c5696ee6b27802f"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftD-1.0.1-sim.zip",
-        "size": 709384,
-        "sha256": "8511a0918fb2197b8c67a28168243f3ea1e78445c7eceb5ee68f9f4d424addbe"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftD-1.0.2-sim.zip",
+        "size": 709436,
+        "sha256": "55b6753944f166a334fd1206f604969de7a1e6ffd8a61c897e8d31cf68652d43"
       }
     },
     {
@@ -822,7 +822,7 @@
       "code": "DeftS",
       "title": "Snake Deftech Belew",
       "category": "stock",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "modes": [
         "Story",
         "DiskHunt",
@@ -830,8 +830,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "bcb4bc5d56b9e39f",
-      "manifestSha256": "a71dbb4e7363b866bb082a61d4b484cff56183f080b73e9821eef94e300ca567",
-      "treeSha256": "a6ac2cd5033fa94f525ef37d423354bc31ba7e3dc932449b81d2e42e4cbf3766",
+      "manifestSha256": "222ae8ebaf473a73e4aa16bb5f0e3d5f3076ddff0d479bd2c3f87ac25e734e14",
+      "treeSha256": "f4954989d440bcabfd0535f11f9f2b529ab26c39044edd896ef6fc2ad5af1edb",
       "requires": [
         {
           "pack": "audio",
@@ -850,16 +850,16 @@
         "sha256": "d5dcd807486e19704f5ff5553d007e6c4a053cdf83f4ebdd4e30008f0dc023ae",
         "mapId": "stock/DeftS"
       },
-      "generator": "svmbuild 0.8.33 (7cc3597)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftS-1.0.1.zip",
-        "size": 11938037,
-        "sha256": "ec9646df432321a2e1bfadcd6811ff8ec5e2e87e417c15a9d1f78ac2c94f082b"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftS-1.0.2.zip",
+        "size": 11960576,
+        "sha256": "889055a2f6ac27560af2578d0e4a90696e6fa3e2b408b686aaac77788587773e"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DeftS-1.0.1-sim.zip",
-        "size": 708175,
-        "sha256": "b3eed2faeeea7c3a8e0ff2600b5cd09bda5fc660030973271a113dbc4e2cdd99"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftS-1.0.2-sim.zip",
+        "size": 708223,
+        "sha256": "5411f8ae8d1cb384eca2aa4af7991289a83e982788143f96abd0eef89916da65"
       }
     },
     {
@@ -2135,7 +2135,7 @@
       "code": "PanaD",
       "title": "Panama Bank",
       "category": "stock",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "modes": [
         "Story",
         "DiskHunt",
@@ -2143,8 +2143,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "e9f29eb8a6beee0b",
-      "manifestSha256": "05a2828ea1b3d510d3ef5a8eec78167e6c867d4aeac119d70f75fb3541b836a2",
-      "treeSha256": "63c78fa6c0b5d7b738f4a98b787e1ed0c6f981a599dff0e4e5be9697ec7fb178",
+      "manifestSha256": "9ca7da4f914eb1e803a64cb289f72d6d09255dcec6a1ba57e758574e37c1c17b",
+      "treeSha256": "bc552a22c769512ee520bc801fda8f18886a4430f8b273e906cf453f6811013f",
       "requires": [
         {
           "pack": "audio",
@@ -2163,16 +2163,16 @@
         "sha256": "c0daff1815df0ebd44ba4c177a00ac272853153a412d2e7e5960103ec0471177",
         "mapId": "stock/PanaD"
       },
-      "generator": "svmbuild 0.8.33 (7cc3597)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaD-1.0.1.zip",
-        "size": 21132393,
-        "sha256": "4e4c3e30c8195af0e9d51070fd2ed0ae2057f21894fd5029a4cccdb87101710f"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaD-1.0.2.zip",
+        "size": 21154926,
+        "sha256": "ca08e77d89214593d8449446216252431bdf9b3e24f3754090854c67bbdbfca9"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaD-1.0.1-sim.zip",
-        "size": 800609,
-        "sha256": "de02c05967d96fb11e21949ec8088ecb594f8ce915c95c518fe9ae84fea84dc5"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaD-1.0.2-sim.zip",
+        "size": 800657,
+        "sha256": "b38260a2d50da7f94eabeeefda79f91edfd18f49503e6fcaea0a08b0e198ada8"
       }
     },
     {
@@ -2180,7 +2180,7 @@
       "code": "PanaS",
       "title": "Snake Panama Bank",
       "category": "stock",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "modes": [
         "Story",
         "DiskHunt",
@@ -2188,8 +2188,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "35a9359bcb4596b0",
-      "manifestSha256": "d119dca88baa696627561fd47a85d7fc2744eac57060a6abf4a9fc67d9724b5e",
-      "treeSha256": "d344b62a91ad3ad644bb2cb77b31e62e9d2087f5d589981bb6c56b02345ab3bd",
+      "manifestSha256": "7331ae787ed0d7ef344143a99ad85d2086b6ad0f26b5319134bf4fa0fd850671",
+      "treeSha256": "0db0d65f74ffdd89d488f8bc1fb1e2366a3bc9917d9f395d7706c20d77ee1551",
       "requires": [
         {
           "pack": "audio",
@@ -2208,16 +2208,16 @@
         "sha256": "03a27df595499073ba821c1283171eb89eccc0395fa6c0f3c7bd539e3e769eab",
         "mapId": "stock/PanaS"
       },
-      "generator": "svmbuild 0.8.33 (7cc3597)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaS-1.0.1.zip",
-        "size": 21871659,
-        "sha256": "5e8895594071cdaf9d98bca18afaa6a5509cc97682e87ea4979d61b71a291d4d"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaS-1.0.2.zip",
+        "size": 21894198,
+        "sha256": "4e997fbf56f891c3539df1bb04adadbc3ed54ef52ad11e84a2e76c84eaea5f6c"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-PanaS-1.0.1-sim.zip",
-        "size": 847567,
-        "sha256": "911f96a603cff3af35aad2efe3eea62566972ba406cf68237f2fff0845f7fc02"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-PanaS-1.0.2-sim.zip",
+        "size": 847616,
+        "sha256": "8cae5703cbaa2c4bd84b7db373469b48c307f871d60a9acb0dbdc223a992899f"
       }
     },
     {
@@ -2810,15 +2810,15 @@
       "code": "ShadD",
       "title": "Shadow Moses",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "Deathmatch",
         "MercDeathmatch"
       ],
       "contentHash": "807f266077ce35d9",
-      "manifestSha256": "4da5825f0442374aad366739b81f0f7f66fec42a874580bd3e744ab41e71a9f1",
-      "treeSha256": "37f7c74e13ebf406ea633891746f8294da64573d78776351728386b73bd0bca7",
+      "manifestSha256": "86cc72f61794596f664a4ab80d072a10512d167ccabacb3d442e811a55cd5dc2",
+      "treeSha256": "ab6abd88ece5bb8d5221443583be23b1398a071f2ab4dd170b14afd04e0be383",
       "requires": [
         {
           "pack": "audio",
@@ -2837,16 +2837,16 @@
         "sha256": "fbc8cca3543968727380aae17d7e0f9a201770f3570e2726bfe4cec06081fdcc",
         "mapId": "stock/ShadD"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadD-1.0.2.zip",
-        "size": 21089695,
-        "sha256": "fa4250668b4afe48c1e084cd4dc25851db553e6fb9d3409b1ab4af533563dbf9"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadD-1.0.3.zip",
+        "size": 21112196,
+        "sha256": "8c145c0a5a4175d6e1ed628c41a875541b85639f5d50d8473b2f0ca47a6c00d6"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadD-1.0.2-sim.zip",
-        "size": 887400,
-        "sha256": "7ab67d0aa7b7dd0b5f8f3c600d32d327935dc04debcfba89cb056eefd2ca2873"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadD-1.0.3-sim.zip",
+        "size": 887451,
+        "sha256": "d9ce04393dacb248c23f35cf89d6a7b3a1f16d25af5c577ec0a532316cacf62a"
       }
     },
     {
@@ -2854,7 +2854,7 @@
       "code": "ShadP",
       "title": "Phoenix's Shadow Moses",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -2862,8 +2862,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "be6416342f13082f",
-      "manifestSha256": "963283bb8ef364d1a69eec58289ec53fe06fd2be9ddd8674c7f6c5e0f837d13a",
-      "treeSha256": "62867d8adcb9484de1c0292983f307c8a1f92fcd50cad3723e9644145283dd04",
+      "manifestSha256": "cbbb1decc19698fa3e3178c8d6322805a5d678d9e2c8f76c22919ac363b6b936",
+      "treeSha256": "139e3b92a1bc52bafca7ea5268a9bcc26ca07e81344a78374c42d4a57b575a86",
       "requires": [
         {
           "pack": "audio",
@@ -2882,16 +2882,16 @@
         "sha256": "0c05cb092cae787656de422817f77b8aa7eb518218c029c2707b4116597c7d75",
         "mapId": "stock/ShadP"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadP-1.0.2.zip",
-        "size": 23904065,
-        "sha256": "9b4a9d4401dc03f3c17f51b30c22ffbb93c6f3343a770ec40cdb8a4d18ce417e"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadP-1.0.3.zip",
+        "size": 23926585,
+        "sha256": "eddd0a10eba6a54ff8c45b361d2c72bf819c1b20409271d59629f540d078142d"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-ShadP-1.0.2-sim.zip",
-        "size": 531336,
-        "sha256": "89fc1452b82b2bc70e98d931e8678b614a51b03bc8f2dda78d5257796a5121ba"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-ShadP-1.0.3-sim.zip",
+        "size": 531389,
+        "sha256": "ac362d537e53e4f10aaee87d73d4a3f8727fc4967d8c7e1da9414739bfa1237e"
       }
     },
     {
@@ -3033,7 +3033,7 @@
       "code": "StatD",
       "title": "Station",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3041,8 +3041,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "be60516f580af683",
-      "manifestSha256": "16b04c24718e0247b3af456857584ce7d64f950e8c56454e76da2d5d6a737cb1",
-      "treeSha256": "8f8ff95d8de87401a8e1f2bbeacc871c0ccdc51e14be843c04c4feffa01f1da8",
+      "manifestSha256": "fd3a7e0ce3ec8152b07d65b76c2759f903fc368f3a1a9ec2855b93f2f81ba2cf",
+      "treeSha256": "81df205fa4404c96fa445294a68a34976ce4bd0fed1e4d28a1e5a61d72367bbd",
       "requires": [
         {
           "pack": "audio",
@@ -3061,16 +3061,16 @@
         "sha256": "d08e8bd663ef52becefea5085c1b33e030879cab6f6c2712a175e94ed84cea95",
         "mapId": "stock/StatD"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatD-1.0.2.zip",
-        "size": 18566950,
-        "sha256": "af4bac89f4d2a277367064a3bf1d9cc34fd76679404c382abeb1d801cded20a4"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatD-1.0.3.zip",
+        "size": 18589447,
+        "sha256": "40226c2027e0edf72f0881c64d11d02416514f91289b4f041ba6ba3932d1b796"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatD-1.0.2-sim.zip",
-        "size": 597381,
-        "sha256": "446f8e1a926052d1445b14645b813fa8c1b1d83b3ad6a7d25ec33cd5c6d2f67d"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatD-1.0.3-sim.zip",
+        "size": 597430,
+        "sha256": "53258ff7c49c4c825c33d69f9949469aaf4c486779b061e15b064090c70bea53"
       }
     },
     {
@@ -3078,7 +3078,7 @@
       "code": "StatE",
       "title": "Enhanced Station",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3086,8 +3086,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "5254d0c0064cbd11",
-      "manifestSha256": "a90b247bcc6c47d7ff5316a46baa087b655797c6d51b7b44b9606e8f3bcf3c99",
-      "treeSha256": "56ae3c02d9684842c7d5401f1f25310e09bd16e80cb5d6f89be000ef8f3a9c6a",
+      "manifestSha256": "4058d7729dba52a9f9d78599ff8553266a9c64a3f2d47bac444175ea0788d4a8",
+      "treeSha256": "0d85676b0b77cc46dda064fb3967e62123708a87cfec02ac43356fe37ed0c60a",
       "requires": [
         {
           "pack": "audio",
@@ -3106,16 +3106,16 @@
         "sha256": "c5fc9b516b406cf6a343e86a62f29a2ba1420979474e16c8e3e1f8bf3a730b64",
         "mapId": "stock/StatE"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatE-1.0.2.zip",
-        "size": 18559194,
-        "sha256": "dbb0d088d4aee6ec7cd5f629ea34482bf37abed64aed6be45e6f0708ba2918b9"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatE-1.0.3.zip",
+        "size": 18581694,
+        "sha256": "96b8e03132a7fd65c7b46b16e3480f70951059b31f55ba968a0e9250f817b8a5"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatE-1.0.2-sim.zip",
-        "size": 596285,
-        "sha256": "b2bf119d02863c7d98126697ee41679f770e402241d1a68cbd9151fac233e850"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatE-1.0.3-sim.zip",
+        "size": 596337,
+        "sha256": "1fc652a4a8b25417c4963eebc5f144463eea303bddbe0209806dafa5e8c25b7a"
       }
     },
     {
@@ -3123,7 +3123,7 @@
       "code": "StatS",
       "title": "Ps2 Station",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3131,8 +3131,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "18605ba7d6f92c2a",
-      "manifestSha256": "f7baac2aea059db513353b252e2d5f9765d5bdb79dfad7a14994e12ba4b4dd12",
-      "treeSha256": "d6f3727985370ffd3f7b2fdd5afc37e230cc0c18e358dc1d5e5ba5ca3a25dcf4",
+      "manifestSha256": "e0cbb598338bdf8b0e59e0223bf2d643839db100e74e9e737a62c75bb01218ff",
+      "treeSha256": "23fb575865113fb240d25472cdf170c06fcfc642da5306314f339a8e4193eb11",
       "requires": [
         {
           "pack": "audio",
@@ -3151,16 +3151,16 @@
         "sha256": "b34e180e60066e17ac521db809d1946fec50ce160e0c90d7901151b69970b396",
         "mapId": "stock/StatS"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatS-1.0.2.zip",
-        "size": 18700248,
-        "sha256": "8ba4ab5076753f5510d1a609e19bfed8984c9de5a76a1ba3b3198c8e3343af4f"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatS-1.0.3.zip",
+        "size": 18722747,
+        "sha256": "108573b2fac1beefdffb474b915fd3921500c3699f35b6ab2b3ebb61b92da2ee"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-StatS-1.0.2-sim.zip",
-        "size": 573774,
-        "sha256": "540a993be2913a33a06088631066bdb91349a79c5a740e82fab87d229d04f579"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-StatS-1.0.3-sim.zip",
+        "size": 573826,
+        "sha256": "6cddc5877ceb405b09937ced8ddfb0bbed31894e18e852e9663e3d39dc643a4b"
       }
     },
     {
@@ -3168,7 +3168,7 @@
       "code": "SteeD",
       "title": "Steel Squat",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3176,8 +3176,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "1eb3353ba860911f",
-      "manifestSha256": "98de9cf426cff1c1ec50ddf4f935a1a48ade18216cbfe06ac7a7d47e37b6c5c4",
-      "treeSha256": "da5c85be4b51ca03f81f28b2077e4200d30adcfeed3e094c581b1a5c6ce6f93e",
+      "manifestSha256": "faa2d1082c61792ecf19ed8a0571896588683166f5af2d4066b7a666cb82cf71",
+      "treeSha256": "db299e1c6fd7fe723dfa3989e301b84ca323e400e3ba4050365562cf98a05f8b",
       "requires": [
         {
           "pack": "audio",
@@ -3196,16 +3196,16 @@
         "sha256": "4a6e4d80ed656419b4155aac210c7c98d1aaf237c4234b19e81eb1c1ed9cc4ae",
         "mapId": "stock/SteeD"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeD-1.0.2.zip",
-        "size": 19394553,
-        "sha256": "62571fcba8a595e085ed0d7e012b2230f5633171ba0aeb663d5d1cf17779dd1f"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeD-1.0.3.zip",
+        "size": 19398791,
+        "sha256": "d5a5b72169fe06c8abeb51205d0bf6e8c154c15064283a6df250fc4ea67babab"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeD-1.0.2-sim.zip",
-        "size": 762911,
-        "sha256": "b3976bd26e6796463f0b27d5d57f7a2b3c1005041860166f8f13e1c7ec8d065a"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeD-1.0.3-sim.zip",
+        "size": 762967,
+        "sha256": "32109e85828d7e69399f5b4a5f7346a5b6acd5a0beeeb86a357c70ce442bcafe"
       }
     },
     {
@@ -3213,7 +3213,7 @@
       "code": "SteeE",
       "title": "Enhanced Steel Squat",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3221,8 +3221,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "82760242e4ae1618",
-      "manifestSha256": "248349c992e40857c7d38c7e3f13e363b08856c323fde360c6609b7157d5864c",
-      "treeSha256": "cc8a2bef3d18af6b78ccd8b00663753a9ef1116a3e022776ae570a749b17e78b",
+      "manifestSha256": "d801cf8c04dbde54b75974e06e1f5b70e89bf3b5aa7c9d778458ba1a6281cae3",
+      "treeSha256": "97b8aff94a8e4da6d2ce7672d2c6de906f1c448d8cc79c1d4904b2f7ea2f06e1",
       "requires": [
         {
           "pack": "audio",
@@ -3241,16 +3241,16 @@
         "sha256": "f6d1a64a4f817fd0a956c31bc0a2879220fc4bb27ed2ea79e62df4a86530f550",
         "mapId": "stock/SteeE"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeE-1.0.2.zip",
-        "size": 19378855,
-        "sha256": "f5c31bc96c3d3515422eabbcdbe9d8d765d7fd58caf34540af338fe94fc95ceb"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeE-1.0.3.zip",
+        "size": 19383087,
+        "sha256": "33ab1492eb6ad3694c52be900a7f71b49852b813785285d0b377627089d6706f"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeE-1.0.2-sim.zip",
-        "size": 758358,
-        "sha256": "e89a5e5a1460d1d328b39e2d1d8d022862da52d1ba4af39caa3919bc84724ad6"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeE-1.0.3-sim.zip",
+        "size": 758409,
+        "sha256": "8a0a3bcef853d18e05bca5f46525d3a2fbd1b5c92e796d21c5e20fd97447c473"
       }
     },
     {
@@ -3258,7 +3258,7 @@
       "code": "SteeP",
       "title": "Phoenix's Steel Squat",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3266,8 +3266,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "6d687b4c5dd98aeb",
-      "manifestSha256": "c9c537e8775ca3c9fd6871facd70ab62a4885fb7f1eeabbed0f2ea50c498d770",
-      "treeSha256": "56fc79d3e72dbaa9aa9c248f43a5498dec470830494e9500dafe68b31352107a",
+      "manifestSha256": "fa19d1b417fc3907e0b332e9a53aca5c4e19b15e2f03bdff77d252d8ff720f46",
+      "treeSha256": "ad9c12d56b9cc6c817d4548fcb475fc25a26a4a60809d875ac97928449234ca0",
       "requires": [
         {
           "pack": "audio",
@@ -3286,16 +3286,16 @@
         "sha256": "1aa375052ff79ce142e05038b4a8b5ddbcff455525c788888706cc5dc50b161b",
         "mapId": "stock/SteeP"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeP-1.0.2.zip",
-        "size": 19406615,
-        "sha256": "eedd318d2208287613ca5a24ffd7801457a917226772c2c070c2f7e62831d604"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeP-1.0.3.zip",
+        "size": 19410849,
+        "sha256": "5649dbba5a65732cb5f501d34691e90dcabe4ba2432118f1ee37e1d2d52eca30"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeP-1.0.2-sim.zip",
-        "size": 762950,
-        "sha256": "1813856dc95067c0c03108eb133d9961397240753d5c84f7b2f7cbfdde628576"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeP-1.0.3-sim.zip",
+        "size": 763000,
+        "sha256": "29d5292e3c929bb9ce8fb2c46662963ad5cfb49d16cc3a5526ebc2a542cb1617"
       }
     },
     {
@@ -3303,7 +3303,7 @@
       "code": "SteeT",
       "title": "Enhanced Steel Squat 3v3",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -3311,8 +3311,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "3fd13f9667aad2c5",
-      "manifestSha256": "4e6e69f8ab84ba98a3fabd8444db261b388b06fda343314869ea5ece2ad957af",
-      "treeSha256": "47377bfda29c7d527cea5183000148226903118af65ab6a15e19b47c8a239d55",
+      "manifestSha256": "3a0a1c56c0cf97cbdc95b98a1b6062c51ad4f2c5553a6870aa23691fd64fdd39",
+      "treeSha256": "c5d6ab946eaad0a517fbb0f45f20c70047b839952786b69d4a012ba5093b8d4f",
       "requires": [
         {
           "pack": "audio",
@@ -3331,16 +3331,16 @@
         "sha256": "2d8902991b31e7cc8622d5ed5acccbc097ead493ddc3886196f484c852db9cfb",
         "mapId": "stock/SteeT"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeT-1.0.2.zip",
-        "size": 19514815,
-        "sha256": "53b1c5272ba95bfe1becd700648093979c4d3eef0e90e3292236642f9c87cdf1"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeT-1.0.3.zip",
+        "size": 19519053,
+        "sha256": "bb57833f7c88babcdc0794f1b183ac2507556e2fbe12cf0ec5eca11f2062c7ce"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-SteeT-1.0.2-sim.zip",
-        "size": 785043,
-        "sha256": "4baa7252cb68f51dbf7df43603a61e1bbbb1d94ccfa58e28b2105c372c12507e"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-SteeT-1.0.3-sim.zip",
+        "size": 785093,
+        "sha256": "b7da1297cd79163d05e64224f405d8eb2c3000d9615a3b641ea7f8d4785d6160"
       }
     },
     {
@@ -6746,7 +6746,7 @@
       "code": "ClarD",
       "title": "Clarity Soft",
       "category": "recovered",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -6754,8 +6754,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "7d4a7e905b69cd76",
-      "manifestSha256": "7fd6fe63d14e4cb9bd987029afb3a322a63571d256488c31604575b6d351aec1",
-      "treeSha256": "a258b3a0f4c4441f457e62b97b9693ddaaeb960b5b6ba9c390e7479a53cb96ed",
+      "manifestSha256": "da6c93f7fe3f94b59d8d1d165684ef853f371c21e8ebefd6d2b3792b14d4719a",
+      "treeSha256": "12152b677ea41015fb67d9e6ef7f893db676729b356232322b408b04b65a9ed8",
       "requires": [
         {
           "pack": "audio",
@@ -6774,16 +6774,16 @@
         "sha256": "ced7395040932ec46277c04b4943b397a14a252d08ad01022c00fdaffa4e97c2",
         "mapId": "recovered/Clarity Soft"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.57 (cf7f180)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-ClarD-1.0.2.zip",
-        "size": 31989172,
-        "sha256": "06ee4925de2e9e941a2a7793544742f0d6e553e71c444818cf11c05357074e86"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/recovered-ClarD-1.0.3.zip",
+        "size": 32024737,
+        "sha256": "cb1fb9c382905f101074d45356abd88c5b43a25a64c7c5985b258c0aa3aabba8"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/recovered-ClarD-1.0.2-sim.zip",
-        "size": 2048227,
-        "sha256": "8bc125218e40a69154a3202ee5137fc439039fc2474dcbd8bb9960507afdcdad"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/recovered-ClarD-1.0.3-sim.zip",
+        "size": 2048336,
+        "sha256": "5ff398ffc8505c8cb8430ceb25d189cfd60a852b7bb961e5415b45bc6c45a274"
       }
     },
     {
