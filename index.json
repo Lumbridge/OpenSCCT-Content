@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-01T00:26:20Z",
+  "updated": "2026-11-01T17:37:10Z",
   "svmapFormat": "1.1",
   "shared": [
     {
@@ -4112,15 +4112,15 @@
       "code": "MoonD",
       "title": "Moonlight Park",
       "category": "original",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "Deathmatch",
         "MercDeathmatch"
       ],
-      "contentHash": "0a0d6d2c3adb1c03",
-      "manifestSha256": "3bc134b528f42618826bee4a21156aeb1ea1e5cea0678ab3e604b4dcb1e6c834",
-      "treeSha256": "0660093ba9f89e613462c1162d84ba9f4ba11261fee4776457438e630c3846dc",
+      "contentHash": "891f329b9f8a2559",
+      "manifestSha256": "24e07b159a3545ca24080bb27b134c976453b6b1e985ac60ec420786521f1110",
+      "treeSha256": "1abe20f5d88f8e454b6a3a37f32b803a77b3b90438ebabb024065295be636121",
       "requires": [
         {
           "pack": "audio",
@@ -4134,21 +4134,21 @@
       "source": {
         "kind": "repo",
         "repo": "Lumbridge/SCCT-Maps",
-        "commit": "a3c948c4bf6250cf471c3edee6e03ef62e63932c",
-        "path": "release/MoonD/v1.7/Packages/Maps/MoonD.sdc",
+        "commit": "c05cb4cbe69ebbd21892aec5d6128afb3b44d5d7",
+        "path": "release/MoonD/v1.8/Packages/Maps/MoonD.sdc",
         "sha256": "d1dcdee94f4977f1c358023ad1a14d41d19c2335750563aceb71b736aa25e786",
         "mapId": "original/MoonD"
       },
       "generator": "svmbuild 0.8.51 (b471cc8)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/original-MoonD-1.0.2.zip",
-        "size": 139608160,
-        "sha256": "762df955ca316468627287fe4579f7e3bb834b7326e3bff0d71d0158cd930e35"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-2/original-MoonD-1.0.3.zip",
+        "size": 139608875,
+        "sha256": "91d02f9433e2c175cc075ff19805f2771ed7ba43170de885fb9f056eba0affd9"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/original-MoonD-1.0.2-sim.zip",
-        "size": 3003649,
-        "sha256": "4ef091a082760e291e78c8989b35c3bfa8b9e94f26ef725431715347ed610464"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-2/original-MoonD-1.0.3-sim.zip",
+        "size": 3003556,
+        "sha256": "a4e0ea18480ecd90e080eeed8f70cad7354fd5a06020464b370af8e2676ff7d9"
       }
     },
     {
@@ -4156,15 +4156,15 @@
       "code": "ShipD",
       "title": "Shipment",
       "category": "original",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "Deathmatch",
         "MercDeathmatch"
       ],
-      "contentHash": "e9aeb08cf30ce050",
-      "manifestSha256": "51d5825edc3a7f87d1724669eb4cf331421e849bd0e494eb3eeb7d8cfa74914d",
-      "treeSha256": "21ef5163f33558833af076ae3d3feaf6a8c804c7f353d5bc0c727341a55db214",
+      "contentHash": "c7fcab6e6a338aed",
+      "manifestSha256": "fc6640faf0f00eb0c015aa74684030caf4297b66b43afc099522be1ba4a626fc",
+      "treeSha256": "36410caea771155e5a9381eff9189473fa90c73d075706bbc41426e6cfcaac8a",
       "requires": [
         {
           "pack": "audio",
@@ -4178,21 +4178,21 @@
       "source": {
         "kind": "repo",
         "repo": "Lumbridge/SCCT-Maps",
-        "commit": "a3c948c4bf6250cf471c3edee6e03ef62e63932c",
-        "path": "release/ShipD/v1.9/Packages/Maps/ShipD.sdc",
-        "sha256": "45bdade794cf8353a5d5d440702cf9bb6b2caa26c2e06eb9787842e5d33ef9f5",
+        "commit": "c05cb4cbe69ebbd21892aec5d6128afb3b44d5d7",
+        "path": "release/ShipD/v1.10/Packages/Maps/ShipD.sdc",
+        "sha256": "e3b8b23f2b06921cd78fc2ef724abf63196db1550ddfb1940181d0936f516fd2",
         "mapId": "original/ShipD"
       },
       "generator": "svmbuild 0.8.51 (b471cc8)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/original-ShipD-1.0.2.zip",
-        "size": 49134036,
-        "sha256": "5fc8e1a9f1ed245fb0f3672201b2fca2b2f891adc191c106a1ccf3a72abaef3f"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-2/original-ShipD-1.0.3.zip",
+        "size": 49145561,
+        "sha256": "381e2dd176b82c40df055e3262b6484b621f8a2cdb47e527c063781aa5046c54"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/original-ShipD-1.0.2-sim.zip",
-        "size": 1334971,
-        "sha256": "cc8cbe8c9ac6ee17abc843bc74d28458105756f8f2190d15dce4101009f3a00c"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-2/original-ShipD-1.0.3-sim.zip",
+        "size": 1334964,
+        "sha256": "af59430137f4ab65da4615ca9b9b840109b565d5d954ad873c12701ec4bca970"
       }
     },
     {
