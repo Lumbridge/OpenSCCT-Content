@@ -1,9 +1,25 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-01T21:09:50Z",
+  "updated": "2026-11-02T03:10:05Z",
   "svmapFormat": "1.1",
   "shared": [
+    {
+      "id": "chars",
+      "title": "Characters",
+      "version": "0.8.62.1",
+      "contents": [
+        "chars"
+      ],
+      "hashes": {},
+      "treeSha256": "8997ed10e73120e920af4cf812275fa85cdc9cb1f6ec860ff7ae9f1e9e507f8f",
+      "generator": "svmbuild 0.8.62 (729b12e), reviewed fitted cosmetics",
+      "download": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.02/shared-chars-0.8.62.1.zip",
+        "size": 1075898047,
+        "sha256": "f3cd28b6524d6820645abcabfc6ba36d43c430cceb2e6edd92a6fbfe1d4caeec"
+      }
+    },
     {
       "id": "core",
       "title": "Shared game data",
@@ -24,22 +40,6 @@
         "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/shared-core-0.8.51.1.zip",
         "size": 77580423,
         "sha256": "89b900ab978a28fbe51cf469155cf798548a00f3b81287a0c8ce6fa6dde843fb"
-      }
-    },
-    {
-      "id": "chars",
-      "title": "Characters",
-      "version": "0.8.51.1",
-      "contents": [
-        "chars"
-      ],
-      "hashes": {},
-      "treeSha256": "36aa0012f2a83c9bb2fb50be5cad8b71aea569af7db3d9924d097865fe899b5d",
-      "generator": "svmbuild 0.8.51 (b471cc8)",
-      "download": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/shared-chars-0.8.51.1.zip",
-        "size": 932015714,
-        "sha256": "747c8942df9df2b75d94d03e7719374e0f4ef928adf6bb2ed26f5c2f343fb186"
       }
     },
     {
