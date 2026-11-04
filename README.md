@@ -34,8 +34,8 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 | Shared pack | Version | Size | Contents |
 | --- | --- | ---: | --- |
-| `chars` | 0.8.62.1 | 1.1 GB | chars |
 | `core` | 0.8.51.1 | 77.6 MB | classes.json, render, fx, ui, maps |
+| `chars` | 0.8.62.1 | 1.1 GB | chars |
 | `audio` | 0.8.51.1 | 75.8 MB | audio |
 
 <details><summary>Every map</summary>
@@ -61,7 +61,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftD-1.0.2.zip) | `DeftD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
 | [Snake Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01-3/stock-DeftS-1.0.2.zip) | `DeftS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
 | [Deftech Belew](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.29/stock-DTK09-1.0.1.zip) | `DTK09` | stock | 1.0.1 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.6 MB |
-| [Entry](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Entry-1.0.0.zip) | `Entry` | stock | 1.0.0 | - | 10.8 MB |
+| [Entry](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Entry-1.0.1.zip) | `Entry` | stock | 1.0.1 | - | 13.0 MB |
 | [Factory](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-FAC05-1.0.2.zip) | `FAC05` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.7 MB |
 | [Factory](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-FactD-1.0.2.zip) | `FactD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.8 MB |
 | [Enhanced Factory](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-FactE-1.0.2.zip) | `FactE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.8 MB |
@@ -69,9 +69,9 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Enhanced Factory 3v3](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-FactT-1.0.2.zip) | `FactT` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 13.8 MB |
 | [Station](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-GAR01-1.0.2.zip) | `GAR01` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 17.9 MB |
 | [Snake Ghost Town](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-GhosS-1.0.2.zip) | `GhosS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 21.7 MB |
-| [Enhanced Krauser Lab](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-KrauE-1.0.2.zip) | `KrauE` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.7 MB |
+| [Enhanced Krauser Lab](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-KrauE-1.0.3.zip) | `KrauE` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.7 MB |
 | [Ump Krauser Lab](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-KrauU-1.0.2.zip) | `KrauU` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 12.0 MB |
-| [Lobby](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Lobby-1.0.0.zip) | `Lobby` | stock | 1.0.0 | - | 10.8 MB |
+| [Lobby](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Lobby-1.0.1.zip) | `Lobby` | stock | 1.0.1 | - | 13.0 MB |
 | [River Mall](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-Map12-1.0.2.zip) | `Map12` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.8 MB |
 | [Missile Strike](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-MIS02-1.0.2.zip) | `MIS02` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 15.3 MB |
 | [Missile Strike](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-MissD-1.0.2.zip) | `MissD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 15.6 MB |
@@ -210,7 +210,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-02T03:10:05Z.
+Index updated 2026-11-04T18:32:01Z.
 <!-- tables:end -->
 
 ## How the game uses it

@@ -1,25 +1,9 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-02T03:10:05Z",
+  "updated": "2026-11-04T18:32:01Z",
   "svmapFormat": "1.1",
   "shared": [
-    {
-      "id": "chars",
-      "title": "Characters",
-      "version": "0.8.62.1",
-      "contents": [
-        "chars"
-      ],
-      "hashes": {},
-      "treeSha256": "8997ed10e73120e920af4cf812275fa85cdc9cb1f6ec860ff7ae9f1e9e507f8f",
-      "generator": "svmbuild 0.8.62 (729b12e), reviewed fitted cosmetics",
-      "download": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.02/shared-chars-0.8.62.1.zip",
-        "size": 1075898047,
-        "sha256": "f3cd28b6524d6820645abcabfc6ba36d43c430cceb2e6edd92a6fbfe1d4caeec"
-      }
-    },
     {
       "id": "core",
       "title": "Shared game data",
@@ -40,6 +24,22 @@
         "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/shared-core-0.8.51.1.zip",
         "size": 77580423,
         "sha256": "89b900ab978a28fbe51cf469155cf798548a00f3b81287a0c8ce6fa6dde843fb"
+      }
+    },
+    {
+      "id": "chars",
+      "title": "Characters",
+      "version": "0.8.62.1",
+      "contents": [
+        "chars"
+      ],
+      "hashes": {},
+      "treeSha256": "8997ed10e73120e920af4cf812275fa85cdc9cb1f6ec860ff7ae9f1e9e507f8f",
+      "generator": "svmbuild 0.8.62 (729b12e), reviewed fitted cosmetics",
+      "download": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.02/shared-chars-0.8.62.1.zip",
+        "size": 1075898047,
+        "sha256": "f3cd28b6524d6820645abcabfc6ba36d43c430cceb2e6edd92a6fbfe1d4caeec"
       }
     },
     {
@@ -909,11 +909,11 @@
       "code": "Entry",
       "title": "Entry",
       "category": "stock",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "modes": [],
       "contentHash": "d6f84494f07f1cd9",
-      "manifestSha256": "2d08e5cbfa789b167f256269c1e2d26f7be53c5db41f8a744698d94cea22cd8f",
-      "treeSha256": "dfa0834a1b5400f7ecb5b3cf4760c2f354d548bacd2a01712d4a85ab8cc9611d",
+      "manifestSha256": "81c9cc11558e56be052c8e9f57733d36bbd322aa7a50b5575c023dab41209055",
+      "treeSha256": "3f27d9a0bb0463b80ad2e1b4489fe487110b9c22010043ab2d336144c47642a1",
       "requires": [
         {
           "pack": "audio",
@@ -929,16 +929,16 @@
         "path": "Packages/Maps/Entry.sdc",
         "sha256": "ff60f888a7adc97b613c45b07212a654f3c07280e36b3c1760f9b3fdd8c8f3ad"
       },
-      "generator": "svmbuild 0.8.25 (058d034)",
+      "generator": "svmbuild 0.8.85 (f1d03ed8), audio-only B5 repair; published map bases preserved",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Entry-1.0.0.zip",
-        "size": 10822848,
-        "sha256": "bc2ef4e813a596a04c76bdfa7f905820299205e71e388636993276532d5b161a"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Entry-1.0.1.zip",
+        "size": 12984286,
+        "sha256": "46c2455d33943a5fd87d311157de8cebfbfe81ed2781d4d3dd8c5d7cc28297a3"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Entry-1.0.0-sim.zip",
-        "size": 5174,
-        "sha256": "e3048a707d708574b9b71a8851491635115833a47edbbda67b89763ea6171f29"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Entry-1.0.1-sim.zip",
+        "size": 5180,
+        "sha256": "e95969772772a6715c39a36ae0a682339c9320d61c40d6bf029da22e4496e14a"
       }
     },
     {
@@ -1255,7 +1255,7 @@
       "code": "KrauE",
       "title": "Enhanced Krauser Lab",
       "category": "stock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Story",
         "DiskHunt",
@@ -1263,8 +1263,8 @@
         "MercDeathmatch"
       ],
       "contentHash": "e35136f2f1fd34e5",
-      "manifestSha256": "92a5540d63efb284e81fa960f23083adf26dd5c61b7805f385ced4b7bd580570",
-      "treeSha256": "58e404a5a365a02e71553ee75005466be67b2cff8aa19f854a4ba6e3547c5158",
+      "manifestSha256": "5625e464434ddb77241e98953af2463d48a93ac07146da0ab1f18fefbbc64a5d",
+      "treeSha256": "b93e5261eb90ce4e637f110dc2ac4a6ddf4aa78bec97ddbaeed358d16f033cd3",
       "requires": [
         {
           "pack": "audio",
@@ -1283,16 +1283,16 @@
         "sha256": "c59720b5c2fadb453d9d8222e24a3b45c1cc6766e7d9116bcb11ae00c95b6db0",
         "mapId": "stock/KrauE"
       },
-      "generator": "svmbuild 0.8.51 (b471cc8)",
+      "generator": "svmbuild 0.8.85 (f1d03ed8), audio-only B5 repair; published map bases preserved",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-KrauE-1.0.2.zip",
-        "size": 11696731,
-        "sha256": "6971d06fb5d430232e5c472e68c9e2b276bd38b5ec3147b06b9c0838ab7eb12c"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-KrauE-1.0.3.zip",
+        "size": 11696786,
+        "sha256": "bd95683818c1e3619e490e350019e3acae1c9c45fa8ade77e27dff3a2d03117f"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/stock-KrauE-1.0.2-sim.zip",
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-KrauE-1.0.3-sim.zip",
         "size": 558400,
-        "sha256": "1ef27947f652ec44f56b8dce4c8f0037d67fcc9b5295c5320c3760ff6e137324"
+        "sha256": "03f74e708d4e8f6217876fe194ca6c9b6406d313add51032dda4defc20d252fe"
       }
     },
     {
@@ -1345,11 +1345,11 @@
       "code": "Lobby",
       "title": "Lobby",
       "category": "stock",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "modes": [],
       "contentHash": "45d1525673b894cb",
-      "manifestSha256": "9faf32e7cef18a4ed30bdf54a662b7f8a80ead6023e808a68f92b8dfdffa1156",
-      "treeSha256": "3135780e3d43b93eb60ea9aaf7b123769423d3ec8f12135dc6373d732e15c7c9",
+      "manifestSha256": "920755111363356a85cc5ce0f7c7cef811a2d6234a1ea84355093956ce5145f0",
+      "treeSha256": "5cbef3a5a1d3a8fedf5484bfcd9dec101f5d5f1a87b370858000783910278dbf",
       "requires": [
         {
           "pack": "audio",
@@ -1365,16 +1365,16 @@
         "path": "Packages/Maps/Lobby.sdc",
         "sha256": "9eed9387f4171499e84b9ad88c22dd8553d2e6df41b8bfe1558746f3b582b660"
       },
-      "generator": "svmbuild 0.8.25 (058d034)",
+      "generator": "svmbuild 0.8.85 (f1d03ed8), audio-only B5 repair; published map bases preserved",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Lobby-1.0.0.zip",
-        "size": 10823260,
-        "sha256": "771a823262eef750525550a088afe41d0462b9460c2947923b82032f6a73e1b3"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Lobby-1.0.1.zip",
+        "size": 12984689,
+        "sha256": "8aad1081c9ad44f5ae695b2592fb998797a8fef566e52e9fe15d8939f19fecb3"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.10.28/stock-Lobby-1.0.0-sim.zip",
-        "size": 5531,
-        "sha256": "1d3c47273d91462a8c4b26a0c102b182e3b7f851f85866c3c0598998903819a8"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.04/stock-Lobby-1.0.1-sim.zip",
+        "size": 5529,
+        "sha256": "e5fb6fd281f5260acd07917b11d8cfdd33b466b196dc4d501586bc37ebaf1cd2"
       }
     },
     {
