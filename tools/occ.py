@@ -575,6 +575,10 @@ def build_index(index: dict, plan: dict, tag: str) -> dict:
         versions = {tuple(int(part) for part in f.split(".")[:2]) for f in formats}
         if len({version[0] for version in versions}) != 1:
             die(f"maps of several svmap formats in one publish: {sorted(formats)}")
+        if svmap:
+            previous = tuple(int(part) for part in svmap.split(".")[:2])
+            if previous[0] == next(iter(versions))[0]:
+                versions.add(previous)
         # Minor versions add optional files and coexist in the same index (for example stock 1.1 maps and
         # authored/conveyor 1.2 maps). Clients compare the major; advertise the newest included minor.
         svmap = ".".join(str(part) for part in max(versions))

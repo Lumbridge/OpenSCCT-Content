@@ -36,6 +36,9 @@ class IndexFormatTests(unittest.TestCase):
     def test_shared_only_publish_preserves_the_format(self):
         self.assertEqual('1.2', self.build([], previous='1.2')['svmapFormat'])
 
+    def test_partial_publish_does_not_lower_existing_minor(self):
+        self.assertEqual('1.2', self.build(['1.1.0'], previous='1.2')['svmapFormat'])
+
     def test_incompatible_major_versions_are_refused(self):
         with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
             self.build(['1.2.0', '2.0.0'])
