@@ -91,6 +91,8 @@ python tools\occ.py pack --install $game --catalog staging\inputs\scct-maps-cata
   new packs are written
 - changed packs get the next version (maps `1.0.0` → `1.0.1`; shared `0.8.25.1` → `0.8.25.2`, or
   `<new OpenSCCT version>.1`)
+- maps from compatible SVMap minor versions can share an index; it advertises the newest included minor.
+  A publish containing different major versions is refused.
 - each map's category and source come from where its `.sdc` came from: the install (category `stock`), or the
   SCCT-Maps map that brought it (`<maps root>/installed.json`)
 - Entry and Lobby (the menu maps: the front end and the lobby load them) are packed only with `--menu-maps`, which
