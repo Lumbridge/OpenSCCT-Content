@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-05T01:35:21Z",
+  "updated": "2026-11-06T16:40:48Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -29,17 +29,17 @@
     {
       "id": "chars",
       "title": "Characters",
-      "version": "0.8.91.1",
+      "version": "0.8.103.1",
       "contents": [
         "chars"
       ],
       "hashes": {},
-      "treeSha256": "da22c54187100cd146c2d1b5b2157a23f2fb8eb5600c906e42604abf50a2590f",
-      "generator": "svmbuild 0.8.91 (767f09f1); published B5 audio repairs retained",
+      "treeSha256": "cd7217d2aedc7e70d1d470196df2fa0a4498f24e6942708c14e0e067d63c9591",
+      "generator": "svmbuild 0.8.103 (d62b15c9) Spy first-person models",
       "download": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/shared-chars-0.8.91.1.zip",
-        "size": 1079974769,
-        "sha256": "ce6526bb6294f6b0f04ef227c1b9365fe757504be28ef8eadf721cc247e0f755"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.06/shared-chars-0.8.103.1.zip",
+        "size": 1080093573,
+        "sha256": "c0376eb37cb83410830cfe256a81507bd73d50de1d1437edf56b2f4dd4980b6a"
       }
     },
     {
