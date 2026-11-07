@@ -100,6 +100,17 @@ python tools\occ.py pack --install $game --catalog staging\inputs\scct-maps-cata
 
 `--maps AquaE,ShipD` packs only those; `--force` packs even unchanged content.
 
+To prepare separate bot navigation downloads for the published maps, run:
+
+```powershell
+python tools\occ.py bot-nav --baker <path-to-svm-server> --build staging\build\main --build staging\build\recovered --jobs 4
+```
+
+Use the server executable from the game version that will consume the graphs. Local builds are optional. The tool
+downloads the indexed simulation archive when it needs a missing revision. `--maps AquaE,ShipD` limits the bake.
+This writes a navigation-only publish plan. The regular map archives and multiplayer hashes stay the same. Review
+any failed maps in the plan, then use `publish --dry-run` to preview the index additions before publishing.
+
 ## 5. Publish
 
 ```powershell

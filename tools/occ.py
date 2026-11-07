@@ -4,6 +4,7 @@
 Python 3.10+, standard library only. Run from anywhere; paths default to this repository.
 
     occ.py pack     --build <svmbuild out>[=<maps root>] ... --install <Versus folder>
+    occ.py bot-nav  --baker <svm-server> [--build <svmbuild out>] ...
     occ.py publish  [--dry-run] [--no-commit]
     occ.py verify   [--remote]
     occ.py readme
@@ -25,6 +26,8 @@ import urllib.error
 import urllib.request
 import zipfile
 from pathlib import Path
+
+import bot_nav
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 INDEX = REPO_ROOT / "index.json"
@@ -262,8 +265,9 @@ def mode_list(map_dir: Path) -> list[str]:
 def map_files(map_dir: Path) -> list[tuple[str, Path]]:
     rows = []
     for p in sorted(map_dir.rglob("*")):
-        if p.is_file():
-            rows.append((p.relative_to(map_dir).as_posix(), p))
+        rel = p.relative_to(map_dir).as_posix()
+        if p.is_file() and rel != bot_nav.PACK_PATH:
+            rows.append((rel, p))
     return rows
 
 
@@ -525,6 +529,23 @@ def _now() -> str:
     return _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def cmd_bot_nav(args) -> None:
+    baker = Path(args.baker).resolve()
+    if not baker.is_file() or not 1 <= args.jobs <= 16:
+        die("bot-nav needs a valid server executable and 1–16 jobs")
+    only = {code.strip().casefold() for code in args.maps.split(",")} if args.maps else None
+    assets, failed = bot_nav.bake(load_index(), [Path(b).resolve() for b in args.build], baker,
+                                  STAGING / "bot-nav-work", OUT, args.jobs, only)
+    if not assets:
+        die("no navigation assets were prepared")
+    plan = {"created": _now(), "generator": "svm-server bot navigation", "shared": [], "maps": [],
+            "botNavigation": assets, "skipped": failed}
+    write_text(PLAN, dump_json(plan))
+    print(f"{len(assets)} navigation archives staged, {len(failed)} failed. Plan: {PLAN}")
+    if failed:
+        sys.exit(1)
+
+
 # ---- publish ---------------------------------------------------------------------------------------------------
 
 def gh(*args: str, check: bool = True, capture: bool = True) -> subprocess.CompletedProcess:
@@ -559,6 +580,7 @@ def build_index(index: dict, plan: dict, tag: str) -> dict:
     order = {pid: i for i, (pid, *_rest) in enumerate(SHARED_PACKS)}
     maps = {m["id"]: m for m in index.get("maps", [])}
     for m in plan["maps"]:
+        old = maps.get(m["id"], {})
         maps[m["id"]] = {
             "id": m["id"], "code": m["code"], "title": m["title"], "category": m["category"], "version": m["version"],
             "modes": m["modes"], "contentHash": m["contentHash"], "manifestSha256": m["manifestSha256"],
@@ -569,6 +591,18 @@ def build_index(index: dict, plan: dict, tag: str) -> dict:
             "sim": {"url": download_url(tag, m["sim"]["file"]), "size": m["sim"]["size"],
                     "sha256": m["sim"]["sha256"]},
         }
+        if old.get("contentHash") == m["contentHash"] and "botNavigation" in old:
+            maps[m["id"]]["botNavigation"] = old["botNavigation"]
+    for nav in plan.get("botNavigation", []):
+        map_entry = maps.get(nav["id"])
+        if (not map_entry or map_entry["manifestSha256"] != nav["manifestSha256"] or
+                nav["simHash"][:16] != map_entry["contentHash"]):
+            die(f"{nav['id']}: map changed since the navigation bake; bake again")
+        archive = nav["archive"]
+        maps[nav["id"]] = {**map_entry, "botNavigation": {
+            "formatVersion": nav["formatVersion"], "simHash": nav["simHash"], "activationMask": nav["activationMask"],
+            "download": {"url": download_url(tag, archive["file"]), "size": archive["size"], "sha256": archive["sha256"]},
+        }}
     formats = {m["svmapFormatVersion"] for m in plan["maps"]}
     svmap = index.get("svmapFormat")
     if formats:
@@ -595,10 +629,11 @@ def build_index(index: dict, plan: dict, tag: str) -> dict:
 
 def cmd_publish(args) -> None:
     if not PLAN.is_file():
-        die("no staging/out/plan.json: run pack first")
+        die("no staging/out/plan.json: run pack or bot-nav first")
     plan = load_json(PLAN)
     files = [s["archive"]["file"] for s in plan["shared"]] + \
-        [m[k]["file"] for m in plan["maps"] for k in ("full", "sim")]
+        [m[k]["file"] for m in plan["maps"] for k in ("full", "sim")] + \
+        [nav["archive"]["file"] for nav in plan.get("botNavigation", [])]
     if not files:
         print("nothing new to publish")
         return
@@ -606,6 +641,11 @@ def cmd_publish(args) -> None:
         p = OUT / name
         if not p.is_file():
             die(f"{p} is missing")
+    for nav in plan.get("botNavigation", []):
+        asset = nav["archive"]
+        path = OUT / asset["file"]
+        if path.stat().st_size != asset["size"] or sha256_file(path) != asset["sha256"]:
+            die(f"{path} does not match the bot navigation plan; bake again")
     tag = args.tag or release_tag(args.date)
     index = load_index()
     new_index = build_index(index, plan, tag)
@@ -662,7 +702,8 @@ def cmd_publish(args) -> None:
     if not args.no_commit:
         subprocess.run(["git", "-C", str(REPO_ROOT), "add", "index.json", "README.md"], check=True)
         subprocess.run(["git", "-C", str(REPO_ROOT), "commit", "-m",
-                        f"Publish {tag}: {len(plan['maps'])} maps, {len(plan['shared'])} shared packs"], check=True)
+                        f"Publish {tag}: {len(plan['maps'])} maps, {len(plan['shared'])} shared packs, "
+                        f"{len(plan.get('botNavigation', []))} bot graphs"], check=True)
         if not args.no_push:
             subprocess.run(["git", "-C", str(REPO_ROOT), "push"], check=True)
 
@@ -674,6 +715,8 @@ def release_notes(plan: dict, tag: str) -> str:
     if plan["shared"]:
         lines.append("Shared packs: " + ", ".join(f"{s['id']} {s['version']}" for s in plan["shared"]))
         lines.append("")
+    if plan.get("botNavigation"):
+        lines.extend([f"Optional prebuilt Spy and Merc navigation for {len(plan['botNavigation'])} maps.", ""])
     by_cat: dict[str, list[str]] = {}
     for m in plan["maps"]:
         by_cat.setdefault(m["category"], []).append(f"{m['code']} {m['version']}")
@@ -722,6 +765,8 @@ def validate_schema(value, schema: dict, root: dict, path: str, problems: list[s
         problems.append(f"{path}: {value!r} does not match {schema['pattern']}")
     if isinstance(value, (int, float)) and "minimum" in schema and value < schema["minimum"]:
         problems.append(f"{path}: below {schema['minimum']}")
+    if isinstance(value, (int, float)) and "maximum" in schema and value > schema["maximum"]:
+        problems.append(f"{path}: above {schema['maximum']}")
     if isinstance(value, dict):
         for k in schema.get("required", []):
             if k not in value:
@@ -756,6 +801,8 @@ def validate_index(index: dict) -> list[str]:
     for m in index.get("maps", []):
         if m.get("id") != f"{m.get('category')}/{m.get('code')}":
             problems.append(f"{m.get('id')}: id is not <category>/<code>")
+        if isinstance(m.get("botNavigation"), dict) and str(m["botNavigation"].get("simHash"))[:16] != m.get("contentHash"):
+            problems.append(f"{m.get('id')}: bot navigation belongs to another map revision")
     shared_hashes = {}
     for s in index.get("shared", []):
         for k, v in (s.get("hashes") or {}).items():
@@ -773,7 +820,8 @@ def cmd_verify(args) -> None:
     problems = validate_index(index)
     downloads = [(s["id"], s["download"]) for s in index["shared"]] + \
         [(m["id"] + " full", m["full"]) for m in index["maps"]] + \
-        [(m["id"] + " sim", m["sim"]) for m in index["maps"] if "sim" in m]
+        [(m["id"] + " sim", m["sim"]) for m in index["maps"] if "sim" in m] + \
+        [(m["id"] + " bot navigation", m["botNavigation"]["download"]) for m in index["maps"] if "botNavigation" in m]
     checked = 0
     for what, d in downloads:
         name = d["url"].rsplit("/", 1)[-1]
@@ -875,6 +923,13 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--menu-maps", action="store_true", help="also pack Entry and Lobby")
     p.add_argument("--force", action="store_true", help="pack even when the index has the same content")
     p.set_defaults(func=cmd_pack)
+
+    p = sub.add_parser("bot-nav", help="bake optional navigation downloads for published playable maps")
+    p.add_argument("--baker", required=True, help="path to the svm-server executable")
+    p.add_argument("--build", action="append", default=[], help="local svmbuild root to reuse, may be repeated")
+    p.add_argument("--maps", help="comma list of map codes (default: all playable published maps)")
+    p.add_argument("--jobs", type=int, default=2, help="simultaneous map builds (default: 2)")
+    p.set_defaults(func=cmd_bot_nav)
 
     p = sub.add_parser("publish", help="upload staging/out to a new release and rewrite index.json")
     p.add_argument("--tag", help="release tag (default content-<yyyy.MM.dd>[-n]); an existing tag resumes")

@@ -43,6 +43,21 @@ class IndexFormatTests(unittest.TestCase):
         with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
             self.build(['1.2.0', '2.0.0'])
 
+    def test_navigation_publish_keeps_map_downloads_and_rejects_stale_map(self):
+        old = self.build(['1.2.0'])
+        original = old['maps'][0]
+        nav = {'id': original['id'], 'simHash': 'a' * 64, 'manifestSha256': 'b' * 64,
+               'formatVersion': 13, 'activationMask': 0,
+               'archive': {'file': 'navigation.zip', 'size': 2, 'sha256': 'f' * 64}}
+        plan = {'maps': [], 'shared': [], 'botNavigation': [nav]}
+        published = occ.build_index(old, plan, 'content-nav')['maps'][0]
+        self.assertEqual(original, {k: v for k, v in published.items() if k != 'botNavigation'})
+        self.assertEqual('a' * 64, published['botNavigation']['simHash'])
+        self.assertTrue(published['botNavigation']['download']['url'].endswith('/content-nav/navigation.zip'))
+        nav['manifestSha256'] = 'e' * 64
+        with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+            occ.build_index(old, plan, 'content-nav')
+
 
 if __name__ == '__main__':
     unittest.main()
