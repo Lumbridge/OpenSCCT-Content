@@ -210,7 +210,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-07T05:14:32Z.
+Index updated 2026-11-07T14:05:28Z.
 <!-- tables:end -->
 
 ## How the game uses it

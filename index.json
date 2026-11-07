@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-07T05:14:32Z",
+  "updated": "2026-11-07T14:05:28Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -6742,6 +6742,16 @@
         "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.01/community-new-island-1.0.2-sim.zip",
         "size": 638209,
         "sha256": "e712026babf0ec153f17420b98928442c3e033513fb9998de672c189c5b3944b"
+      },
+      "botNavigation": {
+        "formatVersion": 15,
+        "simHash": "0bf7d5183622f4fe6fe3e43b5998f431ddcfb9b8c4bc63dbdc1e655e128562df",
+        "activationMask": 0,
+        "download": {
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.07-3/bot-nav-community-new-island-0bf7d5183622f4fe-v15.zip",
+          "size": 9063743,
+          "sha256": "06eb643c9af02f9d119ee08500c49a2ce9b9d160eaf2380d7f92e9cc60aafcf0"
+        }
       }
     },
     {
