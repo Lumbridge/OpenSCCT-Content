@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-11T16:35:18Z",
+  "updated": "2026-11-11T18:34:32Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -104,13 +104,13 @@
         "sha256": "98dc2c9574ef256642654d08627e4a64ed58f1628a286656e10884429f043d70"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "bf3f2bd44c5408e990a6dc3b1044ccbc77bf36e13aad5ec9d698706f06dba041",
         "activationMask": 2,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-AQU03-bf3f2bd44c5408e9-v16.zip",
-          "size": 3577866,
-          "sha256": "75df524a463d8938d01f8669e7db40f13eac10fea75f37fac85e5bdf136f33d4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-AQU03-bf3f2bd44c5408e9-v17.zip",
+          "size": 3577867,
+          "sha256": "276e910e7e1599e566b1e84bc6614470a41fc90bac419159a0a24e8a2a315295"
         }
       }
     },
@@ -159,13 +159,13 @@
         "sha256": "5e3835d09a3a94045631a8bb03adbcc2b1f1691b057ed87ab91ce6291a14ebd0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "9f0fb32325a49095a01f1bd1ba8351df3b41c1e555b2f82abbd686a7e879c6a1",
         "activationMask": 2,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-AquaD-9f0fb32325a49095-v16.zip",
-          "size": 3576867,
-          "sha256": "46c8e81981f19c6d8a79b11f47f5540335b9d7369ff2aa94fedefff8fdb6fe96"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-AquaD-9f0fb32325a49095-v17.zip",
+          "size": 3576869,
+          "sha256": "4809efc8e3e23d498e39be491fe70398a97d3086c7a7daf9e6b7e34517ba2213"
         }
       }
     },
@@ -214,13 +214,13 @@
         "sha256": "cc7a2e55c2c56faab0b62173ddfb1e5b882715f09f248b2fc83811cca85b8e31"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "66b2f44d79c6cf46c8b4247a33f0b23223b287763269cdfa48dbe75d225fe16f",
         "activationMask": 2,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-AquaE-66b2f44d79c6cf46-v16.zip",
-          "size": 3578098,
-          "sha256": "77a64eb92f3b44625d53ce5994495ffea5244049e8f15ee883938422a3cf86b7"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-AquaE-66b2f44d79c6cf46-v17.zip",
+          "size": 3578100,
+          "sha256": "717d306ea301aa356061188a27ef5e665d47e2bf8fa1c268c6c273ff2c8bf099"
         }
       }
     },
@@ -269,13 +269,13 @@
         "sha256": "700d8164f4d01522c4b5b4694ed99a317ecfea6ff157773b2999aca117839e46"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "cd80e6b75765868b0618a49abd628763dda39aae14189b1802d150c6644918de",
         "activationMask": 2,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-AquaT-cd80e6b75765868b-v16.zip",
-          "size": 3794205,
-          "sha256": "32bbf913e67e67abcf866aa167e90243404af260160f6ffd1b01bc3c27240d7c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-AquaT-cd80e6b75765868b-v17.zip",
+          "size": 3794207,
+          "sha256": "a07d8205d3da3b07a040d6195c93bc5013d839ee4a0df6b7ca86fbb3a980eea6"
         }
       }
     },
@@ -324,13 +324,13 @@
         "sha256": "4e69734914f88a3848186a6460b5e648eb164ebccc41541eab864a27b1ecafea"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "7ea7c52be34ee5c9b273f3caa4845847d676daea30244696ffdfcd777f3814ac",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-BankD-7ea7c52be34ee5c9-v16.zip",
-          "size": 4131933,
-          "sha256": "f5cf868d3f506ab0c3b4ba382ed5c9f7cd08bac2d5d7166edb64d4daeb219794"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-BankD-7ea7c52be34ee5c9-v17.zip",
+          "size": 4131935,
+          "sha256": "3c34d6de2f0caf22fadc76e3658ff33fdd1dc3a546b35eec77745c681ba553f8"
         }
       }
     },
@@ -379,13 +379,13 @@
         "sha256": "5e148280dcfbb99cfdf8f66cc225ac292e065d47d5ca9bd1f7313996a05b8f80"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "35d333037d086fbeb96fdb0cb6a68b1c1decf7cb5ed4aee1f938567f5ea1615f",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-BankP-35d333037d086fbe-v16.zip",
-          "size": 4168158,
-          "sha256": "e6ec816fd4a916510df67157a270f37825ee7badbdf19a48617b2fd308d78238"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-BankP-35d333037d086fbe-v17.zip",
+          "size": 4168159,
+          "sha256": "3448e2dc15b56aef405979348661d4f7334ec332a6b25e1205c4bf4ea4ff230d"
         }
       }
     },
@@ -431,13 +431,13 @@
         "sha256": "cb7f0e8a95b0652747e785cf5b1e7d04c4ef4262d770a43195a0b47034225ed0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8d60937bc10d2eac9b413088acb9d010b356efa6bf46ba2157287961337eb5c4",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-BNK11-8d60937bc10d2eac-v16.zip",
-          "size": 4132036,
-          "sha256": "fccbbd91c29cec0fb0f1e6bfef30c13ad60662eeb1b0217af26f328687122086"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-BNK11-8d60937bc10d2eac-v17.zip",
+          "size": 4132038,
+          "sha256": "861735f0bb5ca8508fde47b05e3f99d2be0fcdb7527f675c37f3343a616bb59e"
         }
       }
     },
@@ -486,13 +486,13 @@
         "sha256": "869a58c8c3aa83650b925bbb6d9070586569c60cd934d9b89d4f1b2e76003c4b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3f091a9224010eda1a2fce2b41c2afa33495d6a9f94ebc7b9922a25e2ec78b19",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-CineE-3f091a9224010eda-v16.zip",
-          "size": 5016601,
-          "sha256": "ea38a0eb9ac84d386ba9bd11b15ab0525cae42987ff914ad6ab9156b7036ea5f"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-CineE-3f091a9224010eda-v17.zip",
+          "size": 5016314,
+          "sha256": "0ecf0087bb1b9439ba9d29c28ddc4f2d77f1b642286f3d3a01f87ac1969ac81d"
         }
       }
     },
@@ -541,13 +541,13 @@
         "sha256": "0b3a851201ff4845de41a5a982b9643cd81d2e9ffaa0f72b83ea090dd346bab1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "553945ad9efd864650d26209b3bc78baba4e72490f000f8649a724159bc5cf73",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-CineS-553945ad9efd8646-v16.zip",
-          "size": 5018512,
-          "sha256": "f867cc9560420fc59e2505f8352a5656569ae257a0356ed2a3556bd10641e2d2"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-CineS-553945ad9efd8646-v17.zip",
+          "size": 5018225,
+          "sha256": "2ec38fcf9f9d369a7f8a3e5c854f8905407172f014c4175efde35326f7578074"
         }
       }
     },
@@ -596,13 +596,13 @@
         "sha256": "baf7c17fd521318caa07658891d271fbcafa6cb53f8ff1a2fe62bee4324ce808"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "9019fe5af79b71259f893d074cb15acf53f4bccc52170f6a3ab20dbb740f2756",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-CineU-9019fe5af79b7125-v16.zip",
-          "size": 4945857,
-          "sha256": "54afa7366714d86c8a0a9fea17375d4af44cf6345154aca24780ab976cf27d7e"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-CineU-9019fe5af79b7125-v17.zip",
+          "size": 4945568,
+          "sha256": "ccec904fc196ef70d9977f5f782faad3e760562f8af11e4a6edb2fac5d16a239"
         }
       }
     },
@@ -648,13 +648,13 @@
         "sha256": "184792485bd55c400ad7418df82251654fd39dea87400d3bd1e0a093c8f5579c"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d9a10cc97e15f1e7fe23e32bdd9adb552da7cde7a411264d58513eeba917bf50",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-CLU04-d9a10cc97e15f1e7-v16.zip",
-          "size": 5859001,
-          "sha256": "8a103e7b8305649807867113a904b1e5cf348a44f57e5e456270334a11220367"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-CLU04-d9a10cc97e15f1e7-v17.zip",
+          "size": 5859003,
+          "sha256": "0cfafbb65e4d38d3a44fa2a32f5137d876224dc49492be5b06baced981753524"
         }
       }
     },
@@ -703,13 +703,13 @@
         "sha256": "d5f6489212a37336b025265adf421dadc5cbc8344306c85476a1d7dc44355ade"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "f159989a7c226ffcae57f27b1b555936c10fbd2d03f614f8b3a064642ac85bd2",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ClubD-f159989a7c226ffc-v16.zip",
-          "size": 5858299,
-          "sha256": "98576f3185171fe1283bb1329ec35d7175ae74ab8787481222c939b8a8d455ba"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ClubD-f159989a7c226ffc-v17.zip",
+          "size": 5858301,
+          "sha256": "b2ab3cdcc86e8e7e84fe59a8f2d0edd6c9e94f059013156fbc7ac851a9b743eb"
         }
       }
     },
@@ -758,13 +758,13 @@
         "sha256": "c37703ee7ff7bb721fd23bbb806fffd8b67f326fa9a7705f64a127343a6f71e3"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c7e33266df276caa9d0c0fd5965a9707715b021539825dc13829fd4a22d252af",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ClubE-c7e33266df276caa-v16.zip",
-          "size": 5860575,
-          "sha256": "8e9618618caa950dc560af3bef82b0ed4d146d1d14ef4e956a3b904170fdfd98"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ClubE-c7e33266df276caa-v17.zip",
+          "size": 5860577,
+          "sha256": "140cce70db05c311e2714e7ad135b18855e45da066ba5e59e44ec3cbb9f0da7c"
         }
       }
     },
@@ -813,13 +813,13 @@
         "sha256": "626436da198261940bc410d2a32376a208ad9ff514ea35bf4edccbb0f0e4f88d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c8dc439ccace0f07bf3b5785a4507b5e8ef025568e8e6e8d39e6963af417fb0c",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ClubS-c8dc439ccace0f07-v16.zip",
-          "size": 5858793,
-          "sha256": "ec8ddcfa2cc71a5069d8300ce626638c1e8bdb75ada3d3dec141f4d323141f4c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ClubS-c8dc439ccace0f07-v17.zip",
+          "size": 5858795,
+          "sha256": "538a9fa9fc6acc89687ae9e29d9261cf876cc596831d6bbf06afc2c6f451ba2d"
         }
       }
     },
@@ -868,13 +868,13 @@
         "sha256": "72feb441147c8767746241dd641f2f1b4b8076df58b9f4e529cf432fbb50e5aa"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0260754c9fea50b5b5722bbfdcfbad6b175dbc907cd6105d48c0ab6ff1328bb1",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ClubT-0260754c9fea50b5-v16.zip",
-          "size": 5876110,
-          "sha256": "0fd69b257fa73f22ba784111845cd4fda9a1c88c77d66a7c1808ce70a79c15b4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ClubT-0260754c9fea50b5-v17.zip",
+          "size": 5876111,
+          "sha256": "ec065185e6e6fe0dc1314bfa8420f0b4a2fc3402f9f6527e5c676af1822570b4"
         }
       }
     },
@@ -922,13 +922,13 @@
         "sha256": "7ab3b0955adba0453f15a7e2ed4e4ef0337efe3fe8e141419c7618cf56fbebc3"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "804cb53834c7aa75d9d450c692e8e9b607b7a1c4b75766f7c9800f39ddbf9472",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-CpusS-804cb53834c7aa75-v16.zip",
-          "size": 4031984,
-          "sha256": "a19ea6fd71ee39e41682b354bd872718ba075d49a41d689711baef68355a5442"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-CpusS-804cb53834c7aa75-v17.zip",
+          "size": 4031628,
+          "sha256": "bf49fdaae4e2907cbc352a8f5d19c22b4e6e2b2811f976c665a8eb4265246705"
         }
       }
     },
@@ -977,13 +977,13 @@
         "sha256": "cf656eb388b1595b661fac758354af18baf612b9d293b85b754005d85901e4d6"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "378f2dc0e36a8c35c109cb302ff6093fb68656e369d160b5010eb0daaa051aea",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-DeftD-378f2dc0e36a8c35-v16.zip",
-          "size": 5658228,
-          "sha256": "45a9b1292b8db794e4920fb08e5f75afd8bf03b6d592b5dd1880ecc76e42bf88"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-DeftD-378f2dc0e36a8c35-v17.zip",
+          "size": 5658113,
+          "sha256": "c59e0f7ea1b18acd03dfcc8e4412c75260e6858534ba4d78c8825c2b4e5d34dd"
         }
       }
     },
@@ -1032,13 +1032,13 @@
         "sha256": "0b7883ad4287c45ead7136ffbcdd160011e5c52f0d15bc0c12167dcff0f255ba"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "bcb4bc5d56b9e39faf445c2707b4608bca107b5174ee8b5612dca0dbbf1561a6",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-DeftS-bcb4bc5d56b9e39f-v16.zip",
-          "size": 5674399,
-          "sha256": "210fdd99eb911ac52ba5d81616c0e534441c34af9e4f1eed0ad07ec0121ee790"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-DeftS-bcb4bc5d56b9e39f-v17.zip",
+          "size": 5674275,
+          "sha256": "bf6b089fd1884a10bf92f4e13f7e809026a6c580a4bee3455f67e70cf8fc6552"
         }
       }
     },
@@ -1084,13 +1084,13 @@
         "sha256": "b4cf025566a4c923f795ab71cd22877e32a2936181c7e5bf923abee85a818a95"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b5cc3a045e5a0862052ddd337ce5fae71e8e48a6a6dbba4fe57cac77a96019f2",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-DTK09-b5cc3a045e5a0862-v16.zip",
-          "size": 5654618,
-          "sha256": "a05323a71edc8c2fbd3d123674b2e04ccd3645b290089013eb7beff421d13b20"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-DTK09-b5cc3a045e5a0862-v17.zip",
+          "size": 5654340,
+          "sha256": "0a080efd955590593a7ad8dc065adef5573bdcfce042e20a49eb017b07b37f23"
         }
       }
     },
@@ -1173,13 +1173,13 @@
         "sha256": "f103ece746007f9c3bb5cd81a9b27591672ddeea5f5d960daaaf9817c8a6127e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1af501f29f148c159756ac4891e42ce8a658bd45d8c7707814a133bf749478b2",
         "activationMask": 9,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-FAC05-1af501f29f148c15-v16.zip",
-          "size": 5467543,
-          "sha256": "ddf8f9edc6f656b0a22ad98bd0d56dce1a2541570c501b74ba926cb0c7cdd14a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-FAC05-1af501f29f148c15-v17.zip",
+          "size": 5462028,
+          "sha256": "8e465c103df9e03808c87b869971b0328f571817480ddeadb930c1b9a328f194"
         }
       }
     },
@@ -1228,13 +1228,13 @@
         "sha256": "4494105ea0c9b3aa05106ae39821e5cf6beb0014043bc62dcc45dd95729c3e0d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "76255360bc0ffbd79be899f3247c72a77163e4786467f922d3ea82bedd0c59c2",
         "activationMask": 9,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-FactD-76255360bc0ffbd7-v16.zip",
-          "size": 5467184,
-          "sha256": "e32b568e3496d77de8fd0163259794de579c1e438246e93ca010fc8000d05f0f"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-FactD-76255360bc0ffbd7-v17.zip",
+          "size": 5461874,
+          "sha256": "0a27320e2934090e8791888ba382328ff59e11e9b50c0b1d7f3357f84431afbf"
         }
       }
     },
@@ -1283,13 +1283,13 @@
         "sha256": "2b26f3a720c7192f126789e9170e6dc1f99f9fe1808472db556d13276051d271"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0eee49fd1ce65f2afba152ea8a758980383544812d92222da81c7fb10f2fba15",
         "activationMask": 9,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-FactE-0eee49fd1ce65f2a-v16.zip",
-          "size": 5454472,
-          "sha256": "777edcbd87615b7384cb5cb1dfedf6ffe7dd1871216c821e34505f8ffd0829a6"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-FactE-0eee49fd1ce65f2a-v17.zip",
+          "size": 5449068,
+          "sha256": "c3b75ea943b67d912bea01236c6fab3dcbfaa56291e12b07cbb50838f402801c"
         }
       }
     },
@@ -1338,13 +1338,13 @@
         "sha256": "db03014acf25d2c22245e993028b61dab118287476f8e5a441a8da19c1afab22"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "cca748afbdaee58074875bd4c2bf93c93168c8c6aa7a5442326b707650388316",
         "activationMask": 9,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-FactP-cca748afbdaee580-v16.zip",
-          "size": 5307863,
-          "sha256": "b8918605f44d6f54ba010c657e7c362711b3d5ba4da2c9cf374c980a44cc60d1"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-FactP-cca748afbdaee580-v17.zip",
+          "size": 5302892,
+          "sha256": "d0a2d67c67a5ead82d96075d90a23e895ade47e4989d3283a603b91d1d6ac50e"
         }
       }
     },
@@ -1393,13 +1393,13 @@
         "sha256": "5787bc1968e42a5fb332f0e891f79ec4eb144572aabf7d97dbcd9bb0188b7fdb"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d66da72519525d6bcc93a4620ce204f2a3e4b914d62a956a4eb7a6265e824f39",
         "activationMask": 9,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-FactT-d66da72519525d6b-v16.zip",
-          "size": 5454482,
-          "sha256": "33fa801dfc913f447b7cd0d7277f29409eb57f8d97f2f2ae11c9b3409322423b"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-FactT-d66da72519525d6b-v17.zip",
+          "size": 5449108,
+          "sha256": "a0b664cc8d9e25099499bbc6f067f1f4f2d83ff1eaf866bee5e23cee1dd688b8"
         }
       }
     },
@@ -1445,13 +1445,13 @@
         "sha256": "cf1e46bcc5bfbcb12a574a823c2c965b8f3420dc724b87912b329d7be3a2b47e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "65bfb071b2d26e2da986d9e06d8306551ec44f2f29c154b1eff7f62a6a3b06fb",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-GAR01-65bfb071b2d26e2d-v16.zip",
-          "size": 5561066,
-          "sha256": "e1ea3ea15f22394b9f297b89a13da97733ac50887dfe89471c21157f6df024aa"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-GAR01-65bfb071b2d26e2d-v17.zip",
+          "size": 5560066,
+          "sha256": "b61ef84b32525324b709b325d1482977fa1dc9ef7aba19193d1fe0f89616d587"
         }
       }
     },
@@ -1500,13 +1500,13 @@
         "sha256": "6a2f138300527e62c2cb26432dc96fcd14b2dcb25a66816064ee17cab627ab86"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "84468439339e54b9198576e6a4ca375121651c9720d27ec18d350d5d4dfa9b4a",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-GhosS-84468439339e54b9-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-GhosS-84468439339e54b9-v17.zip",
           "size": 9944019,
-          "sha256": "dba645e73e4650a02a28562e046ff8653705732d3c57f9e988614c4292363058"
+          "sha256": "f6fc300131ecdb0f22ea11bdb7b4a7ef613e4fd36ef3fa03a70d78b0adcaf8a6"
         }
       }
     },
@@ -1555,13 +1555,13 @@
         "sha256": "02c812d7b99ac52c4b3950b993dda5a0dcd8c01e56a4fc8631d594472ab2fcc2"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e35136f2f1fd34e5fb327f958104253a1ceaa5b3e24a2e44aa2cd00d56842bc6",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-KrauE-e35136f2f1fd34e5-v16.zip",
-          "size": 8737846,
-          "sha256": "b2c3bf7f88682df4aab4518d7a7a12af1794015b7df384aa0040b8b524d11c33"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-KrauE-e35136f2f1fd34e5-v17.zip",
+          "size": 8736678,
+          "sha256": "a57b159c49e3f00e7c7cdf1f89c0b43b6a5105ed77c9d9b591295c5909799335"
         }
       }
     },
@@ -1610,13 +1610,13 @@
         "sha256": "db5c0f270b1a87f3d5751ec627029b0d5d38cdfa7ab6e9ccc4f6af085668603a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "ffd6f6627920615ffadb5aa0d9e025fe5cbdc06af688627fb16a858bb7e56ea1",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-KrauU-ffd6f6627920615f-v16.zip",
-          "size": 9948947,
-          "sha256": "876b019ea664931464b8cebeca81354a76bbb68529c3edcbcce799254cdd14b6"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-KrauU-ffd6f6627920615f-v17.zip",
+          "size": 9948153,
+          "sha256": "8fc101c4f9558e0775d776d39432ee773526eaff353d0ce52750929b5c649c80"
         }
       }
     },
@@ -1699,13 +1699,13 @@
         "sha256": "2b8b87b12a6f04e592d9b6aad83b8a1d73102ca4ef71c8b900593407cfed23ea"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "49a34b8a3090dcf32cffccceeada48cd9778e1a6161e3d15ab40b67a228f9eea",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-Map12-49a34b8a3090dcf3-v16.zip",
-          "size": 5850170,
-          "sha256": "46b5e7603adf6c4f2ba4dc5ae6cf4370abc086e67733e3fd12cfbe8def0c71f2"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-Map12-49a34b8a3090dcf3-v17.zip",
+          "size": 5849960,
+          "sha256": "ed37bdec4d98636d058c616b3541b284f6dc680d667ed3f23d87a64ad11b9c8c"
         }
       }
     },
@@ -1751,13 +1751,13 @@
         "sha256": "e20699970b56fe4dbf0b7d7de13d61761133ac0c2c3ce535bb0145f2033c735f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "6c75356edf047f8dcf9bda4efe8b1d6de839adb4b16f52cf8815117a4b3d8c58",
         "activationMask": 194,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MIS02-6c75356edf047f8d-v16.zip",
-          "size": 5403102,
-          "sha256": "5aeb3930a7523a3e94927198a1b6ddd92cb8403332c839a63dc89edefe6eadf8"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MIS02-6c75356edf047f8d-v17.zip",
+          "size": 5401511,
+          "sha256": "0d7b596ba8572ce9dcb2384b70d63e70d096f3fe1d18de3acf124b9df51fc7c9"
         }
       }
     },
@@ -1806,13 +1806,13 @@
         "sha256": "8875af5734eb597de0f995b3e369d3c25d4a8d1bf4decb3e3e05a4b2dac0b9d1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "df2f197b3f1edba29dcae0485588c5234d13be213bbdd8bff25aa26fa908bb55",
         "activationMask": 194,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MissD-df2f197b3f1edba2-v16.zip",
-          "size": 5441709,
-          "sha256": "8d40e15a6193211ca442166e648feae306860db76e2b8ed17c4ab4ab9733162a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MissD-df2f197b3f1edba2-v17.zip",
+          "size": 5439797,
+          "sha256": "d82863596a0248c7d58ffaa8031888c46898274c142fbcc69e86ecd6397c56d1"
         }
       }
     },
@@ -1861,13 +1861,13 @@
         "sha256": "030fb8f165bf4bb88c6ccb33a444027c5c8a441c4e6c62bf02036287e2e46971"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4dc03ba95802231eec937d3c6e0abac1401732341ed28563372fb29995554b0d",
         "activationMask": 194,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MissE-4dc03ba95802231e-v16.zip",
-          "size": 5440465,
-          "sha256": "2d2019fdb9090bef024425707b0a4c92fbac6f1915e483968ff787f49bc7fd69"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MissE-4dc03ba95802231e-v17.zip",
+          "size": 5438661,
+          "sha256": "a82e59f27b4d337ebb83d3d4233915b8cead33fc673954d2609651a965325a43"
         }
       }
     },
@@ -1916,13 +1916,13 @@
         "sha256": "98fec80f9298eff2678377c53a7c506d56c7c55c4c2cdbf384b91ad458648bee"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "ac7d58cd6a804155ce2fc00266d8538111b86335689f7e31327c3baef49b972d",
         "activationMask": 194,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MissP-ac7d58cd6a804155-v16.zip",
-          "size": 5443719,
-          "sha256": "818bdb2435b400e28a3db1408d9706f9eb301a85fe12df6e3645732d135e21f3"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MissP-ac7d58cd6a804155-v17.zip",
+          "size": 5442147,
+          "sha256": "5994f487ddbb38f23908aebf3a14270d7b07df00fc325c587992e3178057ad90"
         }
       }
     },
@@ -1971,13 +1971,13 @@
         "sha256": "7230610ca66ec6ea123019273ffe6ada2f1b9ed32a5472eafed4d71bf0221d4b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "918d65dc53ebad4fd08faf9b0c836a5460e854fbb96e5b87b8b73ab0c146fb30",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MounE-918d65dc53ebad4f-v16.zip",
-          "size": 3217021,
-          "sha256": "fc4360504ae027c743950e0eeafd5551df6fb80296222abaf2ca5d79b1e492b2"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MounE-918d65dc53ebad4f-v17.zip",
+          "size": 3214299,
+          "sha256": "5b87689a1edfbafe9fa35b34fc0aa4e2c59a840f441bcab04947d4ec1d4b12dd"
         }
       }
     },
@@ -2026,13 +2026,13 @@
         "sha256": "eea727963d3d008471770cca0560e4b726c815a70d88f902e210039275e5c199"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d539967934ff662aa188e4e4b24a0d155e52d05841be23a2eb23b7081066757c",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MounS-d539967934ff662a-v16.zip",
-          "size": 3219927,
-          "sha256": "9019b669b6e8685ff1b18fcbac6953ae071d41588909f3c4e339e8ffdf7d9a86"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MounS-d539967934ff662a-v17.zip",
+          "size": 3217199,
+          "sha256": "c99a731a0be88662a0a87df66b24e5e1027c5748b98a20f511bbc4685745acfb"
         }
       }
     },
@@ -2081,13 +2081,13 @@
         "sha256": "fbe23f73533aa5c019378c91a9fa41f25f5bab72977a257dbe94e2a431fe2a9c"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b1438e9c81d9b7c518359c2114dcc0efd5e4c13a12c235e7e4d0e5f5125afba0",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MounU-b1438e9c81d9b7c5-v16.zip",
-          "size": 3268409,
-          "sha256": "b5991f024258d4a9ce7816afac2503c20b0ceef3cc2dc0f6eb37bd86ebb552c2"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MounU-b1438e9c81d9b7c5-v17.zip",
+          "size": 3265397,
+          "sha256": "d4b645d3482b67b5510e4cc09ba03b9b648ad1aea24306f0645bc2fce0ba7b91"
         }
       }
     },
@@ -2133,13 +2133,13 @@
         "sha256": "2289d0436c678e4802104a6e5ef208f714ef7261a717565d6497dd46396778a9"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b1f1c8783102c310d491d2921d56a78a9340769643e1f8a7b4f8d7616d8e0921",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MUS08-b1f1c8783102c310-v16.zip",
-          "size": 5109540,
-          "sha256": "7c212f55e52f71dcca6b81a4622610ca0226af1c275453933d73f755855a3568"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MUS08-b1f1c8783102c310-v17.zip",
+          "size": 5109541,
+          "sha256": "48725263ea1a8b5b8cadf99880274bfb40bca789bf5316720bcc92576e1b15df"
         }
       }
     },
@@ -2188,13 +2188,13 @@
         "sha256": "48e065071b365a04b9d4dc286a1b7dbf19ca16017be17967cffccaead496218e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "2e6e0eaf00cf0c45d97e308361fbf6adecb3c62c5038305ec8a3f48cce4bf484",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MuseD-2e6e0eaf00cf0c45-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MuseD-2e6e0eaf00cf0c45-v17.zip",
           "size": 5014380,
-          "sha256": "2214bd52750c45a55dbb3d7092ce8462f20024b935ff7936e4b9cf68ecca61dd"
+          "sha256": "b3693a6eef4dfb763bf57a6b3d8d6609f2b32a63de1dc34a87c6e6ee58ab92b2"
         }
       }
     },
@@ -2243,13 +2243,13 @@
         "sha256": "cc2a47f3495c20f27b7b5ba77f2d87667218b6cb9faba5c43ec4b6c5c004213a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8f9c4b9ea57e721066677f5a1a74b9f67f4d741d3062723b29723befb9a928c0",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MuseE-8f9c4b9ea57e7210-v16.zip",
-          "size": 5014760,
-          "sha256": "c805ff2a0101233c4548ed5777db3148cefdc58068239828a1d513b6f4b7fd10"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MuseE-8f9c4b9ea57e7210-v17.zip",
+          "size": 5014761,
+          "sha256": "25cce63ce93e5d81c0a274e033e3a8926fef4c93b5d5624951ead079d33f229e"
         }
       }
     },
@@ -2298,13 +2298,13 @@
         "sha256": "557d7dc509e0a8de7dd5e54430251a48afa849905d3bfd6fe33f51d3b230b041"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "43be22aca6f9618c73edc9e4e7737e59be7c5d03f89b3b8b0d6e264747516cf5",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-MuseT-43be22aca6f9618c-v16.zip",
-          "size": 5070556,
-          "sha256": "6e58e373915671e15b9001828b6fa43aaa336dfd9355fd4f00c210eb9c49e8ec"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-MuseT-43be22aca6f9618c-v17.zip",
+          "size": 5070557,
+          "sha256": "7eab6072f1beb1e9f4e2ad52457c1358e8a0515e16e2f6fea8e7172173f0d732"
         }
       }
     },
@@ -2350,13 +2350,13 @@
         "sha256": "e38468b4edb7c6913a59946d4b0e8fb16de1fa14d3c2f5056d7d3824d19038bc"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3eb7390b5d3b0bcc869d9b6191f1c34809b38467a052db41de8044cbf0d1539b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ORP06-3eb7390b5d3b0bcc-v16.zip",
-          "size": 13474892,
-          "sha256": "5eb073bffc20f4c98a757cb70f459cd0911d07464089c01dffed4fa0195758eb"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ORP06-3eb7390b5d3b0bcc-v17.zip",
+          "size": 13474893,
+          "sha256": "2e5feaba8a2b3964727c1aeeea3f1acfd476d2f22d18c403ea0041275b1da833"
         }
       }
     },
@@ -2405,13 +2405,13 @@
         "sha256": "fe397a082017e774ed4bdbdcebb925121830ca214558e16adc93c845ec49cfcd"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "11e6a8c9ef4bddebc9dd79f1a1e3ee068eedfe82397d3f068504c3ca0fc3b05b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-OrphD-11e6a8c9ef4bddeb-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-OrphD-11e6a8c9ef4bddeb-v17.zip",
           "size": 13474514,
-          "sha256": "6d9d41fd84084abd726c418d569676e2094aadebf520c392663932b3248ba493"
+          "sha256": "dc40ae90ab7bbc2a7c92ebba1a430f3acdd266d36e5e097e0d834363d7741bf1"
         }
       }
     },
@@ -2460,13 +2460,13 @@
         "sha256": "c80a2fb7a43e9f16732e71716eceec31091588c1344ebe76f3c0d245a2abbdf8"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e6381e4777ca2e93cb4bf44bcad9c9f03635f93513762e9740a105ffeb0e1987",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-OrphE-e6381e4777ca2e93-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-OrphE-e6381e4777ca2e93-v17.zip",
           "size": 13514446,
-          "sha256": "1e638879ef664a499f33435d9d05c2552d07605cf93ee5d4776ee7a4220b59e6"
+          "sha256": "8096a92e2a8e561730667e60b681fe5dd3324cfd883e320c7870dbfb2721ae30"
         }
       }
     },
@@ -2515,13 +2515,13 @@
         "sha256": "16ac1aa40ed1e0fadf918cda6b08b0970c1b99b91261ac2a5d0f4000fcd1ff7a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "805ad92bad3a194f50120b87d38bdcb3938997c7a500a5a453847962b6fb0b63",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-OrphS-805ad92bad3a194f-v16.zip",
-          "size": 5209336,
-          "sha256": "310f26e62f94f84016932551ee3e7575c3dc0b68abac60bb8fb5b7b7d43f317c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-OrphS-805ad92bad3a194f-v17.zip",
+          "size": 5209338,
+          "sha256": "ba90decbbb2ef2111162e5a306803880b335e78552cfd6ef580de28057bf16e4"
         }
       }
     },
@@ -2570,13 +2570,13 @@
         "sha256": "1a71d1e31d50f87f9f5ace194032d8706988270eb34e69798d59ef8c4974ed98"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "102a4dc22281e6bced44febb27286093e1593eddd4450e1b46a4d0181084b845",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-OrphT-102a4dc22281e6bc-v16.zip",
-          "size": 13714403,
-          "sha256": "bbf683b04d9941b2014413ead82550da4e1a53c90387c021e353a4e373672052"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-OrphT-102a4dc22281e6bc-v17.zip",
+          "size": 13714404,
+          "sha256": "3ac2a3c0ce496fd986c6cad24228e2e79fa7e417a80d7894ad9ff70d4fc0e83c"
         }
       }
     },
@@ -2625,13 +2625,13 @@
         "sha256": "00a90e55e2c9bcde942be0379a95b4c3b61175982994ae07e75103e9573ef30e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e9f29eb8a6beee0b7369e379f9630463a3fe9ad227ba6b463a0ef277587fed96",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PanaD-e9f29eb8a6beee0b-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PanaD-e9f29eb8a6beee0b-v17.zip",
           "size": 5956197,
-          "sha256": "de636add7e1575b1de39020cf3e1e24ab0576f99ece94a1cd1d6a0b2c76267b5"
+          "sha256": "dcc892115cf01612483593e47746a4f07e716b9798576943d41b389660813296"
         }
       }
     },
@@ -2680,13 +2680,13 @@
         "sha256": "f53c54a9f4fe3494cd7457718737790646692b0796599741d3b15cf22a625a48"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "35a9359bcb4596b09bdcf9f348f061ee80cea8dcd96808adc0901cf9f934d56f",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PanaS-35a9359bcb4596b0-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PanaS-35a9359bcb4596b0-v17.zip",
           "size": 6429929,
-          "sha256": "4034ba3e28a0c1eb168280ddcaed0f875ec7c3b2201e4537f0c3be3a99d77074"
+          "sha256": "5b51ce89c35e23dcf3013abb77751ee03df8b7d3dbfb16472f598641c23a74d0"
         }
       }
     },
@@ -2735,13 +2735,13 @@
         "sha256": "d2afa9408fb49f0e439be97cc9d1a970c557232a4dae477d7e830ae6d5bee563"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "629aab1d96e9308bb16ff669998783dbb803617d9704db5861c1e7e40e591fbe",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PolaD-629aab1d96e9308b-v16.zip",
-          "size": 3589037,
-          "sha256": "55ac0ffd2783559c1efc156f5158e8f3c734251669597040b838c8ed078d2f09"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PolaD-629aab1d96e9308b-v17.zip",
+          "size": 3589036,
+          "sha256": "3da10fc173632ce4fc9f65abbbc29f34ab2de8c594647edbe3770b31771d3e20"
         }
       }
     },
@@ -2790,13 +2790,13 @@
         "sha256": "d3d24b9ba23da64bbbde738e468541a7f8c0ef5ffc3acbb5191721afb635b74b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3620d8dd47a27541c3f9af8418b586918ffb18f6b6069fd82740e4a963922859",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PolaE-3620d8dd47a27541-v16.zip",
-          "size": 3578592,
-          "sha256": "baca05aa6d3df4f0632f17f6712ba33669d63771eff2df7eb77334997d39a8cd"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PolaE-3620d8dd47a27541-v17.zip",
+          "size": 3578591,
+          "sha256": "5ce038808e919dc0f062c1be359e7f8431225aebbbf3aa5fc9ad18d46504d646"
         }
       }
     },
@@ -2845,13 +2845,13 @@
         "sha256": "de7fde827670c001180e745622f4b53015a8b05ef38a1623e6b8e517966b3e79"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1779f1d00eced610e846811762d2b6f3d63421be934fe11d8c60eb55e80467c3",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PolaP-1779f1d00eced610-v16.zip",
-          "size": 3612529,
-          "sha256": "9bc810bf79ace6e8291ecd06c97fffc74c64df6035532950fa15cd190853c155"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PolaP-1779f1d00eced610-v17.zip",
+          "size": 3612527,
+          "sha256": "9fba0baa1c57049334a8579a5cd99503781cf87d06b02d13ea146a3dff3fa5c3"
         }
       }
     },
@@ -2900,13 +2900,13 @@
         "sha256": "8c1d29fea6facc2f8a9eb507233679d8c5867715b5713d372b4152818a1521c4"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c6d57cce7f11e56c8b3e415e60b1687dcb56c57a8322a57684bbab9c67a6ad89",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PolaT-c6d57cce7f11e56c-v16.zip",
-          "size": 3657687,
-          "sha256": "80e67f697dd23a73aa44b0125acd2afbf73455dbeda31ef712b7cf51a98e9fc3"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PolaT-c6d57cce7f11e56c-v17.zip",
+          "size": 3657689,
+          "sha256": "cf69bec28060f2d1fcf6b3fccf637ba68f5589bf0c238383d0c725702d1e6f37"
         }
       }
     },
@@ -2955,13 +2955,13 @@
         "sha256": "7d01fa420aae06899eb1e6d7007c2b26e360f43ee14d7734bba9cb936954d842"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "90a11794b4eca4c60a342b10e9079a9eba53f1753b451cc0e5ef7b5244105899",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PrisD-90a11794b4eca4c6-v16.zip",
-          "size": 8418767,
-          "sha256": "58a2e31622a25e917d49576fc522c9f2c454ac61e195c2541542955a48ecc2b2"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PrisD-90a11794b4eca4c6-v17.zip",
+          "size": 8418698,
+          "sha256": "93873709edcd15b777c561105f3e266c5ac05fbf2c98358112ab6637302eaf96"
         }
       }
     },
@@ -3010,13 +3010,13 @@
         "sha256": "321b127c38b0283730f9958c22258b0d7541811167200d2044d239ca476b8445"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "abe733b4f59143b143399a0910c913f33525a80eda90232e8a602824b8dd8926",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-PyroD-abe733b4f59143b1-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-PyroD-abe733b4f59143b1-v17.zip",
           "size": 16797151,
-          "sha256": "da64374ccb91a2c654b5fd73883023c32bd9309f2ba5e02d42600d63b7bb858c"
+          "sha256": "dc9caf89b7e26adfff10b8c98d9deacc4796be3d5b272ba9f97c7051533495f1"
         }
       }
     },
@@ -3065,13 +3065,13 @@
         "sha256": "f67956cb4a3e0da4f2262602178d1d401dff433ec1c93b0f32457be347a4282e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "55e793e70c729f8f28b9fe00a5849f64032ba57c50925adb8d925a64c07af9d8",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-RiveD-55e793e70c729f8f-v16.zip",
-          "size": 5850363,
-          "sha256": "09d07b41e0b8eed2e4bb2ee93861a60a714b3f384a73655e398207c362d9c38f"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-RiveD-55e793e70c729f8f-v17.zip",
+          "size": 5850115,
+          "sha256": "e7603bfe7991f75f927d5569a49f4bf0d5017a2267ba4b3194fc745c06893205"
         }
       }
     },
@@ -3120,13 +3120,13 @@
         "sha256": "9f3a949a59c9de409882e7a51f61c8d8bbafe098425363dc4655c28e3e2ba6b7"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "dd607d8ac2a54e6ac7426be62d5a61ec2bfb8db4673ed163c3ab0537683a9db4",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-RiveE-dd607d8ac2a54e6a-v16.zip",
-          "size": 5850298,
-          "sha256": "1eb4704a87f1a211eac485b661c69c57cd64edfffb426c4a9664da240e213101"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-RiveE-dd607d8ac2a54e6a-v17.zip",
+          "size": 5850066,
+          "sha256": "37115ee3c46fbd8b09c9c1ba11fdb097ff8302cd0ed33c509136b80274df1cb1"
         }
       }
     },
@@ -3175,13 +3175,13 @@
         "sha256": "3df79b74f22066ad0ab4417c3454601585d3dbedba01886583eb53a9b22e411e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b9b05da2084ef45c4abe0682153cee3b1929bae2f04cb269bae909dd27530824",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-RiveP-b9b05da2084ef45c-v16.zip",
-          "size": 5765746,
-          "sha256": "c4caffc3ac11634839fa918a6a9c234429f194ddae32c3b308cdf3dd556065c3"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-RiveP-b9b05da2084ef45c-v17.zip",
+          "size": 5765195,
+          "sha256": "afbe4383031f821e735189967339026e3faa87d10a05ebb1465bc5de56a21445"
         }
       }
     },
@@ -3230,13 +3230,13 @@
         "sha256": "f60871098b7595017f56395b70fdd85c33c651861bcd9c7c7fdc836f0119e2c4"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "686d9ddce18c897f453625b470cdb2f1298af25d0845222b85364313dd07b1cc",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SancD-686d9ddce18c897f-v16.zip",
-          "size": 15905449,
-          "sha256": "af7efd951c37cbf9700a2062a53b1d32f59ea43db0c9d9438ec54c54eacf5121"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SancD-686d9ddce18c897f-v17.zip",
+          "size": 15904938,
+          "sha256": "b6464df8d70df68a29abdd78c554681e2990ee8398ee6142e7e42c66ef264566"
         }
       }
     },
@@ -3285,13 +3285,13 @@
         "sha256": "5e10823101fbf1e94ce3aa44937c456b057e3c761b31278325b3e9034f5c11ad"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "96ac8b244566c350ff2b46a419dc2a5c6344c90e2f044d76b66d785ad263ee59",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SancE-96ac8b244566c350-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SancE-96ac8b244566c350-v17.zip",
           "size": 9383882,
-          "sha256": "02aae8e420d8f16c8bd9454f26f455b4d28e995fefed00b33d67223ff934850c"
+          "sha256": "e873b81de36fbfc2eb12ed6a916ee381d317a37c1b8bc5f65234fafe0b40f663"
         }
       }
     },
@@ -3340,13 +3340,13 @@
         "sha256": "01c638de8fec48e878eafa9a4cfbd25c85e2b1e0963ec57a7be795ed23b9b444"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "dada39ebdf063aa0d1289090d57e447869255972d985404268ceb96f206e982b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ScheE-dada39ebdf063aa0-v16.zip",
-          "size": 4620096,
-          "sha256": "0197a87475066acbbe7eb2a122d064bc424045d83ee5c1f10f5f547c80158c70"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ScheE-dada39ebdf063aa0-v17.zip",
+          "size": 4618982,
+          "sha256": "0925b20a41ecef10a33a580c652d3c44b30af722de4173dc04d1b78a7146e332"
         }
       }
     },
@@ -3395,13 +3395,13 @@
         "sha256": "03c3e13822d258e15ce26b9413c4257909b63ce8a64edf9adbcc8754494acb31"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "2c2a618ae23ef3c49cb3fe0b834aef8a989a01c47e1750bb25122e1cc9f190b3",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ScheU-2c2a618ae23ef3c4-v16.zip",
-          "size": 5346823,
-          "sha256": "b8981042ffd36a8ebfef7672924acd9c2de259d242db9921ed39aa54b9701764"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ScheU-2c2a618ae23ef3c4-v17.zip",
+          "size": 5345352,
+          "sha256": "564533c8d293e8f0dd87e01ce18d3d2fd80bd9cdc46c956f27225090933357fc"
         }
       }
     },
@@ -3449,13 +3449,13 @@
         "sha256": "1187c2fa327b82ea5fdcea1b3b32c750d6de039168cf012b28755a93f3091b38"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "807f266077ce35d9def86105a810e2a8122239567c1c575cb8e6fc30149491cd",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ShadD-807f266077ce35d9-v16.zip",
-          "size": 4926741,
-          "sha256": "623efa5091dfdeaae1627282f69e3d8c27340b03d212bd5fd802e25382fb1952"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ShadD-807f266077ce35d9-v17.zip",
+          "size": 4926522,
+          "sha256": "51b1ddeb78ac232cd1a1124534e56f321946c532d0fcca579d5baca184b013a3"
         }
       }
     },
@@ -3504,13 +3504,13 @@
         "sha256": "fdcdd6595d5382668cd686f88a8bf2a3ddf1368e6f957f477b8320dcad020097"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "be6416342f13082fe163631873fe670e1561ca28e5f46b6c47e6a4dc16b94f7d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ShadP-be6416342f13082f-v16.zip",
-          "size": 5623628,
-          "sha256": "73a4ad547e113f8c30bbecb0a66ef22d3a1270196c29a1e795048d3bc9c4986a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ShadP-be6416342f13082f-v17.zip",
+          "size": 5623280,
+          "sha256": "1726ed4edc65a19ef9c1b30e5b20a1aa4509f53832e647d8817ec68af7fda98d"
         }
       }
     },
@@ -3559,13 +3559,13 @@
         "sha256": "31cba30d4f59280c93df7f9abf580ee79513f18c4226edf4d9b0099e8ca13c52"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "96f8c7f8eea9e14475ad085f6ec9805c76f20745c88915494c2352e5b12ef62d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SkysD-96f8c7f8eea9e144-v16.zip",
-          "size": 5632289,
-          "sha256": "543b8b7de621088f73a8eaa6ecf31d339d2b65a089648c91436ede9a5ee44eca"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SkysD-96f8c7f8eea9e144-v17.zip",
+          "size": 5632290,
+          "sha256": "01a133b8b9f81c6e30563ef76475c5ad6d547bb17e4756339b1c4a4978274b78"
         }
       }
     },
@@ -3614,13 +3614,13 @@
         "sha256": "9a85c0c0db084d19e26cf35ad2a32489e7d1ef9cc46f812443712f8f25ec28a1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3bdd7338a45765fab664feeb5e1ae1c9c0c1dbe43c11bf7e01e97aa067ba0d75",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SkysP-3bdd7338a45765fa-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SkysP-3bdd7338a45765fa-v17.zip",
           "size": 5640861,
-          "sha256": "4195acbbc6b7210a8ca849b66e12a7795bdf1b0836962fe59bc5212a7311a524"
+          "sha256": "feda588c4294dd40b656c4bf5b9a0d0225f65604e00e9b37407281aacd9c1470"
         }
       }
     },
@@ -3668,13 +3668,13 @@
         "sha256": "188d944b008c7abee9144a9d828519a4f4f5cb1be5c3833409a4f4dfc7b0ff03"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "70e5b4d3c53088708f0ba5fd012fa5b017eb356a2cb8d18d43c7a87b28a5e6ba",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SlauS-70e5b4d3c5308870-v16.zip",
-          "size": 2930259,
-          "sha256": "acbda9d589832a41125fbbcb6fb57a3336d36c82bdf867bda28d2c76d7494db4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SlauS-70e5b4d3c5308870-v17.zip",
+          "size": 2930258,
+          "sha256": "a0a5160e7266fd7f6d9ae82af3d7fcc21723c3ccf00cfcd778b7291b69ca60f7"
         }
       }
     },
@@ -3723,13 +3723,13 @@
         "sha256": "df3f4a5d0be12116c4ca059cbc84cd2b963a07c4ecad1461ba5767fce7f60c8f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "be60516f580af6834b57d8672f9c24742465af72fc1bf32a76ee1d45fbfa1707",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-StatD-be60516f580af683-v16.zip",
-          "size": 5487268,
-          "sha256": "b6f0e075fc0e250e9444f3e33109309480326b307edd2ad0a75c14ee6347a2c9"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-StatD-be60516f580af683-v17.zip",
+          "size": 5486611,
+          "sha256": "558ebfd1d88b7e4dd5e7bc57bc18fcc22e62a9c0fc171825700d12c7aa6ba579"
         }
       }
     },
@@ -3778,13 +3778,13 @@
         "sha256": "ab68f6245cdb0880b3a00776870846acded1a6a0ea8dfd7fa1a210e96afdf058"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "5254d0c0064cbd111469be7c3760cd2814c4289ef65cc5cbd9a29043d1db199b",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-StatE-5254d0c0064cbd11-v16.zip",
-          "size": 5484823,
-          "sha256": "3b386f3d8e900d50bb964a6f85cd214765afca0edc05f5e845c3e62d710b8c23"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-StatE-5254d0c0064cbd11-v17.zip",
+          "size": 5484201,
+          "sha256": "4aac1d2f1cc4a5cbacade3029b23765a9afe1d3846838dfa3c864da7c608d722"
         }
       }
     },
@@ -3833,13 +3833,13 @@
         "sha256": "c0decbddbec4786ea15e2ac8ba3cda05e34b48c9578e98478196d28b3e7ce654"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "18605ba7d6f92c2afdda25d9fa4dfe659c1b875b461c8a3fb364b1d7e98af633",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-StatS-18605ba7d6f92c2a-v16.zip",
-          "size": 5230342,
-          "sha256": "3fc93920b981998269c4d980e2db9652dd89f026c3ef9014bd13d21c74df5804"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-StatS-18605ba7d6f92c2a-v17.zip",
+          "size": 5227861,
+          "sha256": "765d584f5bbd6c2f6ab597894feeeff6eeb43f269d9ddd0c4ccdf56b7b35c31c"
         }
       }
     },
@@ -3888,13 +3888,13 @@
         "sha256": "b94ba93c8035e703b37d6a68086b77b8075f32585c566f83d5c94c8e3dab7d99"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1eb3353ba860911ffdab0759c26909a98941193f0cf98849035d393876a5ec76",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SteeD-1eb3353ba860911f-v16.zip",
-          "size": 2583400,
-          "sha256": "2a87951e4179b936969df0c01d109d0d58430d1433f79571b74721f0c7aba135"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SteeD-1eb3353ba860911f-v17.zip",
+          "size": 2583397,
+          "sha256": "2258cb089c6d6838c0654993d507a00c88eb0687a99ced60d84c108bae5a1cb7"
         }
       }
     },
@@ -3943,13 +3943,13 @@
         "sha256": "ee0f819f2a09555160390b99c8a422befbfc7b6f47ce0183e00010e7caf1a580"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "82760242e4ae1618b0f25c7a80d7a7711e94be7fbe4a5e28c013c2776aa30dfb",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SteeE-82760242e4ae1618-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SteeE-82760242e4ae1618-v17.zip",
           "size": 2579582,
-          "sha256": "e163c362d3425514f8e94351e1d6d722e692d213b20a63a3a86918e57aa799eb"
+          "sha256": "423635020f1dee8eafbb8bb6dcf02d8be140a7e7c00ceabba1119fd62a9128ed"
         }
       }
     },
@@ -3998,13 +3998,13 @@
         "sha256": "1037a1d4e46365f29e9f4befb3f1db0e241b537aa3e3e8bb8d67d8b064f907bb"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "6d687b4c5dd98aeba1c65fe5d4e2ade0f529e831c14a856e3b63c44f127dd9de",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SteeP-6d687b4c5dd98aeb-v16.zip",
-          "size": 2583398,
-          "sha256": "d69b931e3d3bbfd939e463a6078d1471fc3878c2b278038053a94b64d89da4dc"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SteeP-6d687b4c5dd98aeb-v17.zip",
+          "size": 2583395,
+          "sha256": "9a175f568ff1af134369fa7293f35f3607c6d2650825beb3da93cc96272ff1c9"
         }
       }
     },
@@ -4053,13 +4053,13 @@
         "sha256": "e72e094649d1e8bfce9a34e15d9679a3ad28fee4a10f10c5663b00b241042c9d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3fd13f9667aad2c590aee04879355bdae3968f4187829dcb510e1842b4a280a6",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-SteeT-3fd13f9667aad2c5-v16.zip",
-          "size": 2577360,
-          "sha256": "600c53504e3cc2556cd59e96bb41ea4fa484f1d8107d6a56cd9715b5ca247330"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-SteeT-3fd13f9667aad2c5-v17.zip",
+          "size": 2577358,
+          "sha256": "bb8971286dfb3f231adbe760b8548cf145932aa3cb39a5d345208a40c4eca715"
         }
       }
     },
@@ -4108,13 +4108,13 @@
         "sha256": "7932c22a60fa807e0ba43f252eb6fc56cf190ac1dbe3fcfacc2bcd74dc9fe3db"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c09dfb0fee3429ad646a0be2c71b2c78aa5df54b14b4cede31facdeb25d45646",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-StroD-c09dfb0fee3429ad-v16.zip",
-          "size": 5919782,
-          "sha256": "8c38871f3dc3953ee6f127b887bd0e6fb11358acab48bc79c84c035be31df9a4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-StroD-c09dfb0fee3429ad-v17.zip",
+          "size": 5919783,
+          "sha256": "5978bcc16faa3dc6b75b22af72cebaaaacf94bcf8f58e7c0d6a2bdb269ed74d0"
         }
       }
     },
@@ -4163,13 +4163,13 @@
         "sha256": "cdc23201ce9b2039953f8d60c75bc89b85812ee86be1748831fe8f5e821abbec"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b6f1dd222a7faec6f0baa32f77a01538ebea2475c5e54902e3a5f0ecf15ff460",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TermD-b6f1dd222a7faec6-v16.zip",
-          "size": 8256392,
-          "sha256": "b78626988c496ba929ad0902a594844aba66f046f99203fa7644524bdfe64823"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TermD-b6f1dd222a7faec6-v17.zip",
+          "size": 8254993,
+          "sha256": "0ad7981bc07b68765e56681e15eb8b309753ddb7a2c7eaf9ef08f008cf1e7b30"
         }
       }
     },
@@ -4212,13 +4212,13 @@
         "sha256": "1e16671e452023c3db96b454bba5b1fb509568d08ab43a3fbf35ed00abdcd106"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "fb5b2beb5281780f30b4ffd225dd27a942adcf4cbc6904e145ad0bacb1f8fd7b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TME30-fb5b2beb5281780f-v16.zip",
-          "size": 964631,
-          "sha256": "3714d80936f0b9501d0b2fed66ab543080595874f756ee1495bfb21501cad3b1"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TME30-fb5b2beb5281780f-v17.zip",
+          "size": 964632,
+          "sha256": "4d782cf5f8be51bca8565492c1c3634caa4b679705f3a5419559f348091e1ca4"
         }
       }
     },
@@ -4262,13 +4262,13 @@
         "sha256": "0d94c5d1becafa74dadfcb52052dcd75681d33d29205c2be881df9d675ea7c84"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "7482af341b12f68e3cead5d13fd81a12a196c021c9e48b92fac3a7b43a36fdf5",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TME32-7482af341b12f68e-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TME32-7482af341b12f68e-v17.zip",
           "size": 1054654,
-          "sha256": "b8e65e39ba933da9122415da9da735695810cdf195d18e679e64605830579036"
+          "sha256": "8e736a82e6eedb15eebbecfad25df7278ca853b8cdf88b8be86153e66190c1ab"
         }
       }
     },
@@ -4311,13 +4311,13 @@
         "sha256": "cdf3291f409921965a62d4d29c5ea431462092be84be0ce33c3aaa79042867c6"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "98799a3f17f34f0cd41ba1dade01060b44f7c18fe710148562c435701792c667",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TME33-98799a3f17f34f0c-v16.zip",
-          "size": 672058,
-          "sha256": "34ac296c6da7d5c2b5a8c861d3c53e4355180623526dbf2b40f5b6ace2eb7b19"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TME33-98799a3f17f34f0c-v17.zip",
+          "size": 672060,
+          "sha256": "bdc32f6b4984add9b1c29cc99b10b16c2e79f40ff8f6e2a061fdc26ad3956651"
         }
       }
     },
@@ -4360,13 +4360,13 @@
         "sha256": "fc7a1f99e4105d6c20ee7d3af610786492adec6b32b803747ced0fa31972796b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "7cb50430a22723b34eb4111778f8bf43ec8d195b859fae204ae34b84bec97614",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TSP20-7cb50430a22723b3-v16.zip",
-          "size": 732746,
-          "sha256": "74855f147ab73618421163d3aef9b02ab61edb9fe1529bd0ac47bf7898822ceb"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TSP20-7cb50430a22723b3-v17.zip",
+          "size": 732748,
+          "sha256": "ccc5da9c7780efe9b1326a257ee595b07706fccede06e31413163dc172f3df5c"
         }
       }
     },
@@ -4410,13 +4410,13 @@
         "sha256": "440f93f1b4f776dfc115df27675dd376ec92746d2ee00daf81d04419bcd77531"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d2e071f36896b788c20d581d9e3d24875d1c5a911129d6c6c7b9f5cd17eab586",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TSP21-d2e071f36896b788-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TSP21-d2e071f36896b788-v17.zip",
           "size": 630220,
-          "sha256": "210ab2bc004f2e18a3e0a9d0c43b5577f32cb39c706da4f82f914ba8e225da8e"
+          "sha256": "7b2e607f4102c38da79006ba900d333199a3deb8428df881e0792db436ccd9ff"
         }
       }
     },
@@ -4460,13 +4460,13 @@
         "sha256": "aa60cc5f784c62eb37d8fa5d4a1e694e135a49eea3a00dbf107fd57d0a06faf7"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "25c4a7e70da4695632fc7cf9012b9e455959e3f911cd4eef2d893e648cd0402d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TSP22-25c4a7e70da46956-v16.zip",
-          "size": 348396,
-          "sha256": "7ff12751e5b5ad418be9179f74933aaf57a05e1c9443e34219c1aa40392f8334"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TSP22-25c4a7e70da46956-v17.zip",
+          "size": 348397,
+          "sha256": "0b8c2e5b7d07b55077f14c5347fc97e9db222ded0c2e6f6ec4664294640641aa"
         }
       }
     },
@@ -4510,13 +4510,13 @@
         "sha256": "79e283273ed982ddae6b0ad26fc62675160c94a1fdb717c8f7578e425b950ed0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "66cac5c3185a4067d1cc046a45fd898c24cda25e181f295e55a2c3860474a752",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TSP23-66cac5c3185a4067-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TSP23-66cac5c3185a4067-v17.zip",
           "size": 209210,
-          "sha256": "b835bb4837de93d55010e2f90464e14e705776d13fa6ba69ad16bb320f61bc12"
+          "sha256": "29219a470989ecc33ac86575959d6c4e9ae9200abb0e54b401ff7ff5d244926a"
         }
       }
     },
@@ -4560,13 +4560,13 @@
         "sha256": "8ffa2d71a4e96cc73a043ef388012ef129576daff4a4370f2da7585d1af27567"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "911eeae73d4485ffb7bea77cb5ace5af4eecdc9dc3d0264c389ce485731db7ea",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-TSP29-911eeae73d4485ff-v16.zip",
-          "size": 1423549,
-          "sha256": "52302dcc58c930bc711214deacd8080104c0cbab5ce73de0495e7e8961ce104b"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-TSP29-911eeae73d4485ff-v17.zip",
+          "size": 1423548,
+          "sha256": "aca82942f8fc76761240b46a8c0f165ca4fab6d72e80d33dd88f4df27d4edd36"
         }
       }
     },
@@ -4615,13 +4615,13 @@
         "sha256": "ef9fcab8854b6dd975d935831d46a02a0578c3b0d0af0ef6bbf50ccd8596bbd0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "fac9fbd94f5ffe4857cedbe65817a11479d78dfc0a3174d42a1e1bb334b0eef9",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-VertE-fac9fbd94f5ffe48-v16.zip",
-          "size": 8168789,
-          "sha256": "92b0c2ba42ee2e1ff306c57f795f71ae51305ba32fa7902321d21c541d5ef36a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-VertE-fac9fbd94f5ffe48-v17.zip",
+          "size": 8168694,
+          "sha256": "c95b6298163a4bff177d464d50024c192eaf4c550c7fdf5e5f77306e19838ea9"
         }
       }
     },
@@ -4670,13 +4670,13 @@
         "sha256": "8500ed8cf8473018489922ad4366f878305713708478c73b1d5ee760f1b30a55"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "f909b5520def689a4213578dedcb447d19b963c629b56a8b1a48fd1af8345b80",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-VertU-f909b5520def689a-v16.zip",
-          "size": 8218861,
-          "sha256": "745374e03f741fdb9f15ccd48c33bc15269b31de1f73d22387edc328348e23bf"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-VertU-f909b5520def689a-v17.zip",
+          "size": 8218880,
+          "sha256": "8c6219f9d7b4d8e055b2666ee56d68a216b638dc9a6581f71a37102b6a784678"
         }
       }
     },
@@ -4725,13 +4725,13 @@
         "sha256": "371f11ae04a77157f36588680bb5d9f080384c48cad1d92328a64a90ce8875ee"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "92fc0e69847eb5b064058edff379342597d28131fa8a6e72a7bef6885a0806b4",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-VertX-92fc0e69847eb5b0-v16.zip",
-          "size": 8173474,
-          "sha256": "33fecc39a3a8cd8954cc29cfca8ffc1965cfa6ac9347acabcabce0325ff9272c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-VertX-92fc0e69847eb5b0-v17.zip",
+          "size": 8173314,
+          "sha256": "c9bb3d79be9c6ee07529c19c0f866f179a5c49ba0b36eef0d396f5d5e32a2d8a"
         }
       }
     },
@@ -4777,13 +4777,13 @@
         "sha256": "7ad8fdb90b95b0538848772ac406d3c4e225b9a3bed59420a090a4ce1a8a5f47"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3e5cd4fe8b4caeb20e9de465e32aff02470e698960460779f4e571eb54b72b7f",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-WAR10-3e5cd4fe8b4caeb2-v16.zip",
-          "size": 5537388,
-          "sha256": "40c538908762ade39b70b5c7d61afa32e4ec25836f0828b969511e1eeaf7256c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-WAR10-3e5cd4fe8b4caeb2-v17.zip",
+          "size": 5537389,
+          "sha256": "c466a555837a65aa7ac78c96cb5fc68e5de9a7e56088da54e62e7abd75c84493"
         }
       }
     },
@@ -4832,13 +4832,13 @@
         "sha256": "fdead3128b4aa1f545a03298717352698e71e25393762810889e0e177005f544"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4dcb68931f83e761f88cc271d137f26f4e762c31882eee0cc219de324cc1e093",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-WareD-4dcb68931f83e761-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-WareD-4dcb68931f83e761-v17.zip",
           "size": 5537390,
-          "sha256": "8159c70588da1b472a2f8f4d8ececffe9b7e90b8d537838ce43524917eb34562"
+          "sha256": "15e6a7cbb3f1cc349c2f9cdd25eee005cae1953f2b7c5dbe412f6f1617e7c526"
         }
       }
     },
@@ -4887,13 +4887,13 @@
         "sha256": "86e2010fd600ca46de11563118949888a6091a1166a5d4014032b430ac5b9750"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "caec32cd421ae6f03c8612f34c0767c0faceb687758516201acd38172c377556",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-WareP-caec32cd421ae6f0-v16.zip",
-          "size": 5410885,
-          "sha256": "7fb0397ea2ec424a94957b646db7fd1a3abd5f1bcc88dd2b5c877b4a487a29f9"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-WareP-caec32cd421ae6f0-v17.zip",
+          "size": 5410887,
+          "sha256": "91d97fbcf2623b58b19a82efc358a1f4432c4793fa637a0056ee5f9e8c5d6bcc"
         }
       }
     },
@@ -4942,13 +4942,13 @@
         "sha256": "7f8041cc33146507cf120e8f02ccb38948766a74f7c0ea9de3bb333e6f75bbfa"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "323bf2325978e32838d3f737c4ec7fba2037ae108c28153f5c9e36405a3a1d77",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ZiopD-323bf2325978e328-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ZiopD-323bf2325978e328-v17.zip",
           "size": 4631286,
-          "sha256": "94cea0ad67cf3118560050b27fc6a4f810d5367b8bd84c8033dc3816627b7bef"
+          "sha256": "cea990dc5a0134a468aafe9cd02bc1914b52eb4c6fb44ea21e4f19ab1ac765c8"
         }
       }
     },
@@ -4997,13 +4997,13 @@
         "sha256": "ef35dc24d826dbfb1b333a1ff36bd54ceb8b6b04bee158e7654af2c4a3e4cd65"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "bd53e9f328033da1b19bced61c6c9b899a607b4ad49598a19cddcedd708880a9",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-stock-ZiopS-bd53e9f328033da1-v16.zip",
-          "size": 4635389,
-          "sha256": "4b5023208147c0e85232c6b242f98c0df0895a89590b01b6eda1ec25fcbce6af"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-stock-ZiopS-bd53e9f328033da1-v17.zip",
+          "size": 4635388,
+          "sha256": "0fcba7582d34a765ce81fa990474c8c7cba0571cd71f55e37f8c1e4cc5a0a417"
         }
       }
     },
@@ -5051,13 +5051,13 @@
         "sha256": "368789249c95c2a59c3aa81ebcdb20670ac9fdc45c950cb9b63baaac97915035"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "891f329b9f8a255971f22acadef303a64f42cb502dbd49781d17312ab6fca50b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-original-MoonD-891f329b9f8a2559-v16.zip",
-          "size": 6930225,
-          "sha256": "08c3788b6e12b88e19e1a247c51a9facad15836c8ea5f740488feb62f5968d51"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-original-MoonD-891f329b9f8a2559-v17.zip",
+          "size": 6921776,
+          "sha256": "1f2d9d890662ed75a1cf18a726722b0812d9d2f423cd931fd1f1a94d16be9886"
         }
       }
     },
@@ -5105,13 +5105,13 @@
         "sha256": "15db2a693150e26a609c74a8a8c32ad04cc930aec4bdb1370f3b314791fdd25a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "27933676c914c3dcbe29163c7ccd89ab70792422f59e06faf565a51f28f8edfb",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-original-ShipD-27933676c914c3dc-v16.zip",
-          "size": 7546385,
-          "sha256": "d7ed61e280387e2a4a22c71a76acc461c10c9eae3aebc445bb1b7f87df3e5180"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-original-ShipD-27933676c914c3dc-v17.zip",
+          "size": 7546384,
+          "sha256": "512c42f76f881f817f490d71724fa83bd6000823995a91d20e9ecb3b06f1efba"
         }
       }
     },
@@ -5159,13 +5159,13 @@
         "sha256": "9933e95140b15bf08837eb9918202c3943205da9813f3de91c18454283f27e4e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "a76afaef8cc0d28bd83ac6ebdeba0f9fa16d0c671da5510a30d846000c905140",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-ABK27-a76afaef8cc0d28b-v16.zip",
-          "size": 1609632,
-          "sha256": "0ed4d93d83744a96f8a11a9d8a15c2ed759dc485bbf87a66192ca563d76142f6"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-ABK27-a76afaef8cc0d28b-v17.zip",
+          "size": 1609633,
+          "sha256": "3edaf3f91aad4dad4e693a7684f0f9955580dca625b6670b398047718d7ecf7b"
         }
       }
     },
@@ -5213,13 +5213,13 @@
         "sha256": "2160b68d4745d39ae82e70717d089e7c51e6628958b0a3747d7af840e7c7dd6f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "69457859d50a76d8132299658576d0dfe6ea36b169e134a46c91cb503e9dfcc6",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-AHQ06-69457859d50a76d8-v16.zip",
-          "size": 5327617,
-          "sha256": "231e1dd5685b37d1b860bc0165cbad54028c4ce78c290860a54a9060b8470dc3"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-AHQ06-69457859d50a76d8-v17.zip",
+          "size": 5327618,
+          "sha256": "1f218f537d3607eced9cf3cb8fc577296ea8a3dc184e24f597efd4d06a0f5155"
         }
       }
     },
@@ -5267,13 +5267,13 @@
         "sha256": "20361727827e00a1246c3fc51db59945db32f9a0f1856c992a674ffd75da67d1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0420dc3fea4436825863c40d21fb0d5f0394968c49ca140e074df73c7d1781e5",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-apar01-0420dc3fea443682-v16.zip",
-          "size": 4287729,
-          "sha256": "6b68c7b96e0768872a26aa2927146c69497b39f6d1632a28abae65688ec815d9"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-apar01-0420dc3fea443682-v17.zip",
+          "size": 4287730,
+          "sha256": "50fb59db5a7b3f755cb4bf88281aa6ef44e0a0d18d048f05c4638b90319b8def"
         }
       }
     },
@@ -5322,13 +5322,13 @@
         "sha256": "45280af2230515d68fd430548f3ad02ec29ba76d57326c96b7b029e16c5ff68c"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "18c40aaa9c91ab617035fac3fb108fe30bc1d58340193f5dcca86a5936755de8",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-ARG01-18c40aaa9c91ab61-v16.zip",
-          "size": 3118131,
-          "sha256": "e4dca9c1a1949be6437195bb573c4614cabdcb780d024681172481dca969d818"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-ARG01-18c40aaa9c91ab61-v17.zip",
+          "size": 3117857,
+          "sha256": "e632ea658e513edd55e55bbf6d451da15a246885065e1ae8f48df9d8a9cd827e"
         }
       }
     },
@@ -5376,13 +5376,13 @@
         "sha256": "5caa5b23458a2b5cc825adcc96eae01a5fa6505ae268d6a47fc03cc597fedef1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e1f57572a2ebc492c2835d63678bd6deaebab83903ea58a8f79aa5bc37b92388",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-ATH05-e1f57572a2ebc492-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-ATH05-e1f57572a2ebc492-v17.zip",
           "size": 1542671,
-          "sha256": "ecbd977a8cd3ff9f2b197b3329cabb687a0a837ecef390de3a6f47e66f7aedda"
+          "sha256": "07c042e3c6bed1492df6ed19d76bfbccc000ba78187038105a5da5a9e9f6d08b"
         }
       }
     },
@@ -5431,13 +5431,13 @@
         "sha256": "2dfad9fdc0de39505aa027f9c22e6cabd69b25faede5bc2d09f1cdf5a1667654"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "3c425c2a907e9bead8f26c3a1369866cb587813b36dd70853235ab8a8f26467b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-BNK11b-3c425c2a907e9bea-v16.zip",
-          "size": 4133451,
-          "sha256": "4c0f7c50dd94d9d99570b0476c2148548d2215198c6c8c86c0c15377b079c6ec"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-BNK11b-3c425c2a907e9bea-v17.zip",
+          "size": 4133452,
+          "sha256": "67e340717b22eabf503a43a439cf4c9870bc7d997d579e82f47a9898f35b6ed4"
         }
       }
     },
@@ -5485,13 +5485,13 @@
         "sha256": "4d2ee581c2eeb86d2904cfafc61e70d7f5d65c30122288e82f6a7531d80cb648"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "77b1acbd68535137e83d48a39c39e283df5aeaf30d4f6c04b272cda1a988e4df",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-BuddhistTemple-77b1acbd68535137-v16.zip",
-          "size": 3310566,
-          "sha256": "282758cff1cb9b9711b8655b1aa96e0d0698637a519cadc1957793334d0e2318"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-BuddhistTemple-77b1acbd68535137-v17.zip",
+          "size": 3310565,
+          "sha256": "e67dff990da9d174ad79f15759e2e6fa3587a4afd2eed762363ce976ebc59f34"
         }
       }
     },
@@ -5540,13 +5540,13 @@
         "sha256": "f37b3162da6b30a8526ade7c0ba3105ecf9feda57afc70119b747eed22b3c183"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b9a05c3d73523677697d50b06b020e5ee581cffbc82294924183a121a108ac4c",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-c1v1esl-b9a05c3d73523677-v16.zip",
-          "size": 5965417,
-          "sha256": "63c9b095e92591e4116cf2d762f84ff714f0372b169176002caef102cf472674"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-c1v1esl-b9a05c3d73523677-v17.zip",
+          "size": 5965341,
+          "sha256": "9f26f57a663034bb9d2505101a594005ff4d8e12de9698f2c759cb00f9607528"
         }
       }
     },
@@ -5595,13 +5595,13 @@
         "sha256": "5f783a61d5ef015ea4e339a5263e07910f139089e8425f16d2bb2542c61efa7f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4603ebd7a29d18286e0f0a98c7ce07cf35e5da5a3812a663fcfab06e6dd2138d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-CHU01-4603ebd7a29d1828-v16.zip",
-          "size": 15926823,
-          "sha256": "974601430638d26684b4477b40d018b1049717762f5d9749250c433714b36f9e"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-CHU01-4603ebd7a29d1828-v17.zip",
+          "size": 15926282,
+          "sha256": "147295006d9309d95d463908f6e20febf08f5174656ca025a3c261f74d4fdf10"
         }
       }
     },
@@ -5649,13 +5649,13 @@
         "sha256": "2929c828e4f1a94080dff24ff137f13a4bc0904b2fbc20ca0b7706921042173f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "56bb694282cbb3ac585e28e83135e7d7da463f03b6e59bd6785f48cd8948335b",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-CI-56bb694282cbb3ac-v16.zip",
-          "size": 10188860,
-          "sha256": "8716c6f1c19907d7137608ac797798e0aa9c0acd170f067bf52a1cf26f74a5a8"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-CI-56bb694282cbb3ac-v17.zip",
+          "size": 10188725,
+          "sha256": "ccb025d32a24de745a121fafb8613b7c100ac7e8a8e98ebd97aa133b8cbc0292"
         }
       }
     },
@@ -5704,13 +5704,13 @@
         "sha256": "9cfa774b39e1f43cbc9289a8a7aecef00677211737c47dcc2d4b005b26c256e9"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4c1e7de2c80acffe96a9f9db94282cd130232569449ad7ced581badda4952dfb",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-CRY01-4c1e7de2c80acffe-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-CRY01-4c1e7de2c80acffe-v17.zip",
           "size": 16797153,
-          "sha256": "69b22c2be18dafd51fe3dac07553ed063feedde4072bca41906d157a751b139e"
+          "sha256": "370b2ace54110e1ef34999094c32584ddbc1a66aa3ff2f6d86d1a4f3fac13b02"
         }
       }
     },
@@ -5759,13 +5759,13 @@
         "sha256": "8e7ae31057e0099637f3b0ad897e8fbb0fdf20ccb1834906ff482610d7098116"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "64a95bb8ef6a610e3b9d91d9d03ca25f2cd635bd8fafaab91d2241e018a54e8d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-CSI01-64a95bb8ef6a610e-v16.zip",
-          "size": 13148040,
-          "sha256": "2290266d01a5a15f42c03ea7c54427283b2cac87f3e0a8e6ca061d2b130e6f97"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-CSI01-64a95bb8ef6a610e-v17.zip",
+          "size": 13146467,
+          "sha256": "a62a88d2631b42ebf8cc2b99caaac9460f31782d34d14a57c9a246a4af12fd04"
         }
       }
     },
@@ -5813,13 +5813,13 @@
         "sha256": "719640d3b13934fa8d9b66fe382c970f5f497b7f3641eace5c0bc0e35d591236"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1e168d681a96cb910fa9b4df9e07c5e4b55b4c88fb610d48fdab88f4ddcd96b8",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-CSP11-1e168d681a96cb91-v16.zip",
-          "size": 4014722,
-          "sha256": "98211da01a197ca45730f9a2865e713ade20a7de25c454ab8e9c84c818803ad6"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-CSP11-1e168d681a96cb91-v17.zip",
+          "size": 4014559,
+          "sha256": "8da6a1e91df3cf6e889873f47ae32d542bdd782fdf5d74a0dfbf27f11fea322d"
         }
       }
     },
@@ -5868,13 +5868,13 @@
         "sha256": "b8ac02279249606a5dbdeb065ae1e1d1ccb89925d4eff6f6fdf46fd42b680f82"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "eb3b19f38b7f0bba224cb9cfa445f6b925f91b284454c22bfe4c2456747589ff",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-D1vs1esl-eb3b19f38b7f0bba-v16.zip",
-          "size": 5831246,
-          "sha256": "2c422f7e2ef70dfefca7c06869ed5ce02266bc2ae0c469cad88a941bc82d65f4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-D1vs1esl-eb3b19f38b7f0bba-v17.zip",
+          "size": 5831201,
+          "sha256": "35f0180d90e08034f4d9892265d3b9c30d4b7e37f629ad6660e874a588b5d27c"
         }
       }
     },
@@ -5923,13 +5923,13 @@
         "sha256": "51d1db2843236180fe4490a97cc91c854694aeaf487d703350b2c07a9db73734"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8b89dd82d2d2f70defef49d06151c465b64e78b7eb056f5343d3e40a22ef0e6a",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-DDMUS-8b89dd82d2d2f70d-v16.zip",
-          "size": 8018485,
-          "sha256": "f24a966072fd5ab1c14cd0baa2d91a11be485a11c56f9c5dfcd4cd775a737ef8"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-DDMUS-8b89dd82d2d2f70d-v17.zip",
+          "size": 8018486,
+          "sha256": "9e59ed72a3b75074cce2aca0d9769844811d4aa201acc91948dbd73e2f30980e"
         }
       }
     },
@@ -5977,13 +5977,13 @@
         "sha256": "3670eba8d6aa00c24d6646030c559a52f629ce3ebfcaa18f24806070b55554b5"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8b6503655fa311776a7a7958a77eea88fa51851ec10c7cd612a366815e2fbb75",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-DIM01-8b6503655fa31177-v16.zip",
-          "size": 1352483,
-          "sha256": "406a5d7d311f9ba1a2e69d7824ab10a4b10aa06794e677c049a871724ecd6215"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-DIM01-8b6503655fa31177-v17.zip",
+          "size": 1352484,
+          "sha256": "6d425e1014700b55ecee0ca2d9cc923a973e868292ed066b5e0575a70c292733"
         }
       }
     },
@@ -6031,13 +6031,13 @@
         "sha256": "c88a3829e8724d3ecc1d32bb0cc39c199fe3beadffd924a3566f194100896afe"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "802f836308e9e1f5d45af7d15c31d14e7a5cdafc1f656b462f7cb69ba95647e1",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-dm_contain-802f836308e9e1f5-v16.zip",
-          "size": 2565964,
-          "sha256": "1ce231004870d3e0b9a94c5d35038ef2a0e382b2d2d15b0772ac69c2271f62a3"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-dm_contain-802f836308e9e1f5-v17.zip",
+          "size": 2565483,
+          "sha256": "361da90d698758aa17528b29cb251169f332df2331c6b686ba05215b41e4b04d"
         }
       }
     },
@@ -6085,13 +6085,13 @@
         "sha256": "3209effce71d47871f79acc607ecddb29c76cc0bdef63bfaeef446841312e0cc"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "5bbeb84f459249da191216bca6dfb8eb51acbc3e85e4956d71160277c86c60aa",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-DOC14-5bbeb84f459249da-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-DOC14-5bbeb84f459249da-v17.zip",
           "size": 4543386,
-          "sha256": "bd86c92733d9a6f6bdd83c788aed564c50ece65c9c5d1605c4baeead40655015"
+          "sha256": "d9550186faaad1f3c74dabdde45a49f6855884f9af92103abab342458f5f38c2"
         }
       }
     },
@@ -6140,13 +6140,13 @@
         "sha256": "38fac255667fe1bd585e8ab040faba4fe643d79f5b8b99fa69fd241e8939c279"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4d259f7c0e1ce46571bc5b114dd86fa1fe063721afbe2cb1d21feb68f189b990",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-EDE64-4d259f7c0e1ce465-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-EDE64-4d259f7c0e1ce465-v17.zip",
           "size": 8466339,
-          "sha256": "d1ce85c02eca4e6e3ea93177b2807445e7a8280d7cfb6a02579be86399c76bc8"
+          "sha256": "2fc98d9bb162be600d2184286e746915dd9d11f6cdf230f4d644d57145b78321"
         }
       }
     },
@@ -6195,13 +6195,13 @@
         "sha256": "243aa44cd9f919cfb6c7ddd7de6d29468e8c067fd9322953308cf09101971606"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c2eaabd7d6ac2d19a55847e4cc77c1387fa0c9521c7bb13cfaeb402a433ef179",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-G1v1esl-c2eaabd7d6ac2d19-v16.zip",
-          "size": 10509059,
-          "sha256": "5eef9bc73115fc6003f4aad01bcf2f0210668e27b5992313a748cff605dc290d"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-G1v1esl-c2eaabd7d6ac2d19-v17.zip",
+          "size": 10507884,
+          "sha256": "8a35e4f3ba5618023dc0908aa24f99909012778a3fbc018e1c6b596129cd6c96"
         }
       }
     },
@@ -6250,13 +6250,13 @@
         "sha256": "4becf94d7562b8bbdecf9fb1756c14f76ff153efea961c740ef096d7ba6d7d7e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "85a73a5cc38eb770265bf2d9a8b55ce46cba3eac9e07c4158f47ee330f34932c",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-HELI02-85a73a5cc38eb770-v16.zip",
-          "size": 7575040,
-          "sha256": "0ca936651a5ef26f3d004c331ea3879d4781d84b6cf66d95a561afb66cc0ae64"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-HELI02-85a73a5cc38eb770-v17.zip",
+          "size": 7574886,
+          "sha256": "a4d3d71ea8ce1d8a036f9b05fb654f90dd46f479451c50e86f663f501139a9d0"
         }
       }
     },
@@ -6305,13 +6305,13 @@
         "sha256": "8a9837e7c3cd8d4ba5569456d69bc34edf2ed72ac3676aabbe54182b54a14b5d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "314c79ba46c05b05ba53c3a6711aecf85e9cbe6bb0ec68e52b979e3c6d61ae60",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-Horizon-314c79ba46c05b05-v16.zip",
-          "size": 5613910,
-          "sha256": "ef5afb55e4d87eed33fa99bfd8feaeb3d060406c75d6d0b404853399633b72c4"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-Horizon-314c79ba46c05b05-v17.zip",
+          "size": 5613909,
+          "sha256": "57ad7d73b2fa777295689608678b281ef76f0f4fa8c6240034631dff4f0ebc8c"
         }
       }
     },
@@ -6360,13 +6360,13 @@
         "sha256": "00b39d32251e6cfcc0a9a4f51c7b8190b568c101e16287373dbcd5a428132323"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "14c00975432454e57607bf05b7c930b118339f2082a19bcf877deb509efcb792",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-Hotel2-14c00975432454e5-v16.zip",
-          "size": 5153435,
-          "sha256": "81a405f77c533bf49050f97d2d5591b64ebb82122d23dd68c4ee52b70517a70c"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-Hotel2-14c00975432454e5-v17.zip",
+          "size": 5153436,
+          "sha256": "00532f40427a8cac0d7bc77021b3bd1a7183cec3e6a287b20d42e34bc0220a9b"
         }
       }
     },
@@ -6414,13 +6414,13 @@
         "sha256": "fa9e17f0d72cc7c0ee320281ef5534a4cdc770cb7032273a068062df3620638a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "2a59f275820b14876231f927767e1b5faaad93748071e81bf9d8d63ad77c201d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-Lagerhaus-2a59f275820b1487-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-Lagerhaus-2a59f275820b1487-v17.zip",
           "size": 2853768,
-          "sha256": "117032e0117cf02223ba48095514f0cff0ce261e0d16a2f845268cf8c835a6fc"
+          "sha256": "5f27f10d9f293674b311ebb1983981a7d2b54543389c549a7738cacbe50bc7c4"
         }
       }
     },
@@ -6469,13 +6469,13 @@
         "sha256": "0a453b57bf8af30ebafbaade6203347bc0164aa7f26e2e729e4bd9594795dd1e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e9aead3bcdb785f905df01f97204c57c60dae8ea62a3fad60f74a97d2d3c983e",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-m1v1esl2-e9aead3bcdb785f9-v16.zip",
-          "size": 5103037,
-          "sha256": "c1b4147d30c33dc50f9a9d7de774eafa24b2017533c8d670a3eface44842466a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-m1v1esl2-e9aead3bcdb785f9-v17.zip",
+          "size": 5103038,
+          "sha256": "b0955883e9d32bfc8b8bd791e1394dc63290ec797f34685399aada843195d44b"
         }
       }
     },
@@ -6524,13 +6524,13 @@
         "sha256": "9a6b116ebc0e391f89930f91b3d0f66309ad7ccb7a789a34e0e0d27d598751d5"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "7e7b2385630ab7d11bf27000309547fc5192b890d7bdf2019625ee2112922b78",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-Map17-7e7b2385630ab7d1-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-Map17-7e7b2385630ab7d1-v17.zip",
           "size": 2658968,
-          "sha256": "55a98cf5e22366d007e4a903498a610849b5b159b17034c8bd763510c069922a"
+          "sha256": "a1f31b097bf9f01acd564dbe6eb45c8daf67cdb11044b800f4add5a668d69b1a"
         }
       }
     },
@@ -6579,13 +6579,13 @@
         "sha256": "c6f3377e99ed520f8e0f7833756e8bcfffb4750c90ff4393421690bdebc4422a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "4d53c960f9baec450dc89a91d3ae3e05abbbe1670912ff5e0768de69150eb048",
         "activationMask": 2,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-MHO05_MOD-4d53c960f9baec45-v16.zip",
-          "size": 3831742,
-          "sha256": "650c47e6641aa4049aa9892e3718f9634b83186d77bf11849864d354c14fbaf8"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-MHO05_MOD-4d53c960f9baec45-v17.zip",
+          "size": 3828931,
+          "sha256": "1f64369c661e0cb1f0baf190208b62ee70d3d4d3aeabc439498ed8d5f5ba79b3"
         }
       }
     },
@@ -6634,13 +6634,13 @@
         "sha256": "f9b148871d680d1af83a1c9584f9ff73b77ce5bed591cde93d3fb39ea3a6d298"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8d70109e7671f5958e68ed2041338473e24bd7f9541bd393d32a7d6848a1d284",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-MUS08b-8d70109e7671f595-v16.zip",
-          "size": 5091788,
-          "sha256": "eacd6f8d59bbcdb769e1b035832653fe6213464ea81f2a187b084c826dc9a861"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-MUS08b-8d70109e7671f595-v17.zip",
+          "size": 5091789,
+          "sha256": "db364e2ad5df29fe61cf472322af60a7e6cba58935914a2f19891dc11423f5a2"
         }
       }
     },
@@ -6689,13 +6689,13 @@
         "sha256": "34ae4ca5136ffdafe1c53e44f6efbb05ad43b6de511d28c7744ef7ec13b1e2ed"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "db5754c805688164ef5d14c554c06f546dd557d43db65e184fb1299083aeed86",
         "activationMask": 5,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-museumvsclubhouse-db5754c805688164-v16.zip",
-          "size": 20645752,
-          "sha256": "85b0da16f2275ec3e59b34ff6233c480b6f972601d9669c2a89bd4039892ee76"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-museumvsclubhouse-db5754c805688164-v17.zip",
+          "size": 20645751,
+          "sha256": "e9b200e0749a64d2527927955a5f25ec85ec0d3056087d996081d9acf57a7ee0"
         }
       }
     },
@@ -6744,13 +6744,13 @@
         "sha256": "e712026babf0ec153f17420b98928442c3e033513fb9998de672c189c5b3944b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0bf7d5183622f4fe6fe3e43b5998f431ddcfb9b8c4bc63dbdc1e655e128562df",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-new-island-0bf7d5183622f4fe-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-new-island-0bf7d5183622f4fe-v17.zip",
           "size": 9430935,
-          "sha256": "c247e6392ba5b1b70fd3bc6b6bfaf8ba37535e737cae2ef722cc2dd1bd65fa59"
+          "sha256": "ea17546eb6fefb407c552135dd132fe4a56ff911ea5014d02639e0995dae38d2"
         }
       }
     },
@@ -6798,13 +6798,13 @@
         "sha256": "ff3e4165d7ab150c8796d3366cd3eb3c34751d7c005bdcf4541dc19f16a86c12"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d567494a813b9492657667b4c82ed1b398dfdb91fd7f078124eab8976f56a851",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-NNY02-d567494a813b9492-v16.zip",
-          "size": 1208711,
-          "sha256": "e378d1e68fe903fc31e90a1bfc05dd284a1ff7a3d1d407b6267faefeec26bade"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-NNY02-d567494a813b9492-v17.zip",
+          "size": 1208712,
+          "sha256": "1faedd9302ced68dacf841858bd866a01901831286f1003a0f02fd99b7d49ad4"
         }
       }
     },
@@ -6853,13 +6853,13 @@
         "sha256": "82ac2aea7a176067aab10c268f1351a7e4b4bc4c378974bd8653f2113ef14972"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "59a1ca9f110355be8070073ecd71cc2499c2a59c1a5853e18550f9aceb3e096d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-OIL33-59a1ca9f110355be-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-OIL33-59a1ca9f110355be-v17.zip",
           "size": 7995307,
-          "sha256": "479d7b827b4030a16a16f56d4ae90328e7ef005063e0566c39f0f134843a589b"
+          "sha256": "1377dd8431a7d16ed01de6fe3cd5d5b64154994d28302d531d9717119626025e"
         }
       }
     },
@@ -6907,13 +6907,13 @@
         "sha256": "efc781ba3c02fcf2bf17f85e4d12f90a1663ee57d7f6dee03f1ab1a4d68eb5ce"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "55f4200b4a6f0665e8acc7f8340dc89dfd80386c6da2630163f7e760edc6b7c2",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-OUT55-55f4200b4a6f0665-v16.zip",
-          "size": 20638627,
-          "sha256": "615ba7bfe13a48bf52f2cb55dc38b640414c567bfbaefdb52476314d35acc5c5"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-OUT55-55f4200b4a6f0665-v17.zip",
+          "size": 20626291,
+          "sha256": "26d979f86b69cf58f5f4b51b0a3daddac3ce0245497cbf8cd80c102c3b7e9126"
         }
       }
     },
@@ -6962,13 +6962,13 @@
         "sha256": "027a1ef1ceca3602e28927e77e9ef80b34af40d6f86cc3f53c94409b151793bf"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "10e29b8d251ba993b795c344befd965959d4492cc7b506c4b0cf1a1756add605",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-panama02-10e29b8d251ba993-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-panama02-10e29b8d251ba993-v17.zip",
           "size": 5964587,
-          "sha256": "1b44d90fb0a0af830f30e341fab17b994055eb96785df3ecb7d1fe8b150a68b5"
+          "sha256": "c04e4238bd85ec7f2ef43429681aad12fd83c0fa8a16401ddbacdee052e5cb69"
         }
       }
     },
@@ -7017,13 +7017,13 @@
         "sha256": "82549691921d2d900b70b2a848ee5e3ad7d5d739bee705a1c4fd22598a659020"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "e231304ebb82a6dd0227f934cb698d266c2340f71f619af4bfbcbc681794e8c5",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-RED1-e231304ebb82a6dd-v16.zip",
-          "size": 6227760,
-          "sha256": "34b999bc08847f7cc4011e0255f3ef96071e345d9b7cd125f91306fae8b17781"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-RED1-e231304ebb82a6dd-v17.zip",
+          "size": 6227225,
+          "sha256": "c42544c90f2d8ab0788364294d09cd9462f038b47cdddf569a84de6106a69969"
         }
       }
     },
@@ -7071,13 +7071,13 @@
         "sha256": "288faad187b9375b3b063d24760607562639c8bf87dc5322c5e427b69efde15e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "df9231fda4b8b6d76afa1d0d92065b8678d0b9644f1fde21b137228f1b1776bd",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-rocamadour-df9231fda4b8b6d7-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-rocamadour-df9231fda4b8b6d7-v17.zip",
           "size": 5034434,
-          "sha256": "8a6e2fedde6a1862b8b1235d20b06d4656c009b4690c024cdec308134a8f9ed8"
+          "sha256": "50072206f711d61b3be191cd63cea30adbf57fd433690f834ead3ecbbaa06872"
         }
       }
     },
@@ -7126,13 +7126,13 @@
         "sha256": "9aeef2f7f4f0e7531a761be5e89e072c1fea205156474a915b7607f508829cb9"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "f5d791d3a29110fd6964eb31bbf319ff3bf39aaf3345e5e498941f9c99adb8d4",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SCH04-f5d791d3a29110fd-v16.zip",
-          "size": 5349739,
-          "sha256": "27575522b4a7d336a677782950b929b3755ab57e14fd518d5efc4cc958b330ae"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SCH04-f5d791d3a29110fd-v17.zip",
+          "size": 5348420,
+          "sha256": "4bd3b2e5a0a5772eab217bb5984438dc539f6a7c5ea2c801b792513340a46b1e"
         }
       }
     },
@@ -7180,13 +7180,13 @@
         "sha256": "af8dff0cf63faec564e37d6431794144ce47495976e66908137883386186c809"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0786428515e11fca642ee59cd16bcbeb3a9b61553ca9c45dafaef6b01c96d022",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SCL03_ED-0786428515e11fca-v16.zip",
-          "size": 2604008,
-          "sha256": "28c8511140d8a3dcfe42108e408fc26c24248ab836c45d91a0eec466b8afb962"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SCL03_ED-0786428515e11fca-v17.zip",
+          "size": 2604009,
+          "sha256": "fa138c4906f716caa8003559675355dac7448f4f88a451798cf28b9c632b2a06"
         }
       }
     },
@@ -7234,13 +7234,13 @@
         "sha256": "e544257ddda430bbdf28103a0dd2adb8c5f17785724bb63166efa28793b7a88d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "db14b2223d9b0e42761e8174f77a094bdf19cc616f771e8d0a2724817a71a57c",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SDM06-db14b2223d9b0e42-v16.zip",
-          "size": 4926740,
-          "sha256": "3eacc6acfed73c5137f472fda5ba4ad422e84bd4e8dc35c224d43cd1ed9e3593"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SDM06-db14b2223d9b0e42-v17.zip",
+          "size": 4926520,
+          "sha256": "d3d3156f480c75a5cd3efec74e6e565fc3688e3cc421bb3995dc9db6fc6d2bc3"
         }
       }
     },
@@ -7289,13 +7289,13 @@
         "sha256": "0cb38670b04f6a2273538004ecefd1da5ec1642881cf10cf8260974b44532bd3"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "45b269c01ecb462e4ac6621616e18ccdb456a2663f11217493cf581c7bd6a842",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SKY08-45b269c01ecb462e-v16.zip",
-          "size": 11448709,
-          "sha256": "1db8484ec7fd0d7ca5aa86574ac3dcb10e8807bf5b3063202c97636ac47629ef"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SKY08-45b269c01ecb462e-v17.zip",
+          "size": 11448233,
+          "sha256": "178b3c78217572729152cfe52bec0bddf99bf33b098e5837984aa68818562920"
         }
       }
     },
@@ -7344,13 +7344,13 @@
         "sha256": "b7404a5b09a3cc2a0386be59ce0f9be422ab6ec665795ee17315945f8bfa4e42"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1f4008c8c6e3ddc533c2988dcfd1242698a7e7bd15cf0e933fb806206e8658e3",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SKYMZ1-1f4008c8c6e3ddc5-v16.zip",
-          "size": 8218878,
-          "sha256": "4554e1abe0f7a65b0f792b06ef0408c61a078986a9c41de9ab2fd48e0001705f"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SKYMZ1-1f4008c8c6e3ddc5-v17.zip",
+          "size": 8218870,
+          "sha256": "555e6b42dc6f76d116c73480258206e3eab8613a7171e4f6240a987ee13e8b78"
         }
       }
     },
@@ -7398,13 +7398,13 @@
         "sha256": "837dc5dede679175042809ae1fd756c7bb27ab0527611ad9ce2e0caf81ac498d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "0676fdd4b7b332c9ce75452ee8fef6e010b7876a100a67e8cc27508a4ecfe749",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-spyscraper-0676fdd4b7b332c9-v16.zip",
-          "size": 7239599,
-          "sha256": "081c86e6faa8ae840e75de05bc8d3cb88ac899c06c5c0c658b2d7a6cc936df39"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-spyscraper-0676fdd4b7b332c9-v17.zip",
+          "size": 7239573,
+          "sha256": "b29a7311dc2bfe1e271fbf593de4fed72897a3d6f5528270b31e0c5148a404ef"
         }
       }
     },
@@ -7453,13 +7453,13 @@
         "sha256": "7241ebee49751fa8afe14ae5853bb348a6d6e7ddac01ce03d6071647d616448b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "301d547b9a4b2d32fb6a1feeae5f1339aedb8acb28cb0dd8a2b94eb3c5d9d0bd",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-SQU13-301d547b9a4b2d32-v16.zip",
-          "size": 2583236,
-          "sha256": "106a8d4dc15ce67bfc9e901bee5f923f6b7ff731dbdfd59c72d5a5abc40260cd"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-SQU13-301d547b9a4b2d32-v17.zip",
+          "size": 2583234,
+          "sha256": "76a9e65743b27b543945cf478eea909e3e4893a3c473fce0c1af212172c875a2"
         }
       }
     },
@@ -7508,13 +7508,13 @@
         "sha256": "1244bb785c691721ac618d5efd21d3414b7b8972776faa5a9cd3b9ebe8946145"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "a8545bf26444264d0a199e422167d3231bd36acdbe2df6793bffc5f379bbfe49",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-State02-a8545bf26444264d-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-State02-a8545bf26444264d-v17.zip",
           "size": 7120821,
-          "sha256": "8a8b4a48861e8ac3353cd6f5b8fefb95c4a6737f59d25a8a3f959885f29b7269"
+          "sha256": "ce42b1601210004589aef55352a96d9e67c64ac9bae26881ae45dfc083b8b04d"
         }
       }
     },
@@ -7563,13 +7563,13 @@
         "sha256": "503cfe5cfb268ec10f744a33319f095d0f308eadd0268193c0712c0a808259b0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "8a86804638d57f5a3792da8f529b47343fa95a3d876638b4d83c0434c8b9d2b0",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-stationorb-8a86804638d57f5a-v16.zip",
-          "size": 7235985,
-          "sha256": "38a85d13a63dbc045f2c0e3bf7c67cf0fd42cf8eb65f78e8d32f2c177d63d9ea"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-stationorb-8a86804638d57f5a-v17.zip",
+          "size": 7235913,
+          "sha256": "142e52d765d7dc01dce811fada4cc105e3234515bf4276fd274c749ccce87e0b"
         }
       }
     },
@@ -7618,13 +7618,13 @@
         "sha256": "7427d6a8dbf719a933b03ba3aa190d603465bcfbe73d5fa6ac1b72dfaa459e82"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "fd13fd7c326d88a049092c3a3d9a944eee8a2f7ede60aa8bfc6d880bd590f0ac",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-STH02-fd13fd7c326d88a0-v16.zip",
-          "size": 3054929,
-          "sha256": "1db4b7a31083432d44f88e0b93e73162e98004720ab93418c841c6bb6335a5e0"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-STH02-fd13fd7c326d88a0-v17.zip",
+          "size": 3054440,
+          "sha256": "592954e8520c231ff8de71203b83635fa319d54f8ff25bf6c19cf0d725ca6c8c"
         }
       }
     },
@@ -7673,13 +7673,13 @@
         "sha256": "9d738b543ebe93b4603aa15addc2b3979aa13a6d0c2d80b8faed6685ee6da0d6"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "733036c3a5b28dd1b2404be6d052bdae318dc86eb1a9ba46aba32d3ff9b4cb1d",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-sub18-733036c3a5b28dd1-v16.zip",
-          "size": 6154275,
-          "sha256": "ff099fa1013128ab9f7ec5afffed19d5c6fe3273606c27c395b287f2902e6531"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-sub18-733036c3a5b28dd1-v17.zip",
+          "size": 6153897,
+          "sha256": "ca649b6724571b7a60e888569712bb35e28711811c5f0aa9d85aaa9b987361ff"
         }
       }
     },
@@ -7728,13 +7728,13 @@
         "sha256": "2e54aee6a6c6a9940c02ffece37a0477d525761e288fd4aa98417960d6c0af2f"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "1996e1e5971117e852849a8e3390f4af8162b34bf130b8adabe3d86ec84cd9b9",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-TAF06-1996e1e5971117e8-v16.zip",
-          "size": 4483553,
-          "sha256": "021fbb4e54273623c485130e418e421a1c67e2e9acfa518a6a5300ba62f3336b"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-TAF06-1996e1e5971117e8-v17.zip",
+          "size": 4483461,
+          "sha256": "fe306627b9074ccd0af0a1da28b0f0f2ddbbb7ea20d33282cfb16711c4930930"
         }
       }
     },
@@ -7782,13 +7782,13 @@
         "sha256": "08613714485dbe18840d793acb7b63a598a57e8fea3572e2a1db42d69b460fdf"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d9851ae93864fd980f6000565a86ab9d0d8d7b9300cba761baa2febda5fffaaf",
         "activationMask": 4,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-tower1-d9851ae93864fd98-v16.zip",
-          "size": 9291540,
-          "sha256": "695968ed6fd7ee82e7e792b43eac31890799eee8d46bc346027ab97913d000a5"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-tower1-d9851ae93864fd98-v17.zip",
+          "size": 9291538,
+          "sha256": "d00fd573b4049af017a96f63c84ce31c3acf27c5a15e2d2a08a5ce6f2dfe2e2a"
         }
       }
     },
@@ -7837,13 +7837,13 @@
         "sha256": "a821a4e3d336320e9d48d5e38382ff159decc37bb50f3d49764f97b8995d0d8a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "f48cd932f04fe975d6079485b1a569f53674535a22ccb9b95b0cb4b1dc51c09f",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-UMPCINC-f48cd932f04fe975-v16.zip",
-          "size": 4945873,
-          "sha256": "860794d0f5edb40191d8370e9b4e7fab0b693a40242787f07e7745ec76e9311b"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-UMPCINC-f48cd932f04fe975-v17.zip",
+          "size": 4945653,
+          "sha256": "eb0aacbe1fae95e89dfc0adb00e31fbc85a92966108a1145fd691962c9198e58"
         }
       }
     },
@@ -7892,13 +7892,13 @@
         "sha256": "bb06ba1a64b32b83cdb6cee6259551fd1e919b045e2aafbc32a30207ba1b9097"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "c4c084a08bb7db68f17c237652d37ab542e753d8ac54d476b0af241270c68105",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-UMPKRA07-c4c084a08bb7db68-v16.zip",
-          "size": 9948986,
-          "sha256": "a3f8fa57b4f4aefda8e757bd593705e772582db4424d1fa29fbd87812316bc40"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-UMPKRA07-c4c084a08bb7db68-v17.zip",
+          "size": 9948368,
+          "sha256": "cedb91f05bfc00493ad9460af4fed88a14317fa3917318da9f20d8679c006c3c"
         }
       }
     },
@@ -7947,13 +7947,13 @@
         "sha256": "0ceb06c75b3a19197e1a5506419f87216162ea6baa25164a90c1f163de574ac4"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "93a4ec2347ff7f92ec704435184eecb6ac35bfd91f3ac7867264fd8ceb2c9f40",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-UMPMHCLASSIC-93a4ec2347ff7f92-v16.zip",
-          "size": 3268414,
-          "sha256": "bc74bcc20aec40b829338716a235b163fcbf761c33d32e80d26646c66cb5c784"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-UMPMHCLASSIC-93a4ec2347ff7f92-v17.zip",
+          "size": 3265422,
+          "sha256": "2135ced1cc1fe0b8ce9cee70c05f16f141014314222b36a464ee0404ea9204e4"
         }
       }
     },
@@ -8001,13 +8001,13 @@
         "sha256": "c051dcc435758b0a49b26ed2cfe2574a76101243a094154c71b5827871b8429d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "f256c5f332a9c6470cca150489f51eb43f22cf6435a9223aa4889a59d860356a",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-USDOJO-f256c5f332a9c647-v16.zip",
-          "size": 3615075,
-          "sha256": "1af84ac666d350f8207267fec088467991abc11e841198d049fe2763ea2b6327"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-USDOJO-f256c5f332a9c647-v17.zip",
+          "size": 3615076,
+          "sha256": "7ba58272f76ba011be189ffab899d9a6cc8b1662dc10dcb457c4e175e10de082"
         }
       }
     },
@@ -8056,13 +8056,13 @@
         "sha256": "097aa71d576c2a7535a90212defae371b94516149164c7a7b959a58ebea4376b"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "20e766d53fc9417a59505bb0c0bc6a9aaa7ed8ec8c30db898e0d1f3b9d4eb4d4",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-WAREXT-20e766d53fc9417a-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-WAREXT-20e766d53fc9417a-v17.zip",
           "size": 5540196,
-          "sha256": "5a977219ac4cec8264fe519652757b082bc8aeaf0d6da969012833c9db31a277"
+          "sha256": "88fb64c095f4355a2a8fca5e7720f6e8c45ce9cfee330669281bddb6730985e6"
         }
       }
     },
@@ -8111,13 +8111,13 @@
         "sha256": "8b7cfc2100a53918c24508454cca6ef66c667867fe84bfd0df46b4a399c71442"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "5beb48ae78fa844d09725fea5983c33ec3fb513a9c1aa6a36d176c311b737377",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-ZCT03-5beb48ae78fa844d-v16.zip",
-          "size": 4636624,
-          "sha256": "871d1a27853e6145dac5c42b74db9a4c327d809119ce88c3236810dc17193d79"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-ZCT03-5beb48ae78fa844d-v17.zip",
+          "size": 4636623,
+          "sha256": "903d36ede966cff28b81339d428302cc5fc1fd280e86dd3fc39f236c387c381c"
         }
       }
     },
@@ -8166,13 +8166,13 @@
         "sha256": "b3cc672f905daf5183207be3453fd6287f43a773d12a078e718aac5e31d88ccc"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "720ae6abc5a9454f61319eef0069ae3b523a54f39ce685e0749214cf0ce8d96d",
         "activationMask": 1,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-community-ZPB17-720ae6abc5a9454f-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-community-ZPB17-720ae6abc5a9454f-v17.zip",
           "size": 2680326,
-          "sha256": "32e70562daa38293c656b1a65f4d8b4203b62a0d9ca25891651f3b1fde32152c"
+          "sha256": "4429e8d05025cc996afbc1014cfafd0d4f2211b680860779f71c0a071d583674"
         }
       }
     },
@@ -8221,13 +8221,13 @@
         "sha256": "99f5a0a7e885a863ee210b71c332683c410e70c7cb83a27867e4e81ce926856a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "d43fed2d5da3196545ac25fab08c6757445ecceb5557e6da667147dcb7c665c7",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-enhanced-OffsE-d43fed2d5da31965-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-enhanced-OffsE-d43fed2d5da31965-v17.zip",
           "size": 8002272,
-          "sha256": "c214b29375742ca96b4209720d112682c5da77e0c40ed1e24bd6a204dd5dcceb"
+          "sha256": "6e5f797bc941fa7fd935a31c6f29511176fcb129a836b398690e5b3830a83e25"
         }
       }
     },
@@ -8276,13 +8276,13 @@
         "sha256": "28d08dde9e3cce112de961a776210822c11bbebd436231ff1c2659999e20e42d"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "7d4a7e905b69cd760072c3b50fd5fe7b66586915b855bb5cb454a43d32f8a1f5",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-recovered-ClarD-7d4a7e905b69cd76-v16.zip",
-          "size": 13097344,
-          "sha256": "6062cf6ba3b366d07b8fcf89af260625c33de5ba46d77bba2f732e2c3c6da11a"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-recovered-ClarD-7d4a7e905b69cd76-v17.zip",
+          "size": 13095738,
+          "sha256": "f9b0b0b0fd6552c2b5d1e396a0062e00f118c5e7833dd56b3343ec8327970632"
         }
       }
     },
@@ -8331,13 +8331,13 @@
         "sha256": "04bd0186ff1c63a91947b5cf96aa404aedb26d8fb4f5a1bb8dd56bf6953d2ae1"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "807476ce92b8e67487bb6b8998ce7759f99baab1bd938162632857fecf00f684",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-recovered-EDE64-807476ce92b8e674-v16.zip",
-          "size": 8462046,
-          "sha256": "a0f6149b3b03671b5bb5528102804be7add1fdfd6f14ce1605a8f0aca59f3fdf"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-recovered-EDE64-807476ce92b8e674-v17.zip",
+          "size": 8462047,
+          "sha256": "32f49fb526aaea6bbabdebc9dbf56fe7900fae911c8f47e2bf18b99dc0557371"
         }
       }
     },
@@ -8386,13 +8386,13 @@
         "sha256": "0c0b7e74af525dc13fd296b01a9a744088f17c72eefe3b4b4d99562c98e4e56a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "5ee766ae3b0c0be28abd1618635cf46225e4d3d6da4ceea980ff561daf26077e",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-recovered-HELI02-5ee766ae3b0c0be2-v16.zip",
-          "size": 7575856,
-          "sha256": "a1368147827bf6ed2800b1199e44c23a62bb0df80662f0797700754d5656e647"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-recovered-HELI02-5ee766ae3b0c0be2-v17.zip",
+          "size": 7575614,
+          "sha256": "10d177daa51f1e81994e276f9d15117a5bb74014c3b4de8cf4c9ac46cd4f5083"
         }
       }
     },
@@ -8441,13 +8441,13 @@
         "sha256": "fb179f6118177234d0b7afd142511346b3f1c1b804a23c8e6901618d6d25a02e"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "b7bfaf013c171d926226dc9ee8aa14c9fece684766b08193ba34cb16da6dff71",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-recovered-OffsD-b7bfaf013c171d92-v16.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-recovered-OffsD-b7bfaf013c171d92-v17.zip",
           "size": 7992535,
-          "sha256": "e6fd0e39f2254fe165d7a734420171de48138d612fdacd2182b517ce89cc7234"
+          "sha256": "c6841d63fe7016edf25e389f7bcf9724782cdd4c3ebc3ef1a2e2f101565328f4"
         }
       }
     },
@@ -8496,13 +8496,13 @@
         "sha256": "35004d063b6378bf7957707b193c8c1cbd6d5bb94d559b1e1f6734eaea0b78e0"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "59137925a80ccdbb8002f3cd508170804ee96973db6f6a5965f88651aa5d5e49",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-recovered-sub18-59137925a80ccdbb-v16.zip",
-          "size": 6150168,
-          "sha256": "83d3de9a57a170a7c7a079bc3c4de9815d3c9d7717109bf282d615efbd9a2fe9"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-recovered-sub18-59137925a80ccdbb-v17.zip",
+          "size": 6149744,
+          "sha256": "ecc4392cdef416272cbbaade4bb10e3d51c39dbc056aeb6f887a9944e3c73925"
         }
       }
     },
@@ -8550,13 +8550,13 @@
         "sha256": "c70c36667e50d25bdbaa46ec1217d5cbc2ee63026bb3ddb5c5867b5924ec5f2a"
       },
       "botNavigation": {
-        "formatVersion": 16,
+        "formatVersion": 17,
         "simHash": "084b852b5910b86b88e3c56862e3426ca8b9846eff1c6f4e50eeb1c2d1bfbf73",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11/bot-nav-ports-CalyD-084b852b5910b86b-v16.zip",
-          "size": 6008419,
-          "sha256": "81fda88454fcea019a391594026a1f0e6368743f13cfb55ff89e4b336030ae09"
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.11-2/bot-nav-ports-CalyD-084b852b5910b86b-v17.zip",
+          "size": 6008421,
+          "sha256": "5d90421c3d786873596f5af99750d27278a234a9f413ca3a43312e7381be5ff0"
         }
       }
     },
