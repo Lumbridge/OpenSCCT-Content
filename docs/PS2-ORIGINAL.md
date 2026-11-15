@@ -7,23 +7,31 @@ packs, including both tutorials. Package codes and display names end in `P`
 The native Enhanced/Reloaded packages, original disc input hashes, objective
 asset provenance and independent audit reports are documented in
 [SCCT-Maps](https://github.com/Lumbridge/SCCT-Maps/tree/main/ports/chaos-theory-ps2).
-The source metadata and converter release are independent of the pending native publication.
+The source metadata and converter release are independent of the native release.
 
 ## Runtime and validation gate
 
-The minimum supported OpenSCCT game version is **0.8.156**. Its source commit
-`6ea666373e28220413474cc98b4208901fd47c8b` includes the decoded original pickup
-input and reposition behavior. Real standing/crouched pickup and a computer
-interaction with the original90-unit use endpoint pass. Runtime publication is
-verified before the map catalog is made available. The content index retains its
-existing format; native Enhanced/Reloaded validation does not block this release.
+Use **OpenSCCT 0.8.157 or newer**. Version 0.8.157 fixes the normal map picker's
+mode filter so the fourteen P maps can be selected from the menu.
+
+The immutable v1 maps and converter were built and gameplay-tested against
+0.8.156, source commit `6ea666373e28220413474cc98b4208901fd47c8b`. That historical
+provenance is unchanged. Real standing/crouched pickup and a computer interaction
+with the original90-unit use endpoint pass. The content index retains its
+existing format; native Enhanced/Reloaded validation is tracked separately.
 
 Source/serialization/pixel/geometry/animation audits pass. The real OpenSCCT
 client/server objective smoke passes on DTK02P, including the separate vial,
 console animations and panner, replicated alarm, modem, destruction particles and
-carried-vial binding. All fourteen maps pass live load/render captures. Native
-menu/match validation remains pending. These checks do not claim fourteen
-completed matches.
+carried-vial binding. All fourteen maps pass live load/render captures. The
+native v1 release separately passed its recorded menu/match checks. These checks
+do not claim fourteen completed matches.
+
+The original hack/open-before-pickup sequence and exact carried-vial attachment
+are undergoing an additional source and runtime review. The v1 binding smoke
+does not establish the complete sequence or clipping parity. Corrections and
+English authored map labels will be delivered in a new version; the published
+v1 map archives and converter remain immutable.
 
 ## Prepared inputs
 
@@ -58,7 +66,7 @@ entries without modifying a shared pack.
 ## Local staging procedure
 
 1. Complete the final native and OpenSCCT actual-input validation receipts and
-   publish the supported 0.8.156 runtime first.
+   publish the supported runtime first (0.8.157 or newer for the normal picker).
 2. Review and commit the SCCT-Maps source metadata. Record that exact commit;
    a pre-conversion commit or all-zero placeholder is not a valid origin.
 3. Rerun the wrapper's default preflight against the final files. It writes only
