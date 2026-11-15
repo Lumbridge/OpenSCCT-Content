@@ -11,8 +11,9 @@ The source metadata and converter release are independent of the native release.
 
 ## Runtime and validation gate
 
-Use **OpenSCCT 0.8.157 or newer**. Version 0.8.157 fixes the normal map picker's
-mode filter so the fourteen P maps can be selected from the menu.
+Use **OpenSCCT 0.8.158 or newer** for the current collection. Version 0.8.157
+fixed normal map-picker access; 0.8.158 adds the source-verified vial reset and
+right thigh attachment corrections used by the 1.0.1 update.
 
 The immutable v1 maps and converter were built and gameplay-tested against
 0.8.156, source commit `6ea666373e28220413474cc98b4208901fd47c8b`. That historical
@@ -27,11 +28,28 @@ carried-vial binding. All fourteen maps pass live load/render captures. The
 native v1 release separately passed its recorded menu/match checks. These checks
 do not claim fourteen completed matches.
 
-The mode-specific console/case visuals and exact carried-vial attachment are
-undergoing an additional source and runtime review. The v1 binding smoke does
-not establish every mode-specific presentation or clipping parity. Corrections and
-English authored map labels will be delivered in a new version; the published
-v1 map archives and converter remain immutable.
+## Version 1.0.1
+
+Eleven changed packs receive version 1.0.1. Cinema and both tutorials keep their
+byte-identical 1.0.0 packs and catalog entries. All fourteen IDs and P-suffixed
+names remain stable, and no shared pack is repacked.
+
+The update preserves the original vial mesh through initialization and reset,
+and uses the source right thigh attachment for carrying. Source-backed Station
+Neutralization completes through normal Use without carrying a vial; Extraction
+retains pickup, carrying and delivery. These are separate original modes.
+
+Six converted source SDCs replace 62 reviewed player-facing fields with original
+English disc text or recorded literal translations where the localization cook
+differs. Actor IDs, tags, events and script keys are unchanged. The other eight
+source SDCs and all preview images remain unchanged.
+
+The revised runtime passes its recorded input, reset, visual and network checks.
+The independent content audit preserves geometry, lighting, render, audio,
+collision, traversal and UI data. These checks do not claim fourteen completed
+matches. The source revision and converter are recorded separately from the
+immutable 1.0.0 source/archive history. Native Enhanced/Reloaded console work is
+a separate Neutralization-only revision and does not change OpenSCCT's modes.
 
 ## Prepared inputs
 
@@ -66,7 +84,7 @@ entries without modifying a shared pack.
 ## Local staging procedure
 
 1. Complete the final native and OpenSCCT actual-input validation receipts and
-   publish the supported runtime first (0.8.157 or newer for the normal picker).
+   publish the exact supported runtime first (0.8.158 for version 1.0.1).
 2. Review and commit the SCCT-Maps source metadata. Record that exact commit;
    a pre-conversion commit or all-zero placeholder is not a valid origin.
 3. Rerun the wrapper's default preflight against the final files. It writes only
