@@ -27,9 +27,9 @@ carried-vial binding. All fourteen maps pass live load/render captures. The
 native v1 release separately passed its recorded menu/match checks. These checks
 do not claim fourteen completed matches.
 
-The original hack/open-before-pickup sequence and exact carried-vial attachment
-are undergoing an additional source and runtime review. The v1 binding smoke
-does not establish the complete sequence or clipping parity. Corrections and
+The mode-specific console/case visuals and exact carried-vial attachment are
+undergoing an additional source and runtime review. The v1 binding smoke does
+not establish every mode-specific presentation or clipping parity. Corrections and
 English authored map labels will be delivered in a new version; the published
 v1 map archives and converter remain immutable.
 
