@@ -29,8 +29,8 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | `community` | 56 | 763.3 MB | The community map pack |
 | `enhanced` | 1 | 23.0 MB | Edited versions of existing maps |
 | `recovered` | 5 | 128.0 MB | Existing maps rebuilt as editable maps |
-| `ports` | 9 | 183.9 MB | Maps ported from other games |
-| **All** | **165** | **2.8 GB** | |
+| `ports` | 23 | 355.3 MB | Maps ported from other games |
+| **All** | **179** | **3.0 GB** | |
 
 | Shared pack | Version | Size | Contents |
 | --- | --- | ---: | --- |
@@ -199,6 +199,15 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Offshore Oilrig](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/recovered-OffsD-1.0.3.zip) | `OffsD` | recovered | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 23.4 MB |
 | [Sublabs](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/recovered-sub18-1.0.3.zip) | `sub18` | recovered | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 15.5 MB |
 | [Calypso Casino](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-CalyD-1.0.1.zip) | `CalyD` | ports | 1.0.1 | Story, Deathmatch, MercDeathmatch | 666.5 KB |
+| [Deftech Belew P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-DTK02P-1.0.0.zip) | `DTK02P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 7.3 MB |
+| [Factory P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-FAC13P-1.0.0.zip) | `FAC13P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 4.9 MB |
+| [Station P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-GAR09P-1.0.0.zip) | `GAR09P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 5.8 MB |
+| [Cinema P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-INI01P-1.0.0.zip) | `INI01P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Neutralization | 5.0 MB |
+| [Krauser Lab P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-KRA07P-1.0.0.zip) | `KRA07P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 5.4 MB |
+| [Mount Hospital P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MHO05P-1.0.0.zip) | `MHO05P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 6.1 MB |
+| [Missile Strike P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MIS10P-1.0.0.zip) | `MIS10P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 50.0 MB |
+| [Museum P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MUS04P-1.0.0.zip) | `MUS04P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Sabotage, Neutralization | 4.7 MB |
+| [Orphanage P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-ORP14P-1.0.0.zip) | `ORP14P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 48.2 MB |
 | [Blackwing](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_BLKG1-1.0.2.zip) | `SCDA_BLKG1` | ports | 1.0.2 | - | 19.2 MB |
 | [Boss House](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_BOSG2-1.0.2.zip) | `SCDA_BOSG2` | ports | 1.0.2 | - | 17.3 MB |
 | [Dawn Waves](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_DWG-1.0.2.zip) | `SCDA_DWG` | ports | 1.0.2 | - | 22.5 MB |
@@ -207,10 +216,15 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Slaughterhouse](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_SLHG7-1.0.2.zip) | `SCDA_SLHG7` | ports | 1.0.2 | - | 27.2 MB |
 | [Terminus](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_TERG5-1.0.2.zip) | `SCDA_TERG5` | ports | 1.0.2 | - | 22.1 MB |
 | [USS Wisdom](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_USSG8-1.0.2.zip) | `SCDA_USSG8` | ports | 1.0.2 | - | 23.4 MB |
+| [Schermerhorn P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SCH03P-1.0.0.zip) | `SCH03P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 7.4 MB |
+| [Vertigo Plaza P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SKY08P-1.0.0.zip) | `SKY08P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Neutralization | 9.3 MB |
+| [Mercenary Training P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TME12P-1.0.0.zip) | `TME12P` | ports | 1.0.0 | MercDeathmatch | 4.4 MB |
+| [Spy Training P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TSP11P-1.0.0.zip) | `TSP11P` | ports | 1.0.0 | MercDeathmatch | 5.8 MB |
+| [Warehouse P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-WAR06P-1.0.0.zip) | `WAR06P` | ports | 1.0.0 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 7.1 MB |
 
 </details>
 
-Index updated 2026-11-15T15:00:57Z.
+Index updated 2026-11-15T21:12:41Z.
 <!-- tables:end -->
 
 ## How the game uses it

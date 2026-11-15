@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-15T15:00:57Z",
+  "updated": "2026-11-15T21:12:41Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -8561,6 +8561,417 @@
       }
     },
     {
+      "id": "ports/DTK02P",
+      "code": "DTK02P",
+      "title": "Deftech Belew P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "929e1c98adc2a82c",
+      "manifestSha256": "40b4e5f2a8cb40668f5a5950e2b61583695ba9b64106f377e474d0c865163aeb",
+      "treeSha256": "1a4531037b3f31706a958e2ee5a2e253b1292bb641dc2fa9327725a27eaa2eb1",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/DTK02P.sdc",
+        "sha256": "f6548cd644633d51b2cdb65ff9e92fbada999e52feb80fde653d2df7a7e05fb4",
+        "mapId": "ports/chaos-theory-ps2/deftech-belew"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-DTK02P-1.0.0.zip",
+        "size": 7275008,
+        "sha256": "5c20936bfa22753652f8af48300a41a22e8c06ca3863e151fc39f8b30c6b5583"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-DTK02P-1.0.0-sim.zip",
+        "size": 452449,
+        "sha256": "cdd7a6c04116ecd8b404af47377b57709a24ea15e3e77e7244e2a370b3a9a359"
+      }
+    },
+    {
+      "id": "ports/FAC13P",
+      "code": "FAC13P",
+      "title": "Factory P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "f6479cc41b91f79c",
+      "manifestSha256": "966a92a070bd475e47290ee740077440cefda27d5edd27330b0073c9798d75c1",
+      "treeSha256": "635f2988bdc9662c6e277e9674dae4240756487b31cd164e43701a599cc134ef",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/FAC13P.sdc",
+        "sha256": "8fbf1addf43606398254ea273eedadd56ff6b694f93cfb076948d8f9d698b30c",
+        "mapId": "ports/chaos-theory-ps2/factory"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-FAC13P-1.0.0.zip",
+        "size": 4910179,
+        "sha256": "ffafea56403d6d9fba7b35a651333d73bd1e508465c150c20972eb15b8b05833"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-FAC13P-1.0.0-sim.zip",
+        "size": 433772,
+        "sha256": "8b4cf52b090df988291fc709c2f61aa7e8dbb0c4c484ef443270a9fc77cab5a0"
+      }
+    },
+    {
+      "id": "ports/GAR09P",
+      "code": "GAR09P",
+      "title": "Station P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "090c273f2741ef5a",
+      "manifestSha256": "7e3d5e3dda5be96a614bf8f242a07f434a110ca690b66659bfe404b05a0b851f",
+      "treeSha256": "a11ebc944ba42ce3999ac3eff7b8dd1a17228417fc94ff13b0ec08ed72e7cdd4",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/GAR09P.sdc",
+        "sha256": "221057da684073b4ce70a3f8b0bb831580eb4a3fa60682eedbccfdaf19aa6802",
+        "mapId": "ports/chaos-theory-ps2/station"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-GAR09P-1.0.0.zip",
+        "size": 5760689,
+        "sha256": "c797e3770340cd9b3a7ce931384f002973e96843a354fd26a17c41f1ecc2297d"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-GAR09P-1.0.0-sim.zip",
+        "size": 230601,
+        "sha256": "233d81dd5eb28b86616eb396ccb050b947417f9f5461f38169b7faa19201c50f"
+      }
+    },
+    {
+      "id": "ports/INI01P",
+      "code": "INI01P",
+      "title": "Cinema P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Neutralization"
+      ],
+      "contentHash": "ecbd62cd0361093d",
+      "manifestSha256": "8c2ac42dfbbeac59e1055d94ffadb7fb6014a6febca02c7b803d483c704658fb",
+      "treeSha256": "31e24e39816f999dd1ef1656cb74143f6d845fd7f01d7cbc1c3cdaeada13a699",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/INI01P.sdc",
+        "sha256": "665e2de289407729a10432505c23710aaae053711f93af85f28de067f5c50390",
+        "mapId": "ports/chaos-theory-ps2/cinema"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-INI01P-1.0.0.zip",
+        "size": 5019763,
+        "sha256": "a790601e3063883d152ebfb6c223ce3951eb11a9642d52e408656741e6422913"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-INI01P-1.0.0-sim.zip",
+        "size": 323493,
+        "sha256": "5ff73e018830f98f42197c71737de2798e00d599fb319f70a0a7b3582018c536"
+      }
+    },
+    {
+      "id": "ports/KRA07P",
+      "code": "KRA07P",
+      "title": "Krauser Lab P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "375d7ef77252bac4",
+      "manifestSha256": "bc412e15514ca151ebb0afe131dee70a4e3db24ee6277ddbd70250beb224a4ed",
+      "treeSha256": "0bd9311c35612f5ca1c55c94d8592ed3cf46deeb9c54372550b11109240257e0",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/KRA07P.sdc",
+        "sha256": "902731bacf9b929fbd6e2d315c507d3c56f1b355424293e1ebf79070cd9718cd",
+        "mapId": "ports/chaos-theory-ps2/krauser-lab"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-KRA07P-1.0.0.zip",
+        "size": 5421033,
+        "sha256": "4c8cc20e4a47280eb87bde63b2aa8b367b51552f76b5143a09a955c673d5ff23"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-KRA07P-1.0.0-sim.zip",
+        "size": 345254,
+        "sha256": "38c01859c74991ca7138af1edc47756fe88a0483df3f43e96a6a1d979c4c1d47"
+      }
+    },
+    {
+      "id": "ports/MHO05P",
+      "code": "MHO05P",
+      "title": "Mount Hospital P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "eb8b93df787d13a2",
+      "manifestSha256": "002679f4a6eab9570d6c564443b4a3f5cb737991fd433951e773681aa95d0a8a",
+      "treeSha256": "488e283c40a73e6ffbf1429bcae8ab6f4c21ed68f4892fa55ed8835fcefd2435",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/MHO05P.sdc",
+        "sha256": "f25816ff9563b281857022491e933d1f74c8e4c4e86a2b30c1298e494e8d46d1",
+        "mapId": "ports/chaos-theory-ps2/mount-hospital"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MHO05P-1.0.0.zip",
+        "size": 6085470,
+        "sha256": "638db85bbeb65a63d73d7ac690fa1bec107d5c8fc6d33a0bc4b347cb4b73fba0"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MHO05P-1.0.0-sim.zip",
+        "size": 343898,
+        "sha256": "482c0745e3b6e4c48bbc626f2d75d4a5ec28f0951c341a6a127b7615d3fc6e59"
+      }
+    },
+    {
+      "id": "ports/MIS10P",
+      "code": "MIS10P",
+      "title": "Missile Strike P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "090b29f08fae94e1",
+      "manifestSha256": "cdfc0bedcefa86db4b4a390203ac61a80c3c3a75561d5c7ccfcb953ee57d684e",
+      "treeSha256": "081234d6f7d9e1f8b6b34badd84ce2c220ae366b3d2dc9f57f2ae9300ca6018e",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/MIS10P.sdc",
+        "sha256": "a0b4d61d08b9453ca8e84ca3677f0436e577d24fe1b19fa6f5126b517dc64bea",
+        "mapId": "ports/chaos-theory-ps2/missile-strike"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MIS10P-1.0.0.zip",
+        "size": 50008194,
+        "sha256": "5ceb5adf7375316a6f8adbfab79b45b55508eb5eae668f4a678ef753b1b478ba"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MIS10P-1.0.0-sim.zip",
+        "size": 275452,
+        "sha256": "4b14b562cf2aea2a355249413a98ed178e0cc0e6ac7130f36564df16569f5363"
+      }
+    },
+    {
+      "id": "ports/MUS04P",
+      "code": "MUS04P",
+      "title": "Museum P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "74c5cf0d183c38af",
+      "manifestSha256": "a5ad255bfd901795c4db995b1dac99cbbd5dbff295d21f65095447c458cf1a4e",
+      "treeSha256": "6d909c558b8f5e31612a2550265397c515d75fb842a708032dedb1b9d20da80a",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/MUS04P.sdc",
+        "sha256": "9ef891a53d8ad0402a5e955aba0de74af99f7a78f8e5b790c834a34e950ecaa7",
+        "mapId": "ports/chaos-theory-ps2/museum"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MUS04P-1.0.0.zip",
+        "size": 4721512,
+        "sha256": "3f7941775c874f0a58d90cff391c5b70e3ee01cb3eea98df75f08cd33cd34884"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-MUS04P-1.0.0-sim.zip",
+        "size": 307638,
+        "sha256": "42e22becca3503ca99806a9dab037c9a3a741f093a87c44dade283f0284995c9"
+      }
+    },
+    {
+      "id": "ports/ORP14P",
+      "code": "ORP14P",
+      "title": "Orphanage P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "febc322329172e55",
+      "manifestSha256": "abe0d48e40a6b380379b15afa97260e61b69a6582294e0a6c0475821121c8acb",
+      "treeSha256": "0faa932d388504e257671cdf67d124ee233ac77c9d36626a8193bd8106f0d24a",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/ORP14P.sdc",
+        "sha256": "85eebe4d16fdfe8aa78af1b3d6657c4fdd75882904e422a171156b7c882a928b",
+        "mapId": "ports/chaos-theory-ps2/orphanage"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-ORP14P-1.0.0.zip",
+        "size": 48220181,
+        "sha256": "02353518db943418e56f3659fd6a9fae28306ef024edbc840276e564564dded1"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-ORP14P-1.0.0-sim.zip",
+        "size": 351124,
+        "sha256": "b28276bd984740f976dcd41028a4c096cc4fbc32845cd3e55b26f9d0cced7920"
+      }
+    },
+    {
       "id": "ports/SCDA_BLKG1",
       "code": "SCDA_BLKG1",
       "title": "Blackwing",
@@ -8878,6 +9289,227 @@
         "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/ports-SCDA_USSG8-1.0.2-sim.zip",
         "size": 1550633,
         "sha256": "559432a2b239cc1ca16e1640341c1e0afcd5fdfb34916f4f23773c9606a380c3"
+      }
+    },
+    {
+      "id": "ports/SCH03P",
+      "code": "SCH03P",
+      "title": "Schermerhorn P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "1594c8e68dca288e",
+      "manifestSha256": "395feeff9127711bdf70de2d8cb7536dc491279d048d4eb0151f0d509786b615",
+      "treeSha256": "2e23e8f9e7f568a1ef183d328843ef4999a2c94894ee4f2e37b9c0a294b39bb6",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/SCH03P.sdc",
+        "sha256": "a8b43fa3ce3968d0e6dccd4eaae668eb850cb644707049be08c399d62e380162",
+        "mapId": "ports/chaos-theory-ps2/schermerhorn"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SCH03P-1.0.0.zip",
+        "size": 7398692,
+        "sha256": "80f290086f69580dfba8582567b0d667e924b71f18a3805991b480f22186147f"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SCH03P-1.0.0-sim.zip",
+        "size": 253447,
+        "sha256": "989db54ba4982b327435c5ce98011c0af1e4a1c7bd7a5646e7d17d040cb773fa"
+      }
+    },
+    {
+      "id": "ports/SKY08P",
+      "code": "SKY08P",
+      "title": "Vertigo Plaza P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Neutralization"
+      ],
+      "contentHash": "f43e65a912430bab",
+      "manifestSha256": "8ab1d1e0d222446a3092cd1064bc8527371d097ce47195adb15cbcbe0faae0d7",
+      "treeSha256": "c04b8fcac0f8e8c021b67dafccc08ee3452fcd202811703ab36a49f741587ef7",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/SKY08P.sdc",
+        "sha256": "2d64cb115ff094c3ceeca2416b8c2432eb3bc42f86ca366408580c2eedcb83ef",
+        "mapId": "ports/chaos-theory-ps2/vertigo-plaza"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SKY08P-1.0.0.zip",
+        "size": 9274617,
+        "sha256": "a902b9227c61f24c601b3b72e266af25f52d132852bac795be72e254269aee8d"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-SKY08P-1.0.0-sim.zip",
+        "size": 420731,
+        "sha256": "8e7b77beebb5f9e3aafa5ecb2c082ab475cdcc249738f6cd99d90f1f45eb0e64"
+      }
+    },
+    {
+      "id": "ports/TME12P",
+      "code": "TME12P",
+      "title": "Mercenary Training P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "MercDeathmatch"
+      ],
+      "contentHash": "5e264c58df95a1be",
+      "manifestSha256": "9d24dc86ed1e8bbd3d6593e2b88b91164c2a0267ba51c9a7d262ff0eb03cfe48",
+      "treeSha256": "2c7bd09923d0dda1e4717f36b869aaabee55bb0627db616adc54032bd239e70d",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/TME12P.sdc",
+        "sha256": "50ee109b9085f6684eb6d7e5627951eab4eb234472270dc700b5c51c8ddd4cc1",
+        "mapId": "ports/chaos-theory-ps2/mercenary-training"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TME12P-1.0.0.zip",
+        "size": 4352814,
+        "sha256": "fcd3dddbf1fdfa6595a01578e854dfcde982af6447bab024c91e0851c4c074bd"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TME12P-1.0.0-sim.zip",
+        "size": 253985,
+        "sha256": "6149bf457108ce59ed2b18e40da5201c933adcd0ebad3901c7aa804ab76adeb0"
+      }
+    },
+    {
+      "id": "ports/TSP11P",
+      "code": "TSP11P",
+      "title": "Spy Training P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "MercDeathmatch"
+      ],
+      "contentHash": "b49ee22753b0cab6",
+      "manifestSha256": "954dec381adb6e30a1a93200a39f70f33abd4f281aefd8a10d9cb3fb39fed23d",
+      "treeSha256": "1becb22a21526adcacee88682315b618f36359b40d5f6baf03fba5f56447d651",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/TSP11P.sdc",
+        "sha256": "6df6be7ecdd8be44d192570e79b6d4a3276f15736d52c0a5406fb07dde759690",
+        "mapId": "ports/chaos-theory-ps2/spy-training"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TSP11P-1.0.0.zip",
+        "size": 5800697,
+        "sha256": "e63ffa165c35506274f00db961f6aba29bcffb4fa8121b109d7540c500301777"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-TSP11P-1.0.0-sim.zip",
+        "size": 363669,
+        "sha256": "1ac9b852f0c797744321a46a89fa30689a79da0da5085d0178d2b68d46fab243"
+      }
+    },
+    {
+      "id": "ports/WAR06P",
+      "code": "WAR06P",
+      "title": "Warehouse P",
+      "category": "ports",
+      "version": "1.0.0",
+      "modes": [
+        "Deathmatch",
+        "MercDeathmatch",
+        "Extraction",
+        "Sabotage",
+        "Neutralization"
+      ],
+      "contentHash": "4061f2a533a59892",
+      "manifestSha256": "55cfcd4ad9c53762a0d807c667dc2c1bff532750a46a6d54641426c586b54499",
+      "treeSha256": "5c2673c66ee83a003df5ed585759a5bc9f1ae148406611eb9bb446ca19f11115",
+      "requires": [
+        {
+          "pack": "audio",
+          "sha256": "430fbfe1a7700666e349374e2ecbf27a74e857e19f6263f68da1bdcd045fa991"
+        },
+        {
+          "pack": "classes",
+          "sha256": "05e427726d45de2e2ac857d489d71ae39fc7dbf66709d50940d36b4bbfbd3a44"
+        }
+      ],
+      "source": {
+        "kind": "release",
+        "repo": "Lumbridge/SCCT-Maps",
+        "commit": "5b6b379f13a47f7c03f94415664459930b181d51",
+        "path": "releases/download/ps2-original-svm-openscct-v1.0.0/WAR06P.sdc",
+        "sha256": "b3888b1c5a22ccf37f463e31e053214a2783430ef8be70de2b6c383540a2597b",
+        "mapId": "ports/chaos-theory-ps2/warehouse"
+      },
+      "generator": "svmbuild base 5aa27e533097de319c46ed6109241afd368be1b2 PS2 converter-manifest ef1c312fbfaf468e71dc0e18388a8d10a2e0097584595758b830c1d0d9246ad4 supported-runtime 6ea666373e28220413474cc98b4208901fd47c8b",
+      "full": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-WAR06P-1.0.0.zip",
+        "size": 7127571,
+        "sha256": "24d53441af3aba4395f2d8447229dc84b58373ae08564b0ac0a0e4b36ce2cba1"
+      },
+      "sim": {
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.15-ps2-original/ports-WAR06P-1.0.0-sim.zip",
+        "size": 462120,
+        "sha256": "2335085a9c67fbb95985d5b710d407440724039394b993ac8534bace1d47d914"
       }
     }
   ]
