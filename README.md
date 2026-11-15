@@ -8,6 +8,10 @@ The original game's maps, for Splinter Cell Chaos Theory Versus itself and the
 [SCCT Map Manager](https://github.com/Lumbridge/SCCT-Map-Manager), are in [SCCT-Maps](https://github.com/Lumbridge/SCCT-Maps).
 Everything here was converted from those files and from a retail install.
 
+The fourteen original PS2 P maps require **OpenSCCT 0.8.157 or newer** for normal
+map-picker access. See [the PS2 collection notes](docs/PS2-ORIGINAL.md) for source
+provenance, validation scope and follow-up corrections.
+
 ## What is here
 
 The packs are ZIP archives attached to this repository's [releases](https://github.com/Lumbridge/OpenSCCT-Content/releases)
