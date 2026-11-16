@@ -66,7 +66,8 @@ accessors recover the cooked GS vertex colours, and one proved material gets
 its original normal-view fixed additive coefficient, 80/128. Positions,
 indices, normals, UVs, instances, collision, audio and catalogue pictures are
 unchanged. A broad white rectangle becomes a faded shaft in Standard and Fast;
-a narrow saturated central hotspot remains. No captured original PS2 frame
+a substantial saturated central patch remains unresolved. This update does not
+fully resolve the Hospital lighting report. No captured original PS2 frame
 was used to claim pixel parity.
 
 OpenSCCT 0.8.160 also fixes pre-bind script collision overrides, which prevented
