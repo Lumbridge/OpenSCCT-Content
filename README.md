@@ -208,7 +208,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Station P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-GAR09P-1.0.2.zip) | `GAR09P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 5.8 MB |
 | [Cinema P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-INI01P-1.0.2.zip) | `INI01P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Neutralization | 5.0 MB |
 | [Krauser Lab P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-KRA07P-1.0.2.zip) | `KRA07P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 5.4 MB |
-| [Mount Hospital P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-MHO05P-1.0.2.zip) | `MHO05P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 6.1 MB |
+| [Mount Hospital P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/ports-MHO05P-1.0.3.zip) | `MHO05P` | ports | 1.0.3 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 6.1 MB |
 | [Missile Strike P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-MIS10P-1.0.2.zip) | `MIS10P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 50.0 MB |
 | [Museum P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-MUS04P-1.0.2.zip) | `MUS04P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Sabotage, Neutralization | 4.7 MB |
 | [Orphanage P](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-ORP14P-1.0.2.zip) | `ORP14P` | ports | 1.0.2 | Deathmatch, MercDeathmatch, Extraction, Sabotage, Neutralization | 48.2 MB |
@@ -228,7 +228,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-16T10:48:16Z.
+Index updated 2026-11-16T12:37:12Z.
 <!-- tables:end -->
 
 ## How the game uses it
