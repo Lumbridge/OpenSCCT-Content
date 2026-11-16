@@ -85,6 +85,8 @@ Cinema's eight authored panels were profiled with normal approach/hack input,
 third-person camera and audio simulation at 2560x1440 on an RTX 4070 SUPER in
 both renderers. Occasional hitches were recorded, but the reported sustained
 collapse was not reproduced. There is no speculative Cinema performance fix.
+The report concerns Fast; the exact triggering panel and reporting hardware
+remain unconfirmed.
 These checks use separate replicated authority/client worlds in one process,
 not separate-machine internet sessions or fourteen completed matches.
 
