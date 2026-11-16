@@ -11,9 +11,10 @@ The source metadata and converter release are independent of the native release.
 
 ## Runtime and validation gate
 
-Use **OpenSCCT 0.8.158 or newer** for the current collection. Version 0.8.157
+Use **OpenSCCT 0.8.160 or newer** for the current collection. Version 0.8.157
 fixed normal map-picker access; 0.8.158 adds the source-verified vial reset and
-right thigh attachment corrections used by the 1.0.1 update.
+right thigh attachment corrections used by the 1.0.1 update. Version 0.8.160
+consumes the explicit PS2 world trace and additive material metadata in 1.0.2.
 
 The immutable v1 maps and converter were built and gameplay-tested against
 0.8.156, source commit `6ea666373e28220413474cc98b4208901fd47c8b`. That historical
@@ -50,6 +51,54 @@ collision, traversal and UI data. These checks do not claim fourteen completed
 matches. The source revision and converter are recorded separately from the
 immutable 1.0.0 source/archive history. Native Enhanced/Reloaded console work is
 a separate Neutralization-only revision and does not change OpenSCCT's modes.
+
+## Version 1.0.2
+
+All fourteen packs receive version 1.0.2 with explicit
+`LevelInfo.bPS2WorldGeometryTrace` metadata. The original PS2 native world-mesh
+predicate accepts level geometry without the additional PC pawn/block-players
+gate. Mount Hospital's staircase beneath the Rooms 200 / Lift signs already
+had collision geometry; this update retains the original flags and selects
+the source trace rule. Runtime defaults for PC maps stay unchanged.
+
+Only Mount Hospital has render payload changes: three existing beam colour
+accessors recover the cooked GS vertex colours, and one proved material gets
+its original normal-view fixed additive coefficient, 80/128. Positions,
+indices, normals, UVs, instances, collision, audio and catalogue pictures are
+unchanged. A broad white rectangle becomes a faded shaft in Standard and Fast;
+a substantial saturated central patch remains unresolved. This update does not
+fully resolve the Hospital lighting report. No captured original PS2 frame
+was used to claim pixel parity.
+
+OpenSCCT 0.8.160 also fixes pre-bind script collision overrides, which prevented
+Deftech's logical modem-placement volumes from remaining nonblocking; preserves
+reliable hack message order; and faces PS2 console interactions toward the
+case rather than their forward-offset touch cylinders. Recorded rendered
+authority/client checks cover both lifts, all three standing exit routes,
+Hospital stair ascent/descent and close console use. Original team restrictions,
+hack requirements and encroachment retries are preserved. Crouched continuous
+pressure at one grazing exit edge can retrigger the original retry response;
+back-off, wait and reapproach crossed all three routes in the focused headless
+check. The native encroachment caller remains unverified.
+
+Cinema's eight authored panels were profiled with normal approach/hack input,
+third-person camera and audio simulation at 2560x1440 on an RTX 4070 SUPER in
+both renderers. Occasional hitches were recorded, but the reported sustained
+collapse was not reproduced. There is no speculative Cinema performance fix.
+The report concerns Fast; the exact triggering panel and reporting hardware
+remain unconfirmed.
+These checks use separate replicated authority/client worlds in one process,
+not separate-machine internet sessions or fourteen completed matches.
+
+The indexed source SDCs are unchanged. The new
+[converter source bundle](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.zip)
+and its
+[manifest](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.manifest.json)
+document the bounded frozen-baseline staging procedure. A fresh full GLB export
+is not claimed byte-identical. The index generator records this manifest's
+SHA-256 and the exact supported runtime commit. All 165 unrelated map entries,
+the three shared packs, PS2 source origins, names, modes and catalogue payloads
+are preserved.
 
 ## Prepared inputs
 
