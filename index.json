@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-16T10:48:16Z",
+  "updated": "2026-11-16T12:37:12Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -8793,7 +8793,7 @@
       "code": "MHO05P",
       "title": "Mount Hospital P",
       "category": "ports",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "modes": [
         "Deathmatch",
         "MercDeathmatch",
@@ -8802,8 +8802,8 @@
         "Neutralization"
       ],
       "contentHash": "c2c33adc7908b8fa",
-      "manifestSha256": "70cdf507c9ec490cde5b140dad8259ffd4d7e952a4dcfab9cc2fcffe74f33f55",
-      "treeSha256": "57320f074f3ccd8c6ea95f54e3ad559118d807f1c2110917b90d08ff94d6a3cf",
+      "manifestSha256": "445fd736c6fd26c8856a19a06de8b4f21065eff6203a17de3309e9dc081eaa4d",
+      "treeSha256": "8618bbc60917ce2dd53efda50cfabadb2629d38c377c38f22bfd16b13380b722",
       "requires": [
         {
           "pack": "audio",
@@ -8822,16 +8822,16 @@
         "sha256": "f25816ff9563b281857022491e933d1f74c8e4c4e86a2b30c1298e494e8d46d1",
         "mapId": "ports/chaos-theory-ps2/mount-hospital"
       },
-      "generator": "PS2 frozen-baseline world update; converter-manifest b0001d7b74c36e3e9ab1ba918ae9d4da2082d57b684273f59da6d7bcc455903e; supported-runtime cce9c3f1750ddb6336a12c18b64643fa1932d710",
+      "generator": "PS2 Hospital instance lighting; converter 02080081; converter-manifest dd26a35d1a297ded7f3263cd9e8df95cab9ac28ba332b8c7e7d1c353a68a2e77; supported-runtime cce9c3f1750ddb6336a12c18b64643fa1932d710",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-MHO05P-1.0.2.zip",
-        "size": 6086352,
-        "sha256": "553851ed24ac0dad54c3885e1b3e6674b6cb3153f48a0933d0ca7059525b7205"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/ports-MHO05P-1.0.3.zip",
+        "size": 6087965,
+        "sha256": "070b0bd2a3bfe6117ad009ffe185356fe5ba5fa62523c106dfc0e062ac203a4e"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/ports-MHO05P-1.0.2-sim.zip",
-        "size": 344485,
-        "sha256": "54b42e17c461c7a11e762741edffdec32c19b24a5dc794298a42fa6397616960"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/ports-MHO05P-1.0.3-sim.zip",
+        "size": 344486,
+        "sha256": "8e2c84b1ef1adc2e366d5480745193df2070ede7592ed2d4d1a459fe295d60a9"
       }
     },
     {

@@ -100,6 +100,37 @@ SHA-256 and the exact supported runtime commit. All 165 unrelated map entries,
 the three shared packs, PS2 source origins, names, modes and catalogue payloads
 are preserved.
 
+## Hospital version 1.0.3
+
+Mount Hospital P receives a render-only correction for the remaining bright
+patch. The original PS2 packet builder and draw caller select each actor's
+nonempty lighting instance before the mesh's base vertex-colour stream.
+The previous conversion selected the brighter base stream instead.
+
+The seven beam actors now retain their seven distinct original per-instance
+streams, with 176 colours each. The source-black rim and interior layers stay
+black. The shared geometry, UVs, positions, material gain and glow settings are
+unchanged. Fixed-camera Standard and Fast captures show the shaft and readable
+wall signs without the saturated patch. All seven instances were checked from
+two views in each renderer.
+
+The correction is grounded in the shipped PS2 ELF and original colour arrays.
+Recorded original PS2 gameplay was inspected as a visual reference; an exactly
+matched original framebuffer capture was not available, so pixel parity and
+the original PS2 glow algorithm are not claimed.
+
+Only Hospital's full/simulation archive manifests advance to 1.0.3. Its actual
+simulation payload and multiplayer content hash remain unchanged. The other
+178 indexed maps, existing shared packs, source SDC, objectives, collision,
+audio, UI and catalogue pictures are preserved. OpenSCCT 0.8.160 remains the
+supported runtime; a new runtime download is unnecessary.
+
+The [1.0.3 converter source bundle](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.zip)
+and [manifest](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.manifest.json)
+retain the earlier source snapshot and add the explicit per-actor override,
+synthetic regression tests and a bounded reproduction procedure over the
+immutable 1.0.2 pack. Fresh full-export byte identity is not claimed.
+
 ## Prepared inputs
 
 The reviewable local staging plan is `staging/ps2-original/inputs.json` (git
