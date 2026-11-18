@@ -138,7 +138,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Phoenix's Warehouse](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-WareP-1.0.3.zip) | `WareP` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.6 MB |
 | [Zioplex](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-ZiopD-1.0.2.zip) | `ZiopD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.7 MB |
 | [Zioplex Sabotage](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-ZiopS-1.0.2.zip) | `ZiopS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.9 MB |
-| [Moonlight Park](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/original-MoonD-1.0.4.zip) | `MoonD` | original | 1.0.4 | Story, Deathmatch, MercDeathmatch | 139.7 MB |
+| [Moonlight Park](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.18-moond/original-MoonD-1.0.5.zip) | `MoonD` | original | 1.0.5 | Story, Deathmatch, MercDeathmatch | 139.7 MB |
 | [Shipment](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/original-ShipD-1.0.4.zip) | `ShipD` | original | 1.0.4 | Story, Deathmatch, MercDeathmatch | 50.4 MB |
 | [Abandoned Bunker](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/community-ABK27-1.0.3.zip) | `ABK27` | community | 1.0.3 | Story, Deathmatch, MercDeathmatch | 5.4 MB |
 | [Argus Hq](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/community-AHQ06-1.0.3.zip) | `AHQ06` | community | 1.0.3 | Story, Deathmatch, MercDeathmatch | 15.6 MB |
@@ -228,7 +228,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-16T12:37:12Z.
+Index updated 2026-11-18T23:10:49Z.
 <!-- tables:end -->
 
 ## How the game uses it
