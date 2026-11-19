@@ -29,7 +29,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | Category | Maps | Download size | What |
 | --- | ---: | ---: | --- |
 | `stock` | 92 | 1.5 GB | Ubisoft's maps: the Steam install's retail set and the SCCT Versus 4.0 maps |
-| `original` | 2 | 190.1 MB | New maps made for SCCT Versus (SCCT-Maps `release/`) |
+| `original` | 2 | 194.9 MB | New maps made for SCCT Versus (SCCT-Maps `release/`) |
 | `community` | 56 | 763.3 MB | The community map pack |
 | `enhanced` | 1 | 23.0 MB | Edited versions of existing maps |
 | `recovered` | 5 | 128.0 MB | Existing maps rebuilt as editable maps |
@@ -138,7 +138,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 | [Phoenix's Warehouse](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-WareP-1.0.3.zip) | `WareP` | stock | 1.0.3 | Story, DiskHunt, Deathmatch, MercDeathmatch | 11.6 MB |
 | [Zioplex](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-ZiopD-1.0.2.zip) | `ZiopD` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.7 MB |
 | [Zioplex Sabotage](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/stock-ZiopS-1.0.2.zip) | `ZiopS` | stock | 1.0.2 | Story, DiskHunt, Deathmatch, MercDeathmatch | 16.9 MB |
-| [Moonlight Park](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.18-moond/original-MoonD-1.0.5.zip) | `MoonD` | original | 1.0.5 | Story, Deathmatch, MercDeathmatch | 139.7 MB |
+| [Moonlight Park](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.19-moond/original-MoonD-1.0.6.zip) | `MoonD` | original | 1.0.6 | Story, DiskHunt, Deathmatch, MercDeathmatch | 144.5 MB |
 | [Shipment](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/original-ShipD-1.0.4.zip) | `ShipD` | original | 1.0.4 | Story, Deathmatch, MercDeathmatch | 50.4 MB |
 | [Abandoned Bunker](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/community-ABK27-1.0.3.zip) | `ABK27` | community | 1.0.3 | Story, Deathmatch, MercDeathmatch | 5.4 MB |
 | [Argus Hq](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.05/community-AHQ06-1.0.3.zip) | `AHQ06` | community | 1.0.3 | Story, Deathmatch, MercDeathmatch | 15.6 MB |
@@ -228,7 +228,7 @@ The packs are ZIP archives attached to this repository's [releases](https://gith
 
 </details>
 
-Index updated 2026-11-18T23:10:49Z.
+Index updated 2026-11-19T01:01:16Z.
 <!-- tables:end -->
 
 ## How the game uses it

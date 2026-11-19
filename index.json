@@ -1,7 +1,7 @@
 {
   "format": "openscct.content",
   "formatVersion": 1,
-  "updated": "2026-11-18T23:10:49Z",
+  "updated": "2026-11-19T01:01:16Z",
   "svmapFormat": "1.2",
   "shared": [
     {
@@ -5012,15 +5012,16 @@
       "code": "MoonD",
       "title": "Moonlight Park",
       "category": "original",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "modes": [
         "Story",
+        "DiskHunt",
         "Deathmatch",
         "MercDeathmatch"
       ],
-      "contentHash": "dbdbcfc4d9591cb5",
-      "manifestSha256": "da700d42a314ed3258c7ee71b5964081b70b7c83b1ca9001d7b3bf54f7e0582f",
-      "treeSha256": "daa9735174376dff9b4608e78e43b0ba1be3b0a623dc9615c7fa12aa045fc708",
+      "contentHash": "4cabc22832aa7f83",
+      "manifestSha256": "a8b4939dacbed5be87f1ffbd1315cdeb809f4bdaef1c62adfe0aafc2bd9a4e68",
+      "treeSha256": "59e55e67d6f58d544b1cfe16df80e1d735bfbeb3d2ff6fde976f6a409439400c",
       "requires": [
         {
           "pack": "audio",
@@ -5034,30 +5035,30 @@
       "source": {
         "kind": "repo",
         "repo": "Lumbridge/SCCT-Maps",
-        "commit": "d3d9e2c766cb4bfc0d9573230310c605f0decc8d",
-        "path": "release/MoonD/v1.9/Packages/Maps/MoonD.sdc",
-        "sha256": "a331f10edaa6c2dcc438ed86eeb1c14c6d05eef655f7fae877568409cdd3a77d",
+        "commit": "dba03f5d6bb6bf7155f04a2d4fb577da7983464b",
+        "path": "release/MoonD/v1.10/Packages/Maps/MoonD.sdc",
+        "sha256": "771bfd66420c13193b866fd16134cbf683aa5292196b4b741e8e761af623c2cc",
         "mapId": "original/MoonD"
       },
       "generator": "svmbuild 0.8.164 (33e16331)",
       "full": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.18-moond/original-MoonD-1.0.5.zip",
-        "size": 139687004,
-        "sha256": "99f02ca1f6c36161e49e32e52d0f6335eb229126e84185e8ffeaf04fb8ff7310"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.19-moond/original-MoonD-1.0.6.zip",
+        "size": 144527299,
+        "sha256": "86b6a55758cf96991c29de8091917e7b4f6d1adee53c343995e74561cb0251d2"
       },
       "sim": {
-        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.18-moond/original-MoonD-1.0.5-sim.zip",
-        "size": 3004665,
-        "sha256": "0bcfc2ee008309ef1531270dfad05589480ab2b0977b9d8eba58d60616e09c03"
+        "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.19-moond/original-MoonD-1.0.6-sim.zip",
+        "size": 2777663,
+        "sha256": "ebbeddb8180b73046d1f29bc6ceec29152a22ebe563ae32c51f91e1f9a568ebd"
       },
       "botNavigation": {
         "formatVersion": 17,
-        "simHash": "dbdbcfc4d9591cb5cb10a10451ef80c86f536bef25b5845c59689bcde053ce83",
+        "simHash": "4cabc22832aa7f8317705c6a25dc3f48018d325c1ad61efb15dccd37f27a8707",
         "activationMask": 0,
         "download": {
-          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.18-moond/bot-nav-original-MoonD-dbdbcfc4d9591cb5-v17.zip",
+          "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.19-moond/bot-nav-original-MoonD-4cabc22832aa7f83-v17.zip",
           "size": 6918331,
-          "sha256": "32ee8333c53e8b53bc59f31acc2d2d6a69c0393aa66d0649249bcad388a2adce"
+          "sha256": "d467027e648eda94dfdaafcd196ef482d81b897a4a0a23ff8cb501ab6a3a24ac"
         }
       }
     },
