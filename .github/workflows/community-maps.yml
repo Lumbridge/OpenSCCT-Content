@@ -1,0 +1,17 @@
+name: Community map sources
+on:
+  push:
+    paths: ['community.json', 'tools/check_community.py', 'tools/test_community.py', '.github/workflows/community-maps.yml']
+  pull_request:
+    paths: ['community.json', 'tools/check_community.py', 'tools/test_community.py', '.github/workflows/community-maps.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest discover -s tools -p test_community.py
+      - run: python3 tools/check_community.py --remote
