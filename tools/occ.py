@@ -881,7 +881,9 @@ def readme_tables(index: dict) -> str:
               "| Map | Code | Category | Version | Modes | Size |", "| --- | --- | --- | --- | --- | ---: |"]
     for m in index["maps"]:
         title = m.get("title", m["code"]).replace("|", "\\|")
-        lines.append(f"| [{title}]({m['full']['url']}) | `{m['code']}` | {m['category']} | {m['version']} | "
+        url = m["full"]["url"].replace("https://github.com/Lumbridge/OpenSCCT-Content/releases/",
+                                      f"https://github.com/{GITHUB_REPO}/releases/", 1)
+        lines.append(f"| [{title}]({url}) | `{m['code']}` | {m['category']} | {m['version']} | "
                      f"{', '.join(m.get('modes', [])) or '-'} | {human(m['full']['size'])} |")
     lines += ["", "</details>"]
     if index.get("updated"):
