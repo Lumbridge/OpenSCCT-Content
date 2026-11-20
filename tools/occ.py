@@ -37,8 +37,8 @@ STAGING = REPO_ROOT / "staging"
 OUT = STAGING / "out"
 PLAN = OUT / "plan.json"
 
-GITHUB_REPO = "Lumbridge/OpenSCCT-Content"
-SOURCE_REPO = "Lumbridge/SCCT-Maps"
+GITHUB_REPO = "OpenSCCT/OpenSCCT-Content"
+SOURCE_REPO = "OpenSCCT/SCCT-Maps"
 INDEX_FORMAT = "openscct.content"
 INDEX_FORMAT_VERSION = 1
 ASSET_LIMIT = 2 * 1024 ** 3  # GitHub release assets: 2 GiB per file

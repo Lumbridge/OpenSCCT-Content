@@ -10,7 +10,7 @@ pack until the index moves on.
 ## The index
 
 `index.json` on the `main` branch, fetched raw:
-`https://raw.githubusercontent.com/Lumbridge/OpenSCCT-Content/main/index.json`. It is the only file a client reads
+`https://raw.githubusercontent.com/OpenSCCT/OpenSCCT-Content/main/index.json`. It is the only file a client reads
 from the tree. `schema/index.schema.json` is its JSON Schema; `tools/occ.py verify` checks it.
 
 ```json
@@ -28,7 +28,7 @@ from the tree. `schema/index.schema.json` is its JSON Schema; `tools/occ.py veri
       "hashes": { "classes": "<sha256 of shared/classes.json>" },
       "treeSha256": "<sha256 of the pack's file list>",
       "generator": "svmbuild 0.8.25 (058d034)",
-      "download": { "url": "https://github.com/Lumbridge/OpenSCCT-Content/releases/download/<tag>/shared-core-0.8.25.1.zip",
+      "download": { "url": "https://github.com/OpenSCCT/OpenSCCT-Content/releases/download/<tag>/shared-core-0.8.25.1.zip",
                     "size": 31457280, "sha256": "<sha256 of the zip>" }
     }
   ],
@@ -44,7 +44,7 @@ from the tree. `schema/index.schema.json` is its JSON Schema; `tools/occ.py veri
       "manifestSha256": "<sha256 of the map's manifest.json>",
       "treeSha256": "<sha256 of the pack's file list>",
       "requires": [ { "pack": "audio", "sha256": "<sha256>" }, { "pack": "classes", "sha256": "<sha256>" } ],
-      "source": { "kind": "repo", "repo": "Lumbridge/SCCT-Maps", "commit": "<40 hex>",
+      "source": { "kind": "repo", "repo": "OpenSCCT/SCCT-Maps", "commit": "<40 hex>",
                   "path": "stock/Packages/Maps/AquaE.sdc", "sha256": "<sha256 of the .sdc>", "mapId": "stock/AquaE" },
       "generator": "svmbuild 0.8.25 (058d034)",
       "full": { "url": "https://github.com/.../stock-AquaE-1.0.0.zip", "size": 12345678, "sha256": "<sha256>" },

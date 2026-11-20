@@ -9,7 +9,7 @@ You need:
   `src/OpenScct.Maps` for the map downloader), at the commit of the release you are building for
 - a Splinter Cell Chaos Theory install (its `Versus` folder); the first publish used the Steam copy
 - the .NET 10 SDK and the GitHub CLI (`gh`, logged in with push access to this repository)
-- optional: a checkout of [SCCT-Maps](https://github.com/Lumbridge/SCCT-Maps) at the catalogue commit, so its files
+- optional: a checkout of [SCCT-Maps](https://github.com/OpenSCCT/SCCT-Maps) at the catalogue commit, so its files
   are copied instead of downloaded (it is only read)
 
 One builder version builds everything in a publish, so every map names the same shared pack hashes.

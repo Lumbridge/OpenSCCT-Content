@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/Lumbridge/OpenSCCT-Content/main/schema/index.schema.json",
+  "$id": "https://raw.githubusercontent.com/OpenSCCT/OpenSCCT-Content/main/schema/index.schema.json",
   "title": "OpenSCCT-Content index",
   "description": "index.json: every converted content pack OpenSCCT can download (docs/FORMAT.md). Clients ignore fields they do not know.",
   "type": "object",
@@ -19,7 +19,7 @@
       "type": "object",
       "required": ["url", "size", "sha256"],
       "properties": {
-        "url": { "type": "string", "pattern": "^https://github\\.com/Lumbridge/OpenSCCT-Content/releases/download/[^/]+/[A-Za-z0-9._-]+\\.zip$" },
+        "url": { "type": "string", "pattern": "^https://github\\.com/(?:Lumbridge|OpenSCCT)/OpenSCCT-Content/releases/download/[^/]+/[A-Za-z0-9._-]+\\.zip$" },
         "size": { "type": "integer", "minimum": 1 },
         "sha256": { "$ref": "#/$defs/sha256" }
       }

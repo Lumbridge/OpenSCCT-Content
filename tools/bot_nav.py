@@ -66,10 +66,10 @@ def _download_sim(map_entry: dict, target: Path) -> None:
             with urllib.request.urlopen(request, timeout=60) as source, archive_path.open("wb") as file:
                 shutil.copyfileobj(source, file)
         except urllib.error.URLError:
-            asset = re.fullmatch(r"https://github\.com/Lumbridge/OpenSCCT-Content/releases/download/([^/]+)/([A-Za-z0-9._-]+\.zip)", download["url"])
+            asset = re.fullmatch(r"https://github\.com/(?:Lumbridge|OpenSCCT)/OpenSCCT-Content/releases/download/([^/]+)/([A-Za-z0-9._-]+\.zip)", download["url"])
             if asset is None or not shutil.which("gh"):
                 raise
-            subprocess.run(["gh", "release", "download", asset[1], "--repo", "Lumbridge/OpenSCCT-Content",
+            subprocess.run(["gh", "release", "download", asset[1], "--repo", "OpenSCCT/OpenSCCT-Content",
                             "--pattern", asset[2], "--output", str(archive_path), "--clobber"], check=True)
         if archive_path.stat().st_size != download["size"] or sha256(archive_path) != download["sha256"]:
             raise ValueError(f"{map_entry['id']}: source archive does not match the index")

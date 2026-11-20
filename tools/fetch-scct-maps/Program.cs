@@ -79,17 +79,21 @@ File.WriteAllText(Path.Combine(root, "fetch-report.json"), JsonSerializer.Serial
 return 0;
 
 /// <summary>
-/// Serves raw.githubusercontent.com/Lumbridge/SCCT-Maps/&lt;commit&gt;/&lt;path&gt; from a local checkout when it has the
+/// Serves raw.githubusercontent.com/OpenSCCT/SCCT-Maps/&lt;commit&gt;/&lt;path&gt; from a local checkout when it has the
 /// file, and release downloads from (and into) a cache folder. MapRepository still checks every file's hash.
 /// </summary>
 sealed class LocalFirstHandler(string? checkout, string? cache) : DelegatingHandler(new HttpClientHandler())
 {
-    private const string RawPrefix = "https://raw.githubusercontent.com/Lumbridge/SCCT-Maps/";
-    private const string ReleasePrefix = "https://github.com/Lumbridge/SCCT-Maps/releases/download/";
+    private const string RawPrefix = "https://raw.githubusercontent.com/OpenSCCT/SCCT-Maps/";
+    private const string ReleasePrefix = "https://github.com/OpenSCCT/SCCT-Maps/releases/download/";
 
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancel)
     {
         string url = request.RequestUri!.AbsoluteUri;
+        // Older OpenSCCT builder checkouts still request the pre-transfer repository. Both locate the same content.
+        if (url.StartsWith("https://raw.githubusercontent.com/Lumbridge/SCCT-Maps/", StringComparison.Ordinal)
+            || url.StartsWith("https://github.com/Lumbridge/SCCT-Maps/releases/download/", StringComparison.Ordinal))
+            url = url.Replace("/Lumbridge/SCCT-Maps/", "/OpenSCCT/SCCT-Maps/", StringComparison.Ordinal);
         if (checkout is not null && url.StartsWith(RawPrefix, StringComparison.Ordinal))
         {
             string rest = url[RawPrefix.Length..];

@@ -6,7 +6,7 @@ packs, including both tutorials. Package codes and display names end in `P`
 
 The native Enhanced/Reloaded packages, original disc input hashes, objective
 asset provenance and independent audit reports are documented in
-[SCCT-Maps](https://github.com/Lumbridge/SCCT-Maps/tree/main/ports/chaos-theory-ps2).
+[SCCT-Maps](https://github.com/OpenSCCT/SCCT-Maps/tree/main/ports/chaos-theory-ps2).
 The source metadata and converter release are independent of the native release.
 
 ## Runtime and validation gate
@@ -91,9 +91,9 @@ These checks use separate replicated authority/client worlds in one process,
 not separate-machine internet sessions or fourteen completed matches.
 
 The indexed source SDCs are unchanged. The new
-[converter source bundle](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.zip)
+[converter source bundle](https://github.com/OpenSCCT/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.zip)
 and its
-[manifest](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.manifest.json)
+[manifest](https://github.com/OpenSCCT/OpenSCCT-Content/releases/download/content-2026.11.16/SCCT-PS2-OpenSCCT-converter-source-v1.0.2.manifest.json)
 document the bounded frozen-baseline staging procedure. A fresh full GLB export
 is not claimed byte-identical. The index generator records this manifest's
 SHA-256 and the exact supported runtime commit. All 165 unrelated map entries,
@@ -125,8 +125,8 @@ simulation payload and multiplayer content hash remain unchanged. The other
 audio, UI and catalogue pictures are preserved. OpenSCCT 0.8.160 remains the
 supported runtime; a new runtime download is unnecessary.
 
-The [1.0.3 converter source bundle](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.zip)
-and [manifest](https://github.com/Lumbridge/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.manifest.json)
+The [1.0.3 converter source bundle](https://github.com/OpenSCCT/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.zip)
+and [manifest](https://github.com/OpenSCCT/OpenSCCT-Content/releases/download/content-2026.11.16-2/SCCT-PS2-OpenSCCT-converter-source-v1.0.3.manifest.json)
 retain the earlier source snapshot and add the explicit per-actor override,
 synthetic regression tests and a bounded reproduction procedure over the
 immutable 1.0.2 pack. Fresh full-export byte identity is not claimed.
