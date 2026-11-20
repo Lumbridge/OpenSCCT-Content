@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""OpenSCCT-Content tools: pack converted content into release archives, publish them, verify the index.
+"""OpenSCCT-Content tools: inspect historical content pack archives and verify the historical index.
 
 Python 3.10+, standard library only. Run from anywhere; paths default to this repository.
 
     occ.py pack     --build <svmbuild out>[=<maps root>] ... --install <Versus folder>
     occ.py bot-nav  --baker <svm-server> [--build <svmbuild out>] ...
-    occ.py publish  [--dry-run] [--no-commit]
+    occ.py publish --dry-run
     occ.py verify   [--remote]
     occ.py readme
 
@@ -20,7 +20,6 @@ import hashlib
 import json
 import os
 import re
-import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -32,7 +31,6 @@ import bot_nav
 REPO_ROOT = Path(__file__).resolve().parents[1]
 INDEX = REPO_ROOT / "index.json"
 SCHEMA = REPO_ROOT / "schema" / "index.schema.json"
-README = REPO_ROOT / "README.md"
 STAGING = REPO_ROOT / "staging"
 OUT = STAGING / "out"
 PLAN = OUT / "plan.json"
@@ -548,22 +546,6 @@ def cmd_bot_nav(args) -> None:
 
 # ---- publish ---------------------------------------------------------------------------------------------------
 
-def gh(*args: str, check: bool = True, capture: bool = True) -> subprocess.CompletedProcess:
-    return subprocess.run(["gh", *args], check=check, capture_output=capture, text=True)
-
-
-def release_tag(date: str | None) -> str:
-    base = "content-" + (date or _dt.datetime.now(_dt.timezone.utc).strftime("%Y.%m.%d"))
-    existing = set(gh("release", "list", "--repo", GITHUB_REPO, "--limit", "1000", "--json", "tagName",
-                      "--jq", ".[].tagName").stdout.split())
-    if base not in existing:
-        return base
-    n = 2
-    while f"{base}-{n}" in existing:
-        n += 1
-    return f"{base}-{n}"
-
-
 def download_url(tag: str, name: str) -> str:
     return f"https://github.com/{GITHUB_REPO}/releases/download/{tag}/{name}"
 
@@ -628,6 +610,8 @@ def build_index(index: dict, plan: dict, tag: str) -> dict:
 
 
 def cmd_publish(args) -> None:
+    if not args.dry_run:
+        die("Historical retail packs are local previews only. Publish community map recipes through community.json.")
     if not PLAN.is_file():
         die("no staging/out/plan.json: run pack or bot-nav first")
     plan = load_json(PLAN)
@@ -646,7 +630,7 @@ def cmd_publish(args) -> None:
         path = OUT / asset["file"]
         if path.stat().st_size != asset["size"] or sha256_file(path) != asset["sha256"]:
             die(f"{path} does not match the bot navigation plan; bake again")
-    tag = args.tag or release_tag(args.date)
+    tag = args.tag or ("content-" + (args.date or _dt.datetime.now(_dt.timezone.utc).strftime("%Y.%m.%d")))
     index = load_index()
     new_index = build_index(index, plan, tag)
     problems = validate_index(new_index)
@@ -654,81 +638,9 @@ def cmd_publish(args) -> None:
         die("the new index is not valid:\n  " + "\n  ".join(problems))
     total = sum((OUT / f).stat().st_size for f in files)
     print(f"release {tag}: {len(files)} archives, {total / 1e9:.2f} GB")
-    if args.dry_run:
-        write_text(STAGING / "index.preview.json", dump_json(new_index))
-        print(f"dry run: index written to {STAGING / 'index.preview.json'}")
-        return
+    write_text(STAGING / "index.preview.json", dump_json(new_index))
+    print(f"Local preview written to {STAGING / 'index.preview.json'}")
 
-    existing = gh("release", "view", tag, "--repo", GITHUB_REPO, "--json", "assets", check=False)
-    if existing.returncode != 0:
-        notes = release_notes(plan, tag)
-        notes_file = STAGING / f"notes-{tag}.md"
-        write_text(notes_file, notes)
-        gh("release", "create", tag, "--repo", GITHUB_REPO, "--title", tag, "--notes-file", str(notes_file),
-           "--target", "main", "--latest")
-        uploaded = {}
-    else:
-        uploaded = {a["name"]: a["size"] for a in json.loads(existing.stdout).get("assets", [])}
-    pending = [f for f in files if uploaded.get(f) != (OUT / f).stat().st_size]
-    for name in [f for f in files if f in uploaded and uploaded[f] != (OUT / f).stat().st_size]:
-        gh("release", "delete-asset", tag, name, "--repo", GITHUB_REPO, "--yes")
-    batch: list[str] = []
-    batch_bytes = 0
-    for i, name in enumerate(pending):
-        batch.append(str(OUT / name))
-        batch_bytes += (OUT / name).stat().st_size
-        if len(batch) >= 20 or batch_bytes > 2_000_000_000 or i == len(pending) - 1:
-            print(f"upload {i + 1}/{len(pending)} ({batch_bytes / 1e6:.0f} MB)", flush=True)
-            for attempt in range(3):
-                r = gh("release", "upload", tag, *batch, "--repo", GITHUB_REPO, "--clobber", check=False,
-                       capture=False)
-                if r.returncode == 0:
-                    break
-                print(f"upload failed (attempt {attempt + 1}), retrying", flush=True)
-            else:
-                die("upload failed; run publish again with --tag " + tag + " to resume")
-            batch, batch_bytes = [], 0
-
-    # Every asset must be there with its size before the index points at it.
-    assets = {a["name"]: a["size"] for a in json.loads(
-        gh("release", "view", tag, "--repo", GITHUB_REPO, "--json", "assets").stdout)["assets"]}
-    missing = [f for f in files if assets.get(f) != (OUT / f).stat().st_size]
-    if missing:
-        die(f"{len(missing)} assets missing after upload, e.g. {missing[:3]}; run publish again with --tag {tag}")
-    write_text(INDEX, dump_json(new_index))
-    write_readme(new_index)
-    write_text(STAGING / f"published-{tag}.json", dump_json({"tag": tag, "plan": plan}))
-    print(f"index.json written ({len(new_index['maps'])} maps, {len(new_index['shared'])} shared packs)")
-    if not args.no_commit:
-        subprocess.run(["git", "-C", str(REPO_ROOT), "add", "index.json", "README.md"], check=True)
-        subprocess.run(["git", "-C", str(REPO_ROOT), "commit", "-m",
-                        f"Publish {tag}: {len(plan['maps'])} maps, {len(plan['shared'])} shared packs, "
-                        f"{len(plan.get('botNavigation', []))} bot graphs"], check=True)
-        if not args.no_push:
-            subprocess.run(["git", "-C", str(REPO_ROOT), "push"], check=True)
-
-
-def release_notes(plan: dict, tag: str) -> str:
-    lines = [f"OpenSCCT converted content, {tag}.", "",
-             f"Built with {plan.get('generator') or 'svmbuild'}. The index on `main` (`index.json`) lists every pack "
-             "with its download URL, size and sha256; OpenSCCT reads it to download maps.", ""]
-    if plan["shared"]:
-        lines.append("Shared packs: " + ", ".join(f"{s['id']} {s['version']}" for s in plan["shared"]))
-        lines.append("")
-    if plan.get("botNavigation"):
-        lines.extend([f"Optional prebuilt Spy and Merc navigation for {len(plan['botNavigation'])} maps.", ""])
-    by_cat: dict[str, list[str]] = {}
-    for m in plan["maps"]:
-        by_cat.setdefault(m["category"], []).append(f"{m['code']} {m['version']}")
-    for c in CATEGORIES:
-        if c in by_cat:
-            lines.append(f"{CATEGORY_TITLES[c]} ({len(by_cat[c])}): " + ", ".join(sorted(by_cat[c], key=str.lower)))
-            lines.append("")
-    lines.append("Stock content is Ubisoft's. OpenSCCT is a fan project, not affiliated with or endorsed by Ubisoft.")
-    return "\n".join(lines) + "\n"
-
-
-# ---- verify ----------------------------------------------------------------------------------------------------
 
 def validate_schema(value, schema: dict, root: dict, path: str, problems: list[str]) -> None:
     """A JSON Schema subset: $ref (local), type, required, properties, additionalProperties (bool), items, enum,
@@ -891,19 +803,10 @@ def readme_tables(index: dict) -> str:
     return "\n".join(lines)
 
 
-def write_readme(index: dict) -> None:
-    text = README.read_text(encoding="utf-8")
-    start, end = "<!-- tables:start -->", "<!-- tables:end -->"
-    if start not in text or end not in text:
-        die("README.md has no <!-- tables:start --> / <!-- tables:end --> markers")
-    head, rest = text.split(start, 1)
-    _, tail = rest.split(end, 1)
-    write_text(README, head + start + "\n" + readme_tables(index) + "\n" + end + tail)
-
-
 def cmd_readme(args) -> None:
-    write_readme(load_json(INDEX))
-    print("README.md tables regenerated")
+    output = STAGING / "historical-packs.md"
+    write_text(output, readme_tables(load_json(INDEX)) + "\n")
+    print(f"Historical archive table written to {output}")
 
 
 # ---- main ------------------------------------------------------------------------------------------------------
@@ -933,7 +836,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--jobs", type=int, default=2, help="simultaneous map builds (default: 2)")
     p.set_defaults(func=cmd_bot_nav)
 
-    p = sub.add_parser("publish", help="upload staging/out to a new release and rewrite index.json")
+    p = sub.add_parser("publish", help="preview the historical pack layout locally (--dry-run)")
     p.add_argument("--tag", help="release tag (default content-<yyyy.MM.dd>[-n]); an existing tag resumes")
     p.add_argument("--date", help="date part of the tag, yyyy.MM.dd")
     p.add_argument("--dry-run", action="store_true")
@@ -946,7 +849,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--quick", action="store_true", help="sizes only, no hashing")
     p.set_defaults(func=cmd_verify)
 
-    p = sub.add_parser("readme", help="regenerate README.md tables from index.json")
+    p = sub.add_parser("readme", help="write a historical pack table under staging/")
     p.set_defaults(func=cmd_readme)
 
     args = ap.parse_args(argv)

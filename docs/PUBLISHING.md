@@ -1,18 +1,12 @@
-# Publishing
+# Publishing community maps
 
-How the packs are made and published. Everything runs on Windows from this repository's root; `staging/` (git
-ignored) holds the inputs, the builds and the archives.
+The active [community catalogue](../community.json) lists source recipes for the Godot and Unreal modernisations and OpenSCCT Editor. Each recipe pins the reviewed files and their SHA-256 digests to a specific revision and includes author credit and evidence for that selection. Verify the recipe against a clean Steam installation. Include only community-authored files with permission to distribute them. Retail package dependencies come from the player's installed game.
 
-You need:
+Use the [source review and verification guide](SOURCE-MAPS.md) to check a recipe before submitting it.
 
-- an OpenSCCT checkout (its content builder `content/svmbuild`, Python 3.10 with `content/requirements.txt`, and
-  `src/OpenScct.Maps` for the map downloader), at the commit of the release you are building for
-- a Splinter Cell Chaos Theory install (its `Versus` folder); the first publish used the Steam copy
-- the .NET 10 SDK and the GitHub CLI (`gh`, logged in with push access to this repository)
-- optional: a checkout of [SCCT-Maps](https://github.com/OpenSCCT/SCCT-Maps) at the catalogue commit, so its files
-  are copied instead of downloaded (it is only read)
+## Historical pack reproduction
 
-One builder version builds everything in a publish, so every map names the same shared pack hashes.
+The following procedure reproduces an older converted pack locally. It requires a matching OpenSCCT checkout, its converter dependencies, a local Chaos Theory Versus installation and the corresponding SCCT-Maps revision. All output stays under the ignored `staging/` directory.
 
 ## 1. The builder
 
@@ -111,36 +105,12 @@ downloads the indexed simulation archive when it needs a missing revision. `--ma
 This writes a navigation-only publish plan. The regular map archives and multiplayer hashes stay the same. Review
 any failed maps in the plan, then use `publish --dry-run` to preview the index additions before publishing.
 
-## 5. Publish
+## 5. Inspect the historical pack
 
 ```powershell
-python tools\occ.py publish --dry-run     # writes staging\index.preview.json, uploads nothing
-python tools\occ.py publish
+python tools/occ.py publish --dry-run
+python tools/occ.py verify
+python tools/occ.py readme
 ```
 
-`publish`:
-
-1. creates the release `content-<yyyy.MM.dd>` (`-2`, `-3`, ... when that tag exists) with `gh release create`
-2. uploads the plan's archives with `gh release upload` (20 at a time; an interrupted publish resumes with
-   `--tag <tag>`, uploading only what is missing)
-3. checks every asset is on the release with its size
-4. rewrites `index.json`: the new packs with their absolute download URLs, sizes and sha256; unchanged packs keep
-   their old entries (and URLs into older releases); maps sorted by category then code
-5. regenerates the README tables, commits `index.json` and `README.md` and pushes (`--no-commit`, `--no-push`)
-
-Release assets are limited to 2 GiB each; `pack` refuses a bigger archive.
-
-## 6. Verify
-
-```powershell
-python tools\occ.py verify            # schema, ids, requires vs shared hashes, archives in staging\out
-python tools\occ.py verify --remote   # also HEAD every URL and compare sizes
-```
-
-## Republishing
-
-After an OpenSCCT release that changes the converter, or a new SCCT-Maps commit: steps 1 to 5 again with the new
-commit and version. Only packs whose content changed are uploaded; the index points the rest at their old releases.
-Never delete a release that the index still points at (`occ.py verify --remote` would fail).
-
-`occ.py readme` regenerates the README tables from `index.json` by hand.
+The preview writes `staging/index.preview.json`. The archive table goes to `staging/historical-packs.md`. Existing releases and their historical index remain available to identify files from earlier installations.

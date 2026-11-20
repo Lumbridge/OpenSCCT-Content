@@ -1,5 +1,7 @@
 # Format
 
+The active [community catalogue](../community.json) contains source recipes for local conversion. The index and ZIP archive fields below describe the historical converted-pack format.
+
 What a client reads from this repository and what it downloads. This is the contract OpenSCCT's game, launcher and
 servers are written against (OpenSCCT `docs/CONTENT-PACKS.md` is the same contract seen from the game's side).
 
@@ -159,10 +161,7 @@ picture has no `menu`; `images` can be empty). The catalog entry is in `full` ar
 
 | Who | Root | Layout |
 | --- | --- | --- |
-| Game (launcher install) | `%LOCALAPPDATA%\OpenSCCT\packs` | `svmap/<code>/`, `shared/`, `installed.json`, `downloads/` |
+| Windows launcher downloads | `%LOCALAPPDATA%\OpenSCCT\packs` | `svmap/<code>/`, `shared/`, `installed.json`, `downloads/` |
 | Dedicated server / hub | `<server>/packs` (or `--content-packs <dir>`) | the same |
 
-The game searches its maps in this order: content converted from the player's install (`<content>/svmap`),
-downloaded packs (`<packs>/svmap`), the maps shipped with the build (`<exe>/maps`). A converted map of the same code
-wins, so a player's own conversion is never overwritten. Shared content works the same way: `<content>/shared` when
-the player converted their install, else `<packs>/shared`.
+For the Godot and Unreal modernisations and OpenSCCT Editor, the launcher prepares the stock Versus maps and shared game data from the player's own Steam installation. Optional public downloads are restricted to approved community-created map archives. A legacy category such as `stock` or `custom` records a map classification. Publication also requires review of the actual assets in each archive.
